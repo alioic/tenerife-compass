@@ -8,7 +8,7 @@ window.TC_PLACES = [
   {cat:'stay', name:'Royal Hideaway Corales Suites', area:'La Caleta', lat:28.0993, lng:-16.7551, desc:'Family sister property, large suites. From ~€280/night.', link:'/south/where-to-stay.html'},
   {cat:'stay', name:'Iberostar Selection Anthelia', area:'Fañabé', lat:28.0875, lng:-16.7425, desc:'Beachfront family favourite, kids pools. From ~€200/night.', link:'/south/family-guide.html'},
   {cat:'stay', name:'GF Gran Costa Adeje', area:'Fañabé', lat:28.0885, lng:-16.7415, desc:'Four pools, splash pad, kids clubs. From ~€160/night.', link:'/south/family-guide.html'},
-  {cat:'stay', name:'GF Victoria', area:'Costa Adeje', lat:28.0855, lng:-16.7355, desc:'Modern 4-star-plus with a great rooftop pool. From ~€180/night.', link:'/south/where-to-stay.html'},
+  {cat:'stay', name:'GF Victoria', area:'Costa Adeje', lat:28.0855, lng:-16.7355, desc:'Modern 5-star with a standout rooftop pool and the Michelin-starred Donaire. From ~€180/night.', link:'/south/where-to-stay.html'},
   {cat:'stay', name:'Baobab Suites', area:'Costa Adeje', lat:28.0895, lng:-16.7385, desc:'All-suite with kitchens, good for families and longer stays. From ~€300/night.', link:'/south/where-to-stay.html'},
   {cat:'stay', name:'Jardín Tropical', area:'San Eugenio', lat:28.0795, lng:-16.7345, desc:'Moorish-white landmark with a saltwater beach club. From ~€160/night.', link:'/south/where-to-stay.html'},
   {cat:'stay', name:'H10 Costa Adeje Palace', area:'La Caleta', lat:28.1005, lng:-16.7645, desc:'Reliable seafront 4-star, good value. From ~€130/night.', link:'/south/where-to-stay.html'},
