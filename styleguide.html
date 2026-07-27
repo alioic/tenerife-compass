@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design System — Tenerife Compass</title>
+<link rel="icon" href="/assets/compass.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css?v=1">
+<style>
+  /* Aðeins fyrir þessa style-guide síðu */
+  .sg-section { padding: 40px 0; border-bottom: 1px solid var(--line); }
+  .sg-label { font-family: var(--font-body); font-size: .78rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color: var(--coral); margin-bottom: 1rem; }
+  .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px,1fr)); gap: 14px; }
+  .swatch { border-radius: var(--radius-sm); overflow: hidden; box-shadow: var(--shadow-sm); border:1px solid var(--line); background:#fff; }
+  .swatch .chip { height: 76px; }
+  .swatch .meta { padding: 8px 12px; font-size:.82rem; }
+  .swatch .meta b { display:block; }
+  .swatch .meta code { color: var(--ink-soft); font-size:.78rem; }
+  .type-row { display:flex; align-items:baseline; gap:1rem; flex-wrap:wrap; margin-bottom:.6rem; }
+  .type-row .note { color: var(--ink-soft); font-size:.85rem; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/"><img class="compass-mark" src="/assets/compass.svg" alt="" width="30" height="30"> Tenerife<b>Compass</b></a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/styleguide.html">Design System</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="section section--white" style="padding-bottom:0;">
+  <div class="container">
+    <span class="eyebrow" style="color:var(--coral);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem;">Brand &amp; UI kit</span>
+    <h1>Tenerife Compass — Design System</h1>
+    <p style="max-width:640px;color:var(--ink-soft);font-size:1.1rem;">Every colour, font and component the site is built from. Swap the placeholder photos for real ones and this kit keeps the whole site consistent as it grows across the island.</p>
+  </div>
+</section>
+
+<div class="container">
+
+  <!-- COLOURS -->
+  <div class="sg-section">
+    <div class="sg-label">Colour palette</div>
+    <div class="swatches">
+      <div class="swatch"><div class="chip" style="background:#0a7ea4"></div><div class="meta"><b>Ocean</b><code>#0a7ea4</code></div></div>
+      <div class="swatch"><div class="chip" style="background:#08536b"></div><div class="meta"><b>Ocean deep</b><code>#08536b</code></div></div>
+      <div class="swatch"><div class="chip" style="background:#063a4c"></div><div class="meta"><b>Ocean dark</b><code>#063a4c</code></div></div>
+      <div class="swatch"><div class="chip" style="background:#ff6b4a"></div><div class="meta"><b>Coral (CTA)</b><code>#ff6b4a</code></div></div>
+      <div class="swatch"><div class="chip" style="background:#f6a821"></div><div class="meta"><b>Gold</b><code>#f6a821</code></div></div>
+      <div class="swatch"><div class="chip" style="background:#fbf6ee"></div><div class="meta"><b>Sand (bg)</b><code>#fbf6ee</code></div></div>
+      <div class="swatch"><div class="chip" style="background:#f2e9db"></div><div class="meta"><b>Sand deep</b><code>#f2e9db</code></div></div>
+      <div class="swatch"><div class="chip" style="background:#14303b"></div><div class="meta"><b>Ink (text)</b><code>#14303b</code></div></div>
+    </div>
+  </div>
+
+  <!-- TYPOGRAPHY -->
+  <div class="sg-section">
+    <div class="sg-label">Typography</div>
+    <div class="type-row"><h1 style="margin:0;">Heading 1 — Georgia serif</h1><span class="note">page titles</span></div>
+    <div class="type-row"><h2 style="margin:0;">Heading 2 — section titles</h2><span class="note">section headers</span></div>
+    <div class="type-row"><h3 style="margin:0;">Heading 3 — card titles</h3><span class="note">cards &amp; sub-heads</span></div>
+    <p style="max-width:640px;">Body text is a clean system sans-serif for speed and readability — no external font requests, so pages load instantly (which Google rewards). This is the paragraph style used throughout the guides, at a comfortable 17px with generous line height.</p>
+    <p><a href="#">This is a text link</a> · <span class="price">From €42 <small>· per person</small></span> · <span class="stars">★★★★★</span></p>
+  </div>
+
+  <!-- BUTTONS -->
+  <div class="sg-section">
+    <div class="sg-label">Buttons</div>
+    <div class="btn-row" style="justify-content:flex-start;">
+      <a class="btn btn--primary" href="#">Primary — Book now</a>
+      <a class="btn btn--ocean" href="#">Ocean — Read guide</a>
+      <a class="book-btn" href="#">Check prices</a>
+    </div>
+    <div style="background:var(--ocean-dark);padding:20px;border-radius:var(--radius);margin-top:16px;display:inline-block;">
+      <a class="btn btn--ghost" href="#">Ghost (on dark)</a>
+    </div>
+  </div>
+
+  <!-- TAGS -->
+  <div class="sg-section">
+    <div class="sg-label">Tags &amp; badges</div>
+    <span class="tag">Best value</span>
+    <span class="tag tag--coral">Nightlife</span>
+    <span class="tag tag--gold">#1 rated</span>
+    <span class="tag tag--sand">Foodie · Quiet</span>
+  </div>
+
+  <!-- CARDS -->
+  <div class="sg-section">
+    <div class="sg-label">Cards (with placeholder imagery)</div>
+    <div class="grid grid--3">
+      <article class="card">
+        <div class="card__media"><div class="ph ph--teal"><span>Whale Watching</span></div><span class="tag tag--coral">Year-round</span></div>
+        <div class="card__body">
+          <h3>Whale &amp; dolphin watching</h3>
+          <p>Resident pilot whales and dolphins mean near-guaranteed sightings all year.</p>
+          <p class="price">From ~€22 <small>· 2–3 hrs</small></p>
+          <a class="card__link" href="#">Read the guide</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--gold"><span>Costa Adeje</span></div><span class="tag tag--gold">Upscale</span></div>
+        <div class="card__body">
+          <h3>Costa Adeje</h3>
+          <p>The polished, upmarket end — designer shops and the island's 5-star cluster.</p>
+          <a class="card__link" href="#">Explore area</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--sunset"><span>Siam Park</span></div></div>
+        <div class="card__body">
+          <h3>Siam Park</h3>
+          <p>Repeatedly voted the world's best water park. A full, spotless day out.</p>
+          <p class="price">From ~€40 <small>· full day</small></p>
+          <a class="book-btn" href="#">Book tickets</a>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <!-- CALLOUTS -->
+  <div class="sg-section">
+    <div class="sg-label">Callouts &amp; disclosure</div>
+    <div class="callout"><h4>💡 Local tip</h4><p>Walk one street back from the seafront and the same meal often costs 20–30% less.</p></div>
+    <div class="callout callout--coral"><h4>⚠️ Book ahead</h4><p>The Mount Teide summit permit is free but must be reserved weeks in advance.</p></div>
+    <p class="disclosure">This page contains affiliate links. If you book through them we may earn a small commission — at no extra cost to you. It helps keep Tenerife Compass free and independent.</p>
+  </div>
+
+  <!-- FAQ -->
+  <div class="sg-section">
+    <div class="sg-label">FAQ accordion (with FAQ schema)</div>
+    <div class="faq" style="margin:0;">
+      <details open><summary>Do I need a hire car in South Tenerife?</summary><div>Not for a resort holiday — the main resorts are walkable and well served by buses and taxis. A car helps for exploring Teide and the north.</div></details>
+      <details><summary>When is the best time to visit?</summary><div>The south is warm and dry all year. May–June and September–October offer great weather with lower prices.</div></details>
+    </div>
+  </div>
+
+  <!-- TABLE -->
+  <div class="sg-section">
+    <div class="sg-label">Comparison table</div>
+    <div class="table-wrap">
+      <table class="tc">
+        <thead><tr><th>Area</th><th>Best for</th><th>Vibe</th><th>Price</th></tr></thead>
+        <tbody>
+          <tr><td>Costa Adeje</td><td>Couples, families</td><td>Upscale, calm</td><td>€€€</td></tr>
+          <tr><td>Las Américas</td><td>Nightlife</td><td>Lively</td><td>€€</td></tr>
+          <tr><td>Los Cristianos</td><td>Value, families</td><td>Authentic town</td><td>€€</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom" style="border:0;padding-top:0;">
+      <span>© 2026 Tenerife Compass — design system</span>
+      <span>Made for travellers, not brochures.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

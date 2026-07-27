@@ -1,0 +1,5 @@
+.DS_Store
+*.log
+.ftp-deploy-sync-state.json
+research/
+.claude/
