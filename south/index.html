@@ -110,6 +110,7 @@
       </div>
       <div id="southmap"></div>
     </div>
+    <p class="text-center" style="margin-top:22px;"><a class="btn btn--ocean" href="/south/map.html">Open the full-screen map</a></p>
     <p class="disclosure" style="margin-top:14px;">Prices are approximate starting prices and change with season and demand. Some booking links are affiliate links; if you book through them we may earn a small commission at no extra cost to you.</p>
   </div>
 </section>
@@ -158,58 +159,14 @@
 
 <!-- Leaflet script -->
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="/assets/places.js?v=1"></script>
 <script>
   // Farsíma-valmynd
   const t = document.querySelector('.nav-toggle'), l = document.querySelector('.nav-links');
   t && t.addEventListener('click', () => { const o = l.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
 
   // Staða-gagnagrunnur suðursins. cat: stay | eat | do | beach | drink. link valfrjálst.
-  const PLACES = [
-    // HÓTEL
-    {cat:'stay', name:'Bahía del Duque', area:'Costa Adeje', lat:28.0925, lng:-16.7405, desc:'Iconic 5-star grand resort on Playa del Duque. From ~€330/night.', link:'/south/where-to-stay.html'},
-    {cat:'stay', name:'Royal Hideaway Corales (adults only)', area:'La Caleta', lat:28.0995, lng:-16.7555, desc:'Design-led adults-only flagship. From ~€300/night.', link:'/south/where-to-stay.html'},
-    {cat:'stay', name:'Iberostar Selection Anthelia', area:'Fañabé', lat:28.0875, lng:-16.7425, desc:'Beachfront family favourite, kids pools. From ~€200/night.', link:'/south/family-guide.html'},
-    {cat:'stay', name:'GF Gran Costa Adeje', area:'Fañabé', lat:28.0885, lng:-16.7415, desc:'Four pools, splash pad, kids clubs. From ~€160/night.', link:'/south/family-guide.html'},
-    {cat:'stay', name:'GF Victoria', area:'Costa Adeje', lat:28.0855, lng:-16.7355, desc:'Modern 4-star-plus with a great rooftop pool. From ~€180/night.', link:'/south/where-to-stay.html'},
-    {cat:'stay', name:'Jardín Tropical', area:'San Eugenio', lat:28.0795, lng:-16.7345, desc:'Moorish-white landmark with a saltwater beach club. From ~€160/night.', link:'/south/where-to-stay.html'},
-    {cat:'stay', name:'H10 Costa Adeje Palace', area:'La Caleta', lat:28.1005, lng:-16.7645, desc:'Reliable seafront 4-star, good value. From ~€130/night.', link:'/south/where-to-stay.html'},
-    {cat:'stay', name:'Spring Arona Gran (adults only)', area:'Los Cristianos', lat:28.0495, lng:-16.7175, desc:'Right on the beach, great value. From ~€130/night.', link:'/south/where-to-stay.html'},
-    {cat:'stay', name:'Hard Rock Hotel Tenerife', area:'Playa Paraíso', lat:28.1145, lng:-16.7835, desc:'Music-themed resort with big pools. From ~€230/night.', link:'/south/where-to-stay.html'},
-    {cat:'stay', name:'Villa Cortés (Barceló)', area:'Las Américas', lat:28.0585, lng:-16.7275, desc:'Colonial-Mexican-themed 5-star with a beach club. From ~€250/night.', link:'/south/where-to-stay.html'},
-    // VEITINGASTAÐIR
-    {cat:'eat', name:'El Rincón de Juan Carlos (2★)', area:'La Caleta', lat:28.0997, lng:-16.7553, desc:'The top table in the south. Tasting menu, book well ahead. €€€€.', link:'/south/food-and-drink.html'},
-    {cat:'eat', name:'NUB (1★)', area:'Bahía del Duque', lat:28.0923, lng:-16.7403, desc:'Chilean-Italian fusion on Canarian produce. €€€€.', link:'/south/food-and-drink.html'},
-    {cat:'eat', name:'La Vieja', area:'La Caleta', lat:28.1013, lng:-16.7757, desc:'Right on the water, fresh grilled fish and lapas. €€€.', link:'/south/food-and-drink.html'},
-    {cat:'eat', name:'La Masía del Mar', area:'La Caleta', lat:28.1017, lng:-16.7761, desc:'Long-running family seafood spot, grilled lobster. €€€.', link:'/south/food-and-drink.html'},
-    {cat:'eat', name:'La Torre del Mirador', area:'Playa del Duque', lat:28.0915, lng:-16.7423, desc:'Grand seafood restaurant overlooking Duque beach. €€€€.', link:'/south/food-and-drink.html'},
-    {cat:'eat', name:'Bar Restaurante El Cine', area:'Los Cristianos', lat:28.0477, lng:-16.7167, desc:'Beloved traditional spot. Octopus, fresh fish. €€. Book ahead.', link:'/south/food-and-drink.html'},
-    {cat:'eat', name:'Otelo', area:'Adeje', lat:28.1215, lng:-16.7225, desc:'Institution famous for garlic chicken with ravine views. €€.', link:'/south/food-and-drink.html'},
-    {cat:'eat', name:'El Molino Blanco', area:'San Eugenio', lat:28.0755, lng:-16.7305, desc:'Rustic-chic terrace, sharing plates, live music some nights. €€€.', link:'/south/food-and-drink.html'},
-    {cat:'eat', name:'Bianco Restaurant & Lounge', area:'Las Américas', lat:28.0605, lng:-16.7305, desc:'Stylish Italian, pasta, cocktails, jazz. €€€.', link:'/south/food-and-drink.html'},
-    // AFÞREYING
-    {cat:'do', name:'Siam Park', area:'Costa Adeje', lat:28.0715, lng:-16.7245, desc:'The world\'s top-rated water park. From ~€40.', link:'/south/siam-park.html'},
-    {cat:'do', name:'Puerto Colón', area:'Costa Adeje', lat:28.0815, lng:-16.7415, desc:'Departure point for whale & dolphin trips. From ~€22.', link:'/south/whale-watching.html'},
-    {cat:'do', name:'Los Cristianos harbour', area:'Los Cristianos', lat:28.0455, lng:-16.7145, desc:'Boat trips, La Gomera ferries, whale watching.', link:'/south/whale-watching.html'},
-    {cat:'do', name:'Aqualand Costa Adeje', area:'Costa Adeje', lat:28.0785, lng:-16.7275, desc:'Water park with a dolphin show. From ~€30.', link:'/south/things-to-do.html'},
-    {cat:'do', name:'Jungle Park (Las Águilas)', area:'Arona', lat:28.0785, lng:-16.7065, desc:'Animal park, bird-of-prey shows, toboggan run. From ~€26.', link:'/south/things-to-do.html'},
-    {cat:'do', name:'Barranco del Infierno', area:'Adeje', lat:28.1195, lng:-16.7205, desc:'Guided ravine hike to a waterfall. ~€12, pre-book.', link:'/south/things-to-do.html'},
-    {cat:'do', name:'Adeje old town', area:'Adeje', lat:28.1225, lng:-16.7215, desc:'Historic quarter, Santa Úrsula church, ravine trailhead.', link:'/south/things-to-do.html'},
-    {cat:'do', name:'Torviscas market', area:'Costa Adeje', lat:28.0845, lng:-16.7385, desc:'Craft & souvenir market, Thu & Sat mornings.', link:'/south/things-to-do.html'},
-    // STRENDUR
-    {cat:'beach', name:'Playa del Duque', area:'Costa Adeje', lat:28.0915, lng:-16.7445, desc:'The most upscale Blue Flag beach, chic beach clubs. Free.', link:'/south/best-beaches.html'},
-    {cat:'beach', name:'Playa Fañabé', area:'Costa Adeje', lat:28.0845, lng:-16.7405, desc:'Long Blue Flag beach, family-friendly, lively promenade. Free.', link:'/south/best-beaches.html'},
-    {cat:'beach', name:'Playa de las Vistas', area:'Los Cristianos', lat:28.0525, lng:-16.7195, desc:'Wide, calm, imported golden sand, very accessible. Free.', link:'/south/best-beaches.html'},
-    {cat:'beach', name:'Playa del Camisón', area:'Las Américas', lat:28.0565, lng:-16.7245, desc:'Small, sheltered, family-friendly cove. Free.', link:'/south/best-beaches.html'},
-    {cat:'beach', name:'Playa de Troya', area:'Las Américas', lat:28.0625, lng:-16.7315, desc:'Central, lively beach behind the promenade. Free.', link:'/south/best-beaches.html'},
-    {cat:'beach', name:'La Tejita', area:'El Médano', lat:28.0285, lng:-16.5735, desc:'Long natural beach by Montaña Roja, wilder, part-naturist. Free.', link:'/south/best-beaches.html'},
-    // BARIR & NÆTURLÍF
-    {cat:'drink', name:'Verónicas strip', area:'Las Américas', lat:28.0615, lng:-16.7295, desc:'The late-night party strip: bars and clubs till the early hours.', link:'/south/food-and-drink.html'},
-    {cat:'drink', name:'The Patch', area:'Las Américas', lat:28.0645, lng:-16.7325, desc:'Relaxed over-25s zone, tribute acts, comedy, karaoke.', link:'/south/food-and-drink.html'},
-    {cat:'drink', name:'Papagayo Beach Club', area:'Las Américas', lat:28.0605, lng:-16.7305, desc:'Beachfront by day, DJs and cocktails by night.', link:'/south/food-and-drink.html'},
-    {cat:'drink', name:'Zambra Sky Bar', area:'Costa Adeje', lat:28.0795, lng:-16.7355, desc:'Adults-only rooftop with a glass-bottomed pool. Sunset cocktails.', link:'/south/food-and-drink.html'},
-    {cat:'drink', name:'Maresía Atlantic Bar', area:'La Caleta', lat:28.0993, lng:-16.7557, desc:'Elegant rooftop beside an infinity pool, Atlantic views.', link:'/south/food-and-drink.html'},
-    {cat:'drink', name:'Bar Fresh', area:'Costa Adeje', lat:28.0835, lng:-16.7395, desc:'Ship-shaped bar known for its "Sunset Selection" cocktails.', link:'/south/food-and-drink.html'}
-  ];
+  const PLACES = window.TC_PLACES || [];
   const CATS = {
     stay:  {color:'#ff6b4a', label:'Hotel'},
     eat:   {color:'#f0a81e', label:'Restaurant'},

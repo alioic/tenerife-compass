@@ -360,7 +360,7 @@ table.tc tr:nth-child(even) td { background: var(--sand); }
 .tf-map .region--soon { cursor: default; }
 .tf-map .region--soon:hover { filter: brightness(1.03); }
 .tf-map .coastline { fill: none; stroke: #8fa6a9; stroke-width: 1.8; stroke-linejoin: round; pointer-events: none; }
-.tf-map .region-label { font-family: var(--font-body); font-weight: 700; fill: #fff; font-size: 15px; pointer-events: none; text-anchor: middle; }
+.tf-map .region-label { font-family: var(--font-body); font-weight: 700; fill: #fff; font-size: 14px; pointer-events: none; text-anchor: middle; }
 .tf-map .region-label.dark { fill: var(--ink); }
 .tf-map .soon-pill { font-family: var(--font-body); font-weight: 700; font-size: 9.5px; letter-spacing: .05em; fill: #fff; text-transform: uppercase; pointer-events: none; text-anchor: middle; opacity:.92; }
 .tf-map .soon-pill.dark { fill: var(--ink); }
