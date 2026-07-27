@@ -94,15 +94,23 @@
       <p>Hotels, restaurants and the best things to do, plotted where they actually are. Use the filters to show what you are after.</p>
     </div>
 
-    <div class="map-filters" style="display:flex;gap:.6em;justify-content:center;flex-wrap:wrap;margin-bottom:20px;">
+    <div class="map-filters" style="display:flex;gap:.55em;justify-content:center;flex-wrap:wrap;margin-bottom:20px;">
       <button class="btn btn--ocean map-filter is-on" data-cat="all">Everything</button>
-      <button class="btn btn--ghost map-filter" data-cat="stay" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Where to stay</button>
+      <button class="btn btn--ghost map-filter" data-cat="stay" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Hotels</button>
+      <button class="btn btn--ghost map-filter" data-cat="eat" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Restaurants</button>
       <button class="btn btn--ghost map-filter" data-cat="do" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Things to do</button>
-      <button class="btn btn--ghost map-filter" data-cat="eat" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Food &amp; drink</button>
+      <button class="btn btn--ghost map-filter" data-cat="beach" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Beaches</button>
+      <button class="btn btn--ghost map-filter" data-cat="drink" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Bars &amp; nightlife</button>
     </div>
 
-    <div id="southmap" style="height:520px;width:100%;border-radius:var(--radius);box-shadow:var(--shadow-lg);z-index:1;"></div>
-    <p class="disclosure" style="margin-top:14px;">Prices shown are approximate starting prices and change with season and demand. Booking links may be affiliate links; if you book through them we may earn a small commission at no extra cost to you.</p>
+    <div class="map-explorer">
+      <div>
+        <p class="place-count" id="place-count"></p>
+        <div id="place-list" class="place-list"></div>
+      </div>
+      <div id="southmap"></div>
+    </div>
+    <p class="disclosure" style="margin-top:14px;">Prices are approximate starting prices and change with season and demand. Some booking links are affiliate links; if you book through them we may earn a small commission at no extra cost to you.</p>
   </div>
 </section>
 
@@ -155,55 +163,105 @@
   const t = document.querySelector('.nav-toggle'), l = document.querySelector('.nav-links');
   t && t.addEventListener('click', () => { const o = l.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
 
-  // Staðir í suðrinu (lat, lng). cat: stay | do | eat.
+  // Staða-gagnagrunnur suðursins. cat: stay | eat | do | beach | drink. link valfrjálst.
   const PLACES = [
-    {cat:'stay', name:'Bahía del Duque', lat:28.0925, lng:-16.7405, desc:'Iconic 5-star grand resort on Playa del Duque. From ~€330/night.'},
-    {cat:'stay', name:'Royal Hideaway Corales (adults only)', lat:28.0995, lng:-16.7555, desc:'Design-led adults-only flagship near La Caleta. From ~€300/night.'},
-    {cat:'stay', name:'Iberostar Selection Anthelia', lat:28.0875, lng:-16.7425, desc:'Beachfront family favourite on Playa de Fañabé. From ~€200/night.'},
-    {cat:'stay', name:'GF Victoria', lat:28.0855, lng:-16.7355, desc:'Modern 4-star-plus with a great rooftop pool. From ~€180/night.'},
-    {cat:'stay', name:'Spring Arona Gran (adults only)', lat:28.0495, lng:-16.7175, desc:'Right on Los Cristianos beach, great value. From ~€130/night.'},
-    {cat:'stay', name:'H10 Costa Adeje Palace', lat:28.1005, lng:-16.7645, desc:'Reliable seafront 4-star near La Caleta. From ~€130/night.'},
-    {cat:'do', name:'Siam Park', lat:28.0715, lng:-16.7245, desc:'Regularly voted the world\'s best water park. From ~€40.'},
-    {cat:'do', name:'Puerto Colón (whale watching)', lat:28.0815, lng:-16.7415, desc:'Departure point for whale & dolphin trips. From ~€22.'},
-    {cat:'do', name:'Los Cristianos harbour', lat:28.0455, lng:-16.7145, desc:'Boat trips, ferries to La Gomera, whale watching. From ~€22.'},
-    {cat:'do', name:'Playa del Duque', lat:28.0915, lng:-16.7445, desc:'The south\'s most upscale Blue Flag beach. Free.'},
-    {cat:'do', name:'Playa de las Vistas', lat:28.0525, lng:-16.7195, desc:'Wide, calm, family-friendly Blue Flag beach. Free.'},
-    {cat:'do', name:'Aqualand Costa Adeje', lat:28.0785, lng:-16.7275, desc:'Water park with dolphin show. From ~€30.'},
-    {cat:'do', name:'Barranco del Infierno (Adeje)', lat:28.1195, lng:-16.7205, desc:'Guided ravine hike to a waterfall. ~€12, pre-book.'},
-    {cat:'eat', name:'La Caleta seafront', lat:28.1015, lng:-16.7755, desc:'Cluster of fresh-fish restaurants over the water (La Vieja, La Masía).'},
-    {cat:'eat', name:'El Rincón de Juan Carlos (2 Michelin ★)', lat:28.0995, lng:-16.7555, desc:'The top table in the south. Tasting menu, book well ahead.'},
-    {cat:'eat', name:'Bar El Cine, Los Cristianos', lat:28.0475, lng:-16.7165, desc:'Beloved traditional spot near the harbour. Octopus, fresh fish. €€.'},
-    {cat:'eat', name:'La Torre del Mirador', lat:28.0915, lng:-16.7425, desc:'Grand seafood restaurant overlooking Playa del Duque. €€€€.'}
+    // HÓTEL
+    {cat:'stay', name:'Bahía del Duque', area:'Costa Adeje', lat:28.0925, lng:-16.7405, desc:'Iconic 5-star grand resort on Playa del Duque. From ~€330/night.', link:'/south/where-to-stay.html'},
+    {cat:'stay', name:'Royal Hideaway Corales (adults only)', area:'La Caleta', lat:28.0995, lng:-16.7555, desc:'Design-led adults-only flagship. From ~€300/night.', link:'/south/where-to-stay.html'},
+    {cat:'stay', name:'Iberostar Selection Anthelia', area:'Fañabé', lat:28.0875, lng:-16.7425, desc:'Beachfront family favourite, kids pools. From ~€200/night.', link:'/south/family-guide.html'},
+    {cat:'stay', name:'GF Gran Costa Adeje', area:'Fañabé', lat:28.0885, lng:-16.7415, desc:'Four pools, splash pad, kids clubs. From ~€160/night.', link:'/south/family-guide.html'},
+    {cat:'stay', name:'GF Victoria', area:'Costa Adeje', lat:28.0855, lng:-16.7355, desc:'Modern 4-star-plus with a great rooftop pool. From ~€180/night.', link:'/south/where-to-stay.html'},
+    {cat:'stay', name:'Jardín Tropical', area:'San Eugenio', lat:28.0795, lng:-16.7345, desc:'Moorish-white landmark with a saltwater beach club. From ~€160/night.', link:'/south/where-to-stay.html'},
+    {cat:'stay', name:'H10 Costa Adeje Palace', area:'La Caleta', lat:28.1005, lng:-16.7645, desc:'Reliable seafront 4-star, good value. From ~€130/night.', link:'/south/where-to-stay.html'},
+    {cat:'stay', name:'Spring Arona Gran (adults only)', area:'Los Cristianos', lat:28.0495, lng:-16.7175, desc:'Right on the beach, great value. From ~€130/night.', link:'/south/where-to-stay.html'},
+    {cat:'stay', name:'Hard Rock Hotel Tenerife', area:'Playa Paraíso', lat:28.1145, lng:-16.7835, desc:'Music-themed resort with big pools. From ~€230/night.', link:'/south/where-to-stay.html'},
+    {cat:'stay', name:'Villa Cortés (Barceló)', area:'Las Américas', lat:28.0585, lng:-16.7275, desc:'Colonial-Mexican-themed 5-star with a beach club. From ~€250/night.', link:'/south/where-to-stay.html'},
+    // VEITINGASTAÐIR
+    {cat:'eat', name:'El Rincón de Juan Carlos (2★)', area:'La Caleta', lat:28.0997, lng:-16.7553, desc:'The top table in the south. Tasting menu, book well ahead. €€€€.', link:'/south/food-and-drink.html'},
+    {cat:'eat', name:'NUB (1★)', area:'Bahía del Duque', lat:28.0923, lng:-16.7403, desc:'Chilean-Italian fusion on Canarian produce. €€€€.', link:'/south/food-and-drink.html'},
+    {cat:'eat', name:'La Vieja', area:'La Caleta', lat:28.1013, lng:-16.7757, desc:'Right on the water, fresh grilled fish and lapas. €€€.', link:'/south/food-and-drink.html'},
+    {cat:'eat', name:'La Masía del Mar', area:'La Caleta', lat:28.1017, lng:-16.7761, desc:'Long-running family seafood spot, grilled lobster. €€€.', link:'/south/food-and-drink.html'},
+    {cat:'eat', name:'La Torre del Mirador', area:'Playa del Duque', lat:28.0915, lng:-16.7423, desc:'Grand seafood restaurant overlooking Duque beach. €€€€.', link:'/south/food-and-drink.html'},
+    {cat:'eat', name:'Bar Restaurante El Cine', area:'Los Cristianos', lat:28.0477, lng:-16.7167, desc:'Beloved traditional spot. Octopus, fresh fish. €€. Book ahead.', link:'/south/food-and-drink.html'},
+    {cat:'eat', name:'Otelo', area:'Adeje', lat:28.1215, lng:-16.7225, desc:'Institution famous for garlic chicken with ravine views. €€.', link:'/south/food-and-drink.html'},
+    {cat:'eat', name:'El Molino Blanco', area:'San Eugenio', lat:28.0755, lng:-16.7305, desc:'Rustic-chic terrace, sharing plates, live music some nights. €€€.', link:'/south/food-and-drink.html'},
+    {cat:'eat', name:'Bianco Restaurant & Lounge', area:'Las Américas', lat:28.0605, lng:-16.7305, desc:'Stylish Italian, pasta, cocktails, jazz. €€€.', link:'/south/food-and-drink.html'},
+    // AFÞREYING
+    {cat:'do', name:'Siam Park', area:'Costa Adeje', lat:28.0715, lng:-16.7245, desc:'The world\'s top-rated water park. From ~€40.', link:'/south/siam-park.html'},
+    {cat:'do', name:'Puerto Colón', area:'Costa Adeje', lat:28.0815, lng:-16.7415, desc:'Departure point for whale & dolphin trips. From ~€22.', link:'/south/whale-watching.html'},
+    {cat:'do', name:'Los Cristianos harbour', area:'Los Cristianos', lat:28.0455, lng:-16.7145, desc:'Boat trips, La Gomera ferries, whale watching.', link:'/south/whale-watching.html'},
+    {cat:'do', name:'Aqualand Costa Adeje', area:'Costa Adeje', lat:28.0785, lng:-16.7275, desc:'Water park with a dolphin show. From ~€30.', link:'/south/things-to-do.html'},
+    {cat:'do', name:'Jungle Park (Las Águilas)', area:'Arona', lat:28.0785, lng:-16.7065, desc:'Animal park, bird-of-prey shows, toboggan run. From ~€26.', link:'/south/things-to-do.html'},
+    {cat:'do', name:'Barranco del Infierno', area:'Adeje', lat:28.1195, lng:-16.7205, desc:'Guided ravine hike to a waterfall. ~€12, pre-book.', link:'/south/things-to-do.html'},
+    {cat:'do', name:'Adeje old town', area:'Adeje', lat:28.1225, lng:-16.7215, desc:'Historic quarter, Santa Úrsula church, ravine trailhead.', link:'/south/things-to-do.html'},
+    {cat:'do', name:'Torviscas market', area:'Costa Adeje', lat:28.0845, lng:-16.7385, desc:'Craft & souvenir market, Thu & Sat mornings.', link:'/south/things-to-do.html'},
+    // STRENDUR
+    {cat:'beach', name:'Playa del Duque', area:'Costa Adeje', lat:28.0915, lng:-16.7445, desc:'The most upscale Blue Flag beach, chic beach clubs. Free.', link:'/south/best-beaches.html'},
+    {cat:'beach', name:'Playa Fañabé', area:'Costa Adeje', lat:28.0845, lng:-16.7405, desc:'Long Blue Flag beach, family-friendly, lively promenade. Free.', link:'/south/best-beaches.html'},
+    {cat:'beach', name:'Playa de las Vistas', area:'Los Cristianos', lat:28.0525, lng:-16.7195, desc:'Wide, calm, imported golden sand, very accessible. Free.', link:'/south/best-beaches.html'},
+    {cat:'beach', name:'Playa del Camisón', area:'Las Américas', lat:28.0565, lng:-16.7245, desc:'Small, sheltered, family-friendly cove. Free.', link:'/south/best-beaches.html'},
+    {cat:'beach', name:'Playa de Troya', area:'Las Américas', lat:28.0625, lng:-16.7315, desc:'Central, lively beach behind the promenade. Free.', link:'/south/best-beaches.html'},
+    {cat:'beach', name:'La Tejita', area:'El Médano', lat:28.0285, lng:-16.5735, desc:'Long natural beach by Montaña Roja, wilder, part-naturist. Free.', link:'/south/best-beaches.html'},
+    // BARIR & NÆTURLÍF
+    {cat:'drink', name:'Verónicas strip', area:'Las Américas', lat:28.0615, lng:-16.7295, desc:'The late-night party strip: bars and clubs till the early hours.', link:'/south/food-and-drink.html'},
+    {cat:'drink', name:'The Patch', area:'Las Américas', lat:28.0645, lng:-16.7325, desc:'Relaxed over-25s zone, tribute acts, comedy, karaoke.', link:'/south/food-and-drink.html'},
+    {cat:'drink', name:'Papagayo Beach Club', area:'Las Américas', lat:28.0605, lng:-16.7305, desc:'Beachfront by day, DJs and cocktails by night.', link:'/south/food-and-drink.html'},
+    {cat:'drink', name:'Zambra Sky Bar', area:'Costa Adeje', lat:28.0795, lng:-16.7355, desc:'Adults-only rooftop with a glass-bottomed pool. Sunset cocktails.', link:'/south/food-and-drink.html'},
+    {cat:'drink', name:'Maresía Atlantic Bar', area:'La Caleta', lat:28.0993, lng:-16.7557, desc:'Elegant rooftop beside an infinity pool, Atlantic views.', link:'/south/food-and-drink.html'},
+    {cat:'drink', name:'Bar Fresh', area:'Costa Adeje', lat:28.0835, lng:-16.7395, desc:'Ship-shaped bar known for its "Sunset Selection" cocktails.', link:'/south/food-and-drink.html'}
   ];
-  const COLORS = {stay:'#ff6b4a', do:'#0d9bb5', eat:'#ffc233'};
+  const CATS = {
+    stay:  {color:'#ff6b4a', label:'Hotel'},
+    eat:   {color:'#f0a81e', label:'Restaurant'},
+    do:    {color:'#0d9bb5', label:'Things to do'},
+    beach: {color:'#16b8cc', label:'Beach'},
+    drink: {color:'#b1466c', label:'Bar / nightlife'}
+  };
 
   const map = L.map('southmap', {scrollWheelZoom:false}).setView([28.075, -16.735], 13);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
-  const markers = PLACES.map(p => {
-    const m = L.circleMarker([p.lat, p.lng], {
-      radius: 9, color: '#fff', weight: 2, fillColor: COLORS[p.cat], fillOpacity: 1
-    }).addTo(map);
-    m.bindPopup('<strong>'+p.name+'</strong><br>'+p.desc);
-    m._cat = p.cat;
-    return m;
+  const listEl = document.getElementById('place-list');
+  const countEl = document.getElementById('place-count');
+
+  const items = PLACES.map((p, i) => {
+    const c = CATS[p.cat];
+    const popup = '<strong>'+p.name+'</strong><br><span style="color:#52707a">'+c.label+' · '+p.area+'</span><br>'+p.desc+
+                  (p.link ? '<br><a href="'+p.link+'">Read more →</a>' : '');
+    const m = L.circleMarker([p.lat, p.lng], {radius:9, color:'#fff', weight:2, fillColor:c.color, fillOpacity:1})
+      .bindPopup(popup);
+    m.addTo(map);
+    // Hliðarlista-atriði
+    const row = document.createElement('div');
+    row.className = 'place-item';
+    row.innerHTML = '<span class="dot" style="background:'+c.color+'"></span><span><b>'+p.name+'</b><small>'+c.label+' · '+p.area+'</small></span>';
+    row.addEventListener('click', () => { map.setView([p.lat, p.lng], 15, {animate:true}); m.openPopup(); });
+    listEl.appendChild(row);
+    return {p, m, row};
   });
+
+  function applyFilter(cat) {
+    let n = 0;
+    items.forEach(({p, m, row}) => {
+      const show = (cat === 'all' || p.cat === cat);
+      row.style.display = show ? '' : 'none';
+      if (show) { m.addTo(map); n++; } else { map.removeLayer(m); }
+    });
+    countEl.textContent = n + ' place' + (n===1?'':'s') + ' shown';
+  }
+  applyFilter('all');
 
   document.querySelectorAll('.map-filter').forEach(btn => {
     btn.addEventListener('click', () => {
-      const cat = btn.dataset.cat;
       document.querySelectorAll('.map-filter').forEach(b => {
         b.classList.remove('is-on'); b.classList.add('btn--ghost');
         b.style.background = '#fff'; b.style.color = 'var(--ocean-deep)';
       });
       btn.classList.add('is-on'); btn.classList.remove('btn--ghost');
       btn.style.background = 'var(--ocean)'; btn.style.color = '#fff';
-      markers.forEach(m => {
-        const show = (cat === 'all' || m._cat === cat);
-        if (show) { m.addTo(map); } else { map.removeLayer(m); }
-      });
+      applyFilter(btn.dataset.cat);
     });
   });
 </script>
