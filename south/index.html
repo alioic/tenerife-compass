@@ -166,7 +166,7 @@
   t && t.addEventListener('click', () => { const o = l.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
 
   // Staða-gagnagrunnur suðursins. cat: stay | eat | do | beach | drink. link valfrjálst.
-  const PLACES = window.TC_PLACES || [];
+  const PLACES = (window.TC_PLACES || []).filter(p => p.region === 'south');
   const CATS = {
     stay:  {color:'#ff6b4a', label:'Hotel'},
     eat:   {color:'#f0a81e', label:'Restaurant'},

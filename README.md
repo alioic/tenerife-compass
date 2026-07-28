@@ -5,8 +5,12 @@ Static travel-guide site for **tenerifecompass.com**. Covers all of Tenerife, re
 ## Structure
 
 ```
-/                       Home — interactive region map (real Tenerife outline)
+/                       Home — interactive region map (real Tenerife outline, all regions live)
 /south/                 South Tenerife hub + Leaflet map with pins
+/north/                 North hub (Puerto de la Cruz, La Orotava, Icod, Garachico)
+/santa-cruz/            Capital + La Laguna + Anaga hub
+/east/                  El Médano & golf coast hub
+/west/                  Los Gigantes, Alcalá & Playa San Juan hub
 /south/where-to-stay.html
 /south/things-to-do.html
 /south/food-and-drink.html
@@ -46,5 +50,8 @@ python3 -m http.server 8137 --bind 127.0.0.1
 ```
 Then open http://localhost:8137
 
+## Places database
+All map pins live in `assets/places.js` (one array, each entry tagged `region: 'south'|'north'|'scruz'|'east'|'west'`). Each region hub filters by its region. To add a place anywhere on the island, add one line there.
+
 ## Roadmap
-South is live. Next regions (map already shows them as "coming soon"): North (Puerto de la Cruz), Santa Cruz & La Laguna, El Médano & East, Teno & West. Each reuses the same templates and design system.
+All five regions are live. Next: region deep-dive articles (Loro Parque, Anaga hiking, La Laguna, El Médano windsurfing), more pins, affiliate link swap, custom domain.

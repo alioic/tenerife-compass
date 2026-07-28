@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Médano & East Tenerife Guide 2026 | Windsurf Town, La Tejita & Golf — Tenerife Compass</title>
+<meta name="description" content="The guide to East Tenerife: laid-back El Médano, wild La Tejita beach, Montaña Roja, diving at Las Galletas and the golf coast — where to stay, eat and play.">
+<link rel="canonical" href="https://tenerifecompass.com/east/">
+<meta name="theme-color" content="#0d9bb5">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tenerife Compass">
+<meta property="og:title" content="El Médano & East Tenerife Guide — Windsurf Town, La Tejita & Golf">
+<meta property="og:description" content="The windy, laid-back corner: surf town vibes, natural beaches and a volcanic cone backdrop.">
+<meta property="og:url" content="https://tenerifecompass.com/east/">
+<meta property="og:image" content="https://tenerifecompass.com/assets/img/el-medano.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/compass.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="/assets/style.css?v=3">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/"><img class="compass-mark" src="/assets/compass.svg" alt="" width="30" height="30"> Tenerife<b>Compass</b></a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="/#map">Explore by region</a></li>
+      <li><a href="/south/">South Tenerife</a></li>
+      <li><a href="/south/things-to-do.html">Things to Do</a></li>
+      <li><a href="/south/practical.html">Plan Your Trip</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero" style="min-height:58vh;">
+  <img class="hero__bg" src="/assets/img/el-medano.jpg" alt="El Médano beach with the Montaña Roja volcanic cone behind" loading="eager" fetchpriority="high">
+  <div class="container hero__inner" style="padding:64px 0;">
+    <span class="eyebrow">East Tenerife</span>
+    <h1>El Médano, La Tejita &amp; the golf coast</h1>
+    <p class="lede">The wind blows, the kites fly, and nobody dresses up for dinner. This is the corner where locals keep weekend apartments, with a red volcanic cone standing over the island's best natural beaches.</p>
+    <div class="btn-row">
+      <a class="btn btn--primary" href="#map">Open the map</a>
+      <a class="btn btn--ghost" href="/south/best-beaches.html">Best beaches</a>
+    </div>
+  </div>
+</section>
+<div class="container"><nav class="breadcrumb"><a href="/">Home</a><span>›</span> El Médano &amp; East</nav></div>
+
+<section class="section section--white">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Get your bearings</span>
+      <h2>The lie of the land</h2>
+      <p>The east is the stretch of coast around Tenerife South airport, and it splits neatly in two. El Médano and La Tejita are the natural-beach, board-sport end; Golf del Sur, Los Abrigos and Las Galletas are the quieter, greener, more grown-up end. Ten minutes inland sits Granadilla de Abona, the old municipal town, with a cobbled centre, a 17th-century convent and honest lunch menus that most visitors drive straight past on the motorway below.</p>
+    </div>
+    <div class="callout callout--gold">
+      <h4>Wind honesty</h4>
+      <p>The trade winds define this region, and you should know that before booking. They blow most reliably from May to September and peak in July and August, which is exactly why the windsurfers and kitesurfers are here. For a lie-on-a-towel beach day, the same wind is genuinely annoying, and at La Tejita it can mean flying sand. October to December is noticeably calmer, and the sheltered corner at Playa Chica works on almost any day.</p>
+    </div>
+    <div class="grid grid--4">
+      <article class="card">
+        <div class="card__media"><div class="ph ph--teal"><span>El Médano</span></div></div>
+        <div class="card__body">
+          <span class="tag tag--coral">Surf town</span>
+          <h3>El Médano</h3>
+          <p>A real Spanish town that happens to host a world windsurfing scene: a plaza, a boardwalk, board shops and cafés full of sandy feet. Nothing is polished and that is the appeal. Suits independent travellers, sporty types and anyone allergic to resort strips.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--gold"><span>La Tejita &amp; Montaña Roja</span></div></div>
+        <div class="card__body">
+          <span class="tag">Wild beach</span>
+          <h3>La Tejita &amp; Montaña Roja</h3>
+          <p>A long natural sand beach under a 171-metre red volcanic cone, all inside a protected reserve. No promenade, minimal facilities, and on windy days you will know about it. Suits beach purists who bring their own water and do not need a sunbed.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--ocean"><span>Golf del Sur &amp; Los Abrigos</span></div></div>
+        <div class="card__body">
+          <span class="tag tag--sand">Quiet · Golf</span>
+          <h3>Golf del Sur &amp; Los Abrigos</h3>
+          <p>Low-rise resorts wrapped around fairways, next to a fishing village whose harbourfront is one long row of fish restaurants. Peaceful to the point of sleepy after dark. Suits golfers, older couples and slow-dinner people.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--coral"><span>Las Galletas &amp; Costa del Silencio</span></div></div>
+        <div class="card__body">
+          <span class="tag">Local · Value</span>
+          <h3>Las Galletas &amp; Costa del Silencio</h3>
+          <p>A working harbour town with a mostly Spanish seafront, next to a plain apartment resort where prices stay sensible. Not pretty, but genuine, and one of the island's main diving bases. Suits divers and budget-minded longer stays.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--mist" id="map">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Everything on one map</span><h2>The east, pin by pin</h2><p>Hotels, restaurants, beaches and the best things to do along the east coast.</p></div>
+    <div class="map-filters" style="display:flex;gap:.55em;justify-content:center;flex-wrap:wrap;margin-bottom:20px;">
+      <button class="btn btn--ocean map-filter is-on" data-cat="all">Everything</button>
+      <button class="btn btn--ghost map-filter" data-cat="stay" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Hotels</button>
+      <button class="btn btn--ghost map-filter" data-cat="eat" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Restaurants</button>
+      <button class="btn btn--ghost map-filter" data-cat="do" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Things to do</button>
+      <button class="btn btn--ghost map-filter" data-cat="beach" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Beaches</button>
+      <button class="btn btn--ghost map-filter" data-cat="drink" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Bars &amp; nightlife</button>
+    </div>
+    <div class="map-explorer">
+      <div><p class="place-count" id="place-count"></p><div id="place-list" class="place-list"></div></div>
+      <div id="southmap"></div>
+    </div>
+    <p class="disclosure" style="margin-top:14px;">Locations and prices are approximate. Some booking links are affiliate links; if you book through them we may earn a small commission at no extra cost to you.</p>
+  </div>
+</section>
+
+<section class="section section--sand">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Days out</span>
+      <h2>Things to do in the east</h2>
+      <p>The wind and the water carry this region. Most of the best things here are free and outdoors; the paid ones, from kite lessons to a real submarine, are the kind you remember.</p>
+    </div>
+    <div class="grid grid--3">
+      <article class="card">
+        <div class="card__media"><div class="ph ph--ocean"><span>Windsurf &amp; kitesurf</span></div></div>
+        <div class="card__body">
+          <span class="tag tag--gold">Top pick</span>
+          <h3>Windsurf &amp; kitesurf lessons</h3>
+          <p>This is why El Médano exists on the sporting map. Schools like the Duotone Pro Center and Kitesurf 313 teach on El Cabezo, the dedicated kite beach south of town, with steady trade winds doing half the work. Lessons start around €120 to €130 for roughly two hours; a full beginner course runs about €295 for nine hours.</p>
+          <p class="price">From ~€120 <small>/ ~2-hour lesson · courses ~€295 / 9h</small></p>
+          <!-- AFFILIATE -->
+          <a class="book-btn" href="https://www.getyourguide.com/s/?q=el+medano+kitesurf" rel="nofollow sponsored" target="_blank">Check lessons</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--teal"><span>The boardwalk</span></div></div>
+        <div class="card__body">
+          <span class="tag">Free</span>
+          <h3>Walk the boardwalk</h3>
+          <p>The wooden walkway runs from the plaza along the beaches to El Cabezo, and it is the town's social spine. Kites in the air on one side, cafés on the other, and nobody in a hurry. Do it at the end of the afternoon when the light softens and the last riders are still out.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--gold"><span>Montaña Roja</span></div></div>
+        <div class="card__body">
+          <span class="tag">Free</span>
+          <h3>Climb Montaña Roja</h3>
+          <p>The red cone between El Médano and La Tejita is a straightforward walk to a 171-metre summit, about 30 to 40 minutes up, with both beaches laid out below you. There is no shade anywhere on it, so go early, take water, and skip the middle of the day entirely.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--coral"><span>La Tejita</span></div></div>
+        <div class="card__body">
+          <span class="tag">Free</span>
+          <h3>La Tejita beach</h3>
+          <p>Around a kilometre of natural sand with the mountain at one end and almost nothing built behind it. The stretch nearest Montaña Roja is naturist by long tradition. Facilities are minimal, so bring what you need, and on a strong wind day check the forecast before committing.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--deep"><span>Diving</span></div></div>
+        <div class="card__body">
+          <h3>Diving at Las Galletas</h3>
+          <p>Las Galletas is one of the island's main diving bases, with several centres working the reefs and volcanic seabed off this coast. Fun dives for certified divers start around €40; first-timer try-dives run roughly €50 to €90 depending on the centre and setup.</p>
+          <p class="price">Fun dives from ~€40 <small>· try-dives ~€50–90</small></p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--ocean"><span>Submarine Safari</span></div></div>
+        <div class="card__body">
+          <span class="tag tag--coral">Book ahead</span>
+          <h3>Submarine Safari</h3>
+          <p>From Marina San Miguel you can go underwater without getting wet: a real submarine dives for about 50 minutes, portholes and all. Around €57 for adults and €35 for children, and one of the few attractions here that works on the windiest day of the year.</p>
+          <a class="card__link" href="/south/things-to-do.html">More things to book →</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--teal"><span>Golf</span></div></div>
+        <div class="card__body">
+          <h3>A round on the golf coast</h3>
+          <p>Two established courses sit side by side above the sea. Golf del Sur has 27 holes with green fees from about €93; Amarilla Golf starts around €79. Both prices move with the season, and winter mornings book out well ahead.</p>
+          <p class="price">From ~€79 <small>/ round · seasonal rates</small></p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--gold"><span>Markets</span></div></div>
+        <div class="card__body">
+          <span class="tag tag--sand">Weekly</span>
+          <h3>El Médano markets</h3>
+          <p>Saturday brings the artisan market to Plaza Roja, roughly 9:00 to 14:00, with local makers rather than imported tat. Wednesday morning is the farmers' market. Both are small, but they are the town at its most itself, and parking is tight while they are on.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--sunset"><span>Los Abrigos</span></div></div>
+        <div class="card__body">
+          <h3>Dinner in Los Abrigos harbour</h3>
+          <p>The classic east-coast evening: arrive before sunset, walk the tiny harbour, then take a table at one of the fish restaurants lining it. The routine of picking your fish from the display and watching the light go is the whole event, and it has not changed in decades.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Sleep well</span>
+      <h2>Where to stay in the east</h2>
+      <p>El Médano's hotel stock is small, characterful and often booked out by returning windsurfers, so reserve early. The golf coast has the bigger resorts, and prices across the whole region undercut Costa Adeje comfortably.</p>
+    </div>
+    <div class="grid grid--3">
+      <article class="card">
+        <div class="card__media"><div class="ph ph--teal"><span>Hotel Médano</span></div></div>
+        <div class="card__body">
+          <span class="tag tag--gold">The classic</span>
+          <h3>Hotel Médano</h3>
+          <p>The town's historic hotel, built partly on stilts over the beach, so the tide comes in under the terrace. Rooms are simple, the position is unrepeatable, and it books out fast.</p>
+          <p class="price">From ~€90 <small>/ night · 3★ · El Médano</small></p>
+          <a class="book-btn" href="https://www.booking.com/searchresults.html?ss=Hotel+Medano+Tenerife" rel="nofollow sponsored" target="_blank">Check prices</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--ocean"><span>Hotel Playa Sur Tenerife</span></div></div>
+        <div class="card__body">
+          <span class="tag">Windsurfers' pick</span>
+          <h3>Hotel Playa Sur Tenerife</h3>
+          <p>Standing alone on the natural beach between town and the mountain, this has been the windsurfers' hotel for decades. Quiet, unfussy and directly on the sand.</p>
+          <p class="price">From ~€86 <small>/ night · 3★ · El Médano</small></p>
+          <a class="book-btn" href="https://www.booking.com/searchresults.html?ss=Hotel+Playa+Sur+Tenerife" rel="nofollow sponsored" target="_blank">Check prices</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--gold"><span>KN Hotel Arenas del Mar</span></div></div>
+        <div class="card__body">
+          <span class="tag tag--coral">Adults only</span>
+          <h3>KN Hotel Arenas del Mar</h3>
+          <p>The adults-only choice, right on the water by La Jaquita at the edge of town, with a spa and pool terraces facing the sea. The best pick for a quiet couples' week here.</p>
+          <p class="price">From ~€94 <small>/ night · 4★ · El Médano</small></p>
+          <a class="book-btn" href="https://www.booking.com/searchresults.html?ss=KN+Hotel+Arenas+del+Mar+Tenerife" rel="nofollow sponsored" target="_blank">Check prices</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--coral"><span>Barceló Tenerife</span></div></div>
+        <div class="card__body">
+          <span class="tag tag--gold">Resort</span>
+          <h3>Barceló Tenerife</h3>
+          <p>The big eco-resort at San Blas in Golf del Sur, formerly the Sandos San Blas, with eight pools and its own nature reserve behind it. The full-resort option of the east.</p>
+          <p class="price">From ~€150 <small>/ night · 5★ · Golf del Sur</small></p>
+          <a class="book-btn" href="https://www.booking.com/searchresults.html?ss=Barcelo+Tenerife+San+Blas" rel="nofollow sponsored" target="_blank">Check prices</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--ocean"><span>Vincci Tenerife Golf</span></div></div>
+        <div class="card__body">
+          <span class="tag">Golfers</span>
+          <h3>Vincci Tenerife Golf</h3>
+          <p>A hundred metres from the course in Golf del Sur, with a spa for the non-playing half of the party. Sensible, well-kept and priced below what the location suggests.</p>
+          <p class="price">From ~€88 <small>/ night · 4★ · Golf del Sur</small></p>
+          <a class="book-btn" href="https://www.booking.com/searchresults.html?ss=Vincci+Tenerife+Golf" rel="nofollow sponsored" target="_blank">Check prices</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--deep"><span>Senderos de Abona</span></div></div>
+        <div class="card__body">
+          <span class="tag tag--sand">Rural</span>
+          <h3>Hotel Rural Senderos de Abona</h3>
+          <p>A 19th-century post house in Granadilla's old town, ten minutes inland. Thick walls, cool patios and cheap rates, ideal if your trip is more walking than beach.</p>
+          <p class="price">From ~€57 <small>/ night · 3★ rural · Granadilla</small></p>
+          <a class="book-btn" href="https://www.booking.com/searchresults.html?ss=Hotel+Rural+Senderos+de+Abona" rel="nofollow sponsored" target="_blank">Check prices</a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__media"><div class="ph ph--gold"><span>Apartamentos Marino</span></div></div>
+        <div class="card__body">
+          <span class="tag">Best value</span>
+          <h3>Apartamentos Marino Tenerife</h3>
+          <p>Straightforward self-catering in Costa del Silencio at a price that makes longer stays realistic. No glamour, no complaints, and the diving centres are minutes away.</p>
+          <p class="price">From ~€70 <small>/ night · Apartments · Costa del Silencio</small></p>
+          <a class="book-btn" href="https://www.booking.com/searchresults.html?ss=Apartamentos+Marino+Tenerife+Costa+del+Silencio" rel="nofollow sponsored" target="_blank">Check prices</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--mist">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Eat &amp; drink</span>
+      <h2>Food &amp; drink worth the sandy floor</h2>
+      <p>The east eats casually and eats well. Fish comes off the boats at Los Abrigos and Las Galletas, and El Médano's food scene runs from surf-shack breakfasts to one properly serious dining room.</p>
+    </div>
+    <div class="grid grid--3">
+      <article class="card">
+        <div class="card__body">
+          <span class="tag tag--gold">Special occasion</span>
+          <h3>El Templete</h3>
+          <p>The town's white-tablecloth fish restaurant and the address for the one dressed-up dinner of the week. Book ahead; the dining room is not large and locals treat it as theirs. €€€</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__body">
+          <h3>Playa Chica</h3>
+          <p>A seafood terrace looking over the little sheltered beach of the same name. Order the calamari, take your time, and watch the swimmers below in the one corner of town the wind forgets. €€</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__body">
+          <span class="tag">Institution</span>
+          <h3>Café Flashpoint</h3>
+          <p>The surf institution beside the kite beach: breakfasts, burgers and beers with a front-row view of El Cabezo's riders. Half the customers are still in wetsuits, which tells you the dress code. €</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__body">
+          <span class="tag tag--coral">Reserve</span>
+          <h3>La Boquería Taberna</h3>
+          <p>Tiny modern tapas room with around ten tables and cooking that would hold its own in Santa Cruz. Reserving is not optional, especially at weekends. €€</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__body">
+          <span class="tag tag--sand">Beach shack</span>
+          <h3>Chiringuito Pirata</h3>
+          <p>A rustic shack on La Tejita doing paella, ceviche and sunsets, with a Repsol "Solete" award to prove the charm is recognised. Rough edges included in the price. €€</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__body">
+          <span class="tag">Fresh fish</span>
+          <h3>Los Abrigos harbourfront</h3>
+          <p>A strip of fish restaurants around the harbour where you pick your fish from the display and it arrives grilled. Restaurante Los Abrigos, El Cangrejo and Tito are the established names. €€–€€€</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card__body">
+          <h3>Las Galletas seafront</h3>
+          <p>Unpretentious local fish and tapas along the harbour town's front, at prices the resorts stopped charging years ago. The rule of thumb: go where you hear Spanish spoken. €</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--sand">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Know before you go</span>
+      <h2>Practical notes for the east</h2>
+      <p>This is the easiest region on the island to reach, and the practicalities mostly come down to parking and one bus line.</p>
+    </div>
+    <div class="table-wrap">
+      <table class="tc">
+        <thead><tr><th>Question</th><th>The short answer</th></tr></thead>
+        <tbody>
+          <tr><td>From the airport</td><td>El Médano is about 10 minutes from Tenerife South (TFS), the shortest transfer on the island. A taxi runs roughly €12 to €16.</td></tr>
+          <tr><td>Getting around</td><td>The TF-1 motorway runs along the whole coast, so no part of the east is more than a few minutes from an exit. A car makes La Tejita and Granadilla trivial.</td></tr>
+          <tr><td>By bus</td><td>TITSA line 470 links Los Cristianos, Las Galletas, Golf del Sur, Los Abrigos and El Médano, roughly 06:00 to 23:00, every 40 to 80 minutes.</td></tr>
+          <tr><td>Parking at La Tejita</td><td>Two free dirt lots off the TF-643, then a 5-minute walk over the dunes. They fill on summer weekends, so arrive in the morning.</td></tr>
+          <tr><td>Parking in El Médano</td><td>Tight on Wednesday and Saturday mornings when the markets are on. Outside those windows it is manageable.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Quick answers</span>
+      <h2>East Tenerife FAQ</h2>
+    </div>
+    <div class="faq">
+      <details>
+        <summary>Is El Médano good for a holiday?</summary>
+        <p>Yes, if you want a real town rather than a resort: a plaza, a boardwalk, natural beaches and a laid-back, sporty crowd. It suits independent travellers, wind-sport people and anyone bored of hotel strips. If you want big pools, nightlife and guaranteed still air on the sunbed, the southern resorts fit better.</p>
+      </details>
+      <details>
+        <summary>Is it too windy to sunbathe?</summary>
+        <p>Sometimes, honestly. The trade winds blow most reliably from May to September and peak in July and August, and at La Tejita a strong day means flying sand. October to December is calmer, and Playa Chica is the sheltered corner that works on almost any day. Check the wind forecast and plan beach days around it.</p>
+      </details>
+      <details>
+        <summary>Can beginners learn to kitesurf in El Médano?</summary>
+        <p>Yes, this is one of the best places in Europe to start. Schools such as the Duotone Pro Center and Kitesurf 313 teach beginners on El Cabezo, the dedicated kite beach. Expect around €120 to €130 for a roughly two-hour lesson, or about €295 for a full nine-hour beginner course.</p>
+      </details>
+      <details>
+        <summary>Is La Tejita a nudist beach?</summary>
+        <p>Partly. The end of the beach nearest Montaña Roja is naturist by long tradition, while the rest is mixed and textile. Nobody polices a boundary; the transition is gradual and everyone coexists without fuss. Facilities are minimal along the whole beach, so bring water and shade whichever end you choose.</p>
+      </details>
+      <details>
+        <summary>How close is the airport to El Médano?</summary>
+        <p>About 10 minutes by road from Tenerife South (TFS), with a taxi costing roughly €12 to €16. It is the shortest airport transfer on the island, which makes the east ideal for short breaks and for the first or last night of a longer trip. Flight noise in town is occasional rather than constant.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="disclosure">Some links on this page are affiliate links. If you book through them we may earn a small commission at no extra cost to you. It never affects what we recommend.</div></div>
+<p class="text-center"><a class="btn btn--primary" href="/south/best-beaches.html">Read: the best beaches guide</a></p>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is El Médano good for a holiday?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if you want a real town rather than a resort: a plaza, a boardwalk, natural beaches and a laid-back, sporty crowd. It suits independent travellers, wind-sport people and anyone bored of hotel strips. If you want big pools, nightlife and guaranteed still air on the sunbed, the southern resorts fit better."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it too windy to sunbathe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sometimes. The trade winds blow most reliably from May to September and peak in July and August, and at La Tejita a strong day means flying sand. October to December is calmer, and Playa Chica is the sheltered corner that works on almost any day. Check the wind forecast and plan beach days around it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can beginners learn to kitesurf in El Médano?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, this is one of the best places in Europe to start. Schools such as the Duotone Pro Center and Kitesurf 313 teach beginners on El Cabezo, the dedicated kite beach. Expect around €120 to €130 for a roughly two-hour lesson, or about €295 for a full nine-hour beginner course."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is La Tejita a nudist beach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Partly. The end of the beach nearest Montaña Roja is naturist by long tradition, while the rest is mixed and textile. Nobody polices a boundary; the transition is gradual and everyone coexists without fuss. Facilities are minimal along the whole beach, so bring water and shade whichever end you choose."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How close is the airport to El Médano?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About 10 minutes by road from Tenerife South (TFS), with a taxi costing roughly €12 to €16. It is the shortest airport transfer on the island, which makes the east ideal for short breaks and for the first or last night of a longer trip."
+      }
+    }
+  ]
+}
+</script>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><div class="footer-brand"><img class="compass-mark" src="/assets/compass.svg" alt="" width="26" height="26"> Tenerife Compass</div><p>An independent travel guide to Tenerife, region by region. Honest advice, kept up to date.</p></div>
+      <div><h4>South guides</h4><ul><li><a href="/south/where-to-stay.html">Where to Stay</a></li><li><a href="/south/things-to-do.html">Things to Do</a></li><li><a href="/south/food-and-drink.html">Food &amp; Drink</a></li><li><a href="/south/practical.html">Plan Your Trip</a></li></ul></div>
+      <div><h4>About</h4><ul><li><a href="/about.html">About us</a></li><li><a href="/about.html#contact">Contact</a></li><li><a href="/privacy.html">Privacy &amp; cookies</a></li><li><a href="/privacy.html#affiliate">Affiliate disclosure</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Tenerife Compass. All rights reserved.</span><span>Made for travellers, not brochures.</span></div>
+  </div>
+</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="/assets/places.js?v=2"></script>
+<script>
+  const t = document.querySelector('.nav-toggle'), l = document.querySelector('.nav-links');
+  t && t.addEventListener('click', () => { const o = l.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
+  const PLACES = (window.TC_PLACES || []).filter(p => p.region === 'east');
+  const CATS = {
+    stay:  {color:'#ff6b4a', label:'Hotel'},
+    eat:   {color:'#f0a81e', label:'Restaurant'},
+    do:    {color:'#0d9bb5', label:'Things to do'},
+    beach: {color:'#16b8cc', label:'Beach'},
+    drink: {color:'#b1466c', label:'Bar / nightlife'}
+  };
+  const map = L.map('southmap', {scrollWheelZoom:false}).setView([28.035, -16.57], 12);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  const listEl = document.getElementById('place-list');
+  const countEl = document.getElementById('place-count');
+  const items = PLACES.map(p => {
+    const c = CATS[p.cat];
+    const popup = '<strong>'+p.name+'</strong><br><span style="color:#52707a">'+c.label+' · '+p.area+'</span><br>'+p.desc+(p.link ? '<br><a href="'+p.link+'">Read more →</a>' : '');
+    const m = L.circleMarker([p.lat, p.lng], {radius:9, color:'#fff', weight:2, fillColor:c.color, fillOpacity:1}).bindPopup(popup);
+    m.addTo(map);
+    const row = document.createElement('div');
+    row.className = 'place-item';
+    row.innerHTML = '<span class="dot" style="background:'+c.color+'"></span><span><b>'+p.name+'</b><small>'+c.label+' · '+p.area+'</small></span>';
+    row.addEventListener('click', () => { map.setView([p.lat, p.lng], 15, {animate:true}); m.openPopup(); });
+    listEl.appendChild(row);
+    return {p, m, row};
+  });
+  function applyFilter(cat) {
+    let n = 0;
+    items.forEach(({p, m, row}) => {
+      const show = (cat === 'all' || p.cat === cat);
+      row.style.display = show ? '' : 'none';
+      if (show) { m.addTo(map); n++; } else { map.removeLayer(m); }
+    });
+    countEl.textContent = n + ' place' + (n===1?'':'s') + ' shown';
+  }
+  applyFilter('all');
+  document.querySelectorAll('.map-filter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.map-filter').forEach(b => {
+        b.classList.remove('is-on'); b.classList.add('btn--ghost');
+        b.style.background = '#fff'; b.style.color = 'var(--ocean-deep)';
+      });
+      btn.classList.add('is-on'); btn.classList.remove('btn--ghost');
+      btn.style.background = 'var(--ocean)'; btn.style.color = '#fff';
+      applyFilter(btn.dataset.cat);
+    });
+  });
+</script>
+</body>
+</html>

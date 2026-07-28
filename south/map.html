@@ -86,7 +86,7 @@
   const t = document.querySelector('.nav-toggle'), l = document.querySelector('.nav-links');
   t && t.addEventListener('click', () => { const o = l.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
 
-  const PLACES = window.TC_PLACES || [];
+  const PLACES = (window.TC_PLACES || []).filter(p => p.region === 'south');
   const CATS = {
     stay:  {color:'#ff6b4a', label:'Hotel'},
     eat:   {color:'#f0a81e', label:'Restaurant'},

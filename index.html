@@ -69,7 +69,7 @@
     <div class="section-head">
       <span class="eyebrow">Explore by region</span>
       <h2>Where in Tenerife are you headed?</h2>
-      <p>Tap a region to dive in. The south is ready now, with the rest of the island on the way.</p>
+      <p>Tap a region to dive in — every corner of the island now has its own guide.</p>
     </div>
 
     <div class="map-wrap">
@@ -82,29 +82,37 @@
           </clipPath>
         </defs>
 
-        <!-- WEST — Teno, Masca, Los Gigantes (coming soon) -->
-        <g class="region region--soon">
-          <polygon clip-path="url(#tf-outline)" points="218,273 -60,380 -60,-50 150,-50" fill="#a7babd"/>
-          <text class="region-label dark" x="117" y="242">WEST</text>
-        </g>
+        <!-- WEST — Teno, Masca, Los Gigantes -->
+        <a href="/west/" aria-label="Explore West Tenerife">
+          <g class="region">
+            <polygon clip-path="url(#tf-outline)" points="218,273 -60,380 -60,-50 150,-50" fill="#a7babd"/>
+            <text class="region-label dark" x="117" y="242">WEST</text>
+          </g>
+        </a>
 
-        <!-- NORTH — Puerto de la Cruz & the green north (coming soon) -->
-        <g class="region region--soon">
-          <polygon clip-path="url(#tf-outline)" points="218,273 150,-50 400,-50" fill="#c6d2cd"/>
-          <text class="region-label dark" x="233" y="198">NORTH</text>
-        </g>
+        <!-- NORTH — Puerto de la Cruz & the green north -->
+        <a href="/north/" aria-label="Explore North Tenerife">
+          <g class="region">
+            <polygon clip-path="url(#tf-outline)" points="218,273 150,-50 400,-50" fill="#c6d2cd"/>
+            <text class="region-label dark" x="233" y="198">NORTH</text>
+          </g>
+        </a>
 
-        <!-- NORTH-EAST — Santa Cruz, La Laguna & Anaga (coming soon) -->
-        <g class="region region--soon">
-          <polygon clip-path="url(#tf-outline)" points="218,273 400,-50 660,-50 660,300" fill="#b4c3c6"/>
-          <text class="region-label dark" x="399" y="155">SANTA CRUZ</text>
-        </g>
+        <!-- NORTH-EAST — Santa Cruz, La Laguna & Anaga -->
+        <a href="/santa-cruz/" aria-label="Explore Santa Cruz and La Laguna">
+          <g class="region">
+            <polygon clip-path="url(#tf-outline)" points="218,273 400,-50 660,-50 660,300" fill="#b4c3c6"/>
+            <text class="region-label dark" x="399" y="155">SANTA CRUZ</text>
+          </g>
+        </a>
 
-        <!-- EAST — El Médano & the windward coast (coming soon) -->
-        <g class="region region--soon">
-          <polygon clip-path="url(#tf-outline)" points="218,273 660,300 660,570 250,570" fill="#ddd1b8"/>
-          <text class="region-label dark" x="298" y="368">EAST</text>
-        </g>
+        <!-- EAST — El Médano & the windward coast -->
+        <a href="/east/" aria-label="Explore El Médano and the east">
+          <g class="region">
+            <polygon clip-path="url(#tf-outline)" points="218,273 660,300 660,570 250,570" fill="#ddd1b8"/>
+            <text class="region-label dark" x="298" y="368">EAST</text>
+          </g>
+        </a>
 
         <!-- SOUTH — Costa Adeje, Las Américas, Los Cristianos (ACTIVE) -->
         <a href="/south/" aria-label="Explore South Tenerife">
@@ -133,10 +141,10 @@
         <ul class="map-legend">
           <li><a href="/south/"><span class="dot" style="background:#ff6b4a"></span> South Tenerife <small>Adeje · Las Américas · Los Cristianos</small></a></li>
           <li><a href="/south/things-to-do.html#teide"><span class="dot" style="background:#08475a"></span> Mount Teide <small>National park, cable car, stargazing</small></a></li>
-          <li><a href="#map" onclick="return false;" style="cursor:default;"><span class="dot" style="background:#16b8cc"></span> North <span class="lg-soon">Soon</span></a></li>
-          <li><a href="#map" onclick="return false;" style="cursor:default;"><span class="dot" style="background:#0d9bb5"></span> Santa Cruz &amp; La Laguna <span class="lg-soon">Soon</span></a></li>
-          <li><a href="#map" onclick="return false;" style="cursor:default;"><span class="dot" style="background:#ffc233"></span> El Médano &amp; East <span class="lg-soon">Soon</span></a></li>
-          <li><a href="#map" onclick="return false;" style="cursor:default;"><span class="dot" style="background:#0a6d80"></span> Teno &amp; West <span class="lg-soon">Soon</span></a></li>
+          <li><a href="/north/"><span class="dot" style="background:#c6d2cd"></span> North <small>Puerto de la Cruz · La Orotava · Garachico</small></a></li>
+          <li><a href="/santa-cruz/"><span class="dot" style="background:#b4c3c6"></span> Santa Cruz &amp; La Laguna <small>Capital · UNESCO old town · Anaga</small></a></li>
+          <li><a href="/east/"><span class="dot" style="background:#ddd1b8"></span> El Médano &amp; East <small>Surf town · La Tejita · golf</small></a></li>
+          <li><a href="/west/"><span class="dot" style="background:#a7babd"></span> Teno &amp; West <small>Los Gigantes · Alcalá · Playa San Juan</small></a></li>
         </ul>
       </div>
     </div>
@@ -234,8 +242,8 @@
         <ul>
           <li><a href="/south/">South Tenerife</a></li>
           <li><a href="/south/things-to-do.html#teide">Mount Teide</a></li>
-          <li><a href="#map">North (soon)</a></li>
-          <li><a href="#map">West &amp; Teno (soon)</a></li>
+          <li><a href="/north/">North</a></li>
+          <li><a href="/santa-cruz/">Santa Cruz &amp; La Laguna</a></li><li><a href="/east/">El Médano &amp; East</a></li><li><a href="/west/">West &amp; Teno</a></li>
         </ul>
       </div>
       <div>
