@@ -42,7 +42,7 @@ Booking buttons are placeholders pointing at partner search URLs, marked with `<
 The affiliate disclosure lives at `/privacy.html#affiliate`.
 
 ## Deploy
-Mirrors the Spilanet setup: push to `main` → GitHub Actions uploads via FTPS to SiteGround (`.github/workflows/deploy.yml`). Set repo secrets `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`, and confirm `server-dir` matches the domain's public_html.
+GitHub → Netlify: every push to `main` auto-deploys (site: peaceful-queijadas-e6b870.netlify.app). `netlify.toml` publishes the repo root. Custom domain tenerifecompass.com to be connected in Netlify → Domain management.
 
 ## Local preview
 ```bash
