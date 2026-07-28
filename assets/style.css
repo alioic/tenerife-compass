@@ -353,17 +353,15 @@ table.tc tr:nth-child(even) td { background: var(--sand); }
 .map-wrap { display: grid; grid-template-columns: 1.35fr 1fr; gap: clamp(24px, 4vw, 48px); align-items: center; }
 @media (max-width: 820px) { .map-wrap { grid-template-columns: 1fr; } }
 
-.tf-map { width: 100%; height: auto; display: block; filter: drop-shadow(0 16px 36px rgba(10,109,128,.20)); overflow: visible; }
+.tf-map { width: 100%; height: auto; display: block; filter: drop-shadow(0 10px 26px rgba(10,109,128,.16)); overflow: visible; }
 .tf-map .region { cursor: pointer; transition: filter .2s ease; }
 .tf-map .region polygon { transition: filter .2s ease; stroke: #fffcf6; stroke-width: 1.4; stroke-linejoin: round; }
 .tf-map .region:hover { filter: brightness(1.05) saturate(1.04); }
 .tf-map .region--soon { cursor: default; }
 .tf-map .region--soon:hover { filter: brightness(1.03); }
 .tf-map .coastline { fill: none; stroke: #8fa6a9; stroke-width: 1.8; stroke-linejoin: round; pointer-events: none; }
-.tf-map .region-label { font-family: var(--font-body); font-weight: 700; fill: #fff; font-size: 14px; pointer-events: none; text-anchor: middle; }
-.tf-map .region-label.dark { fill: var(--ink); }
-.tf-map .soon-pill { font-family: var(--font-body); font-weight: 700; font-size: 9.5px; letter-spacing: .05em; fill: #fff; text-transform: uppercase; pointer-events: none; text-anchor: middle; opacity:.92; }
-.tf-map .soon-pill.dark { fill: var(--ink); }
+.tf-map .region-label { font-family: var(--font-body); font-weight: 700; fill: #fff; font-size: 12.5px; letter-spacing: .12em; pointer-events: none; text-anchor: middle; }
+.tf-map .region-label.dark { fill: #3c565e; paint-order: stroke; stroke: rgba(255,252,246,.9); stroke-width: 3px; }
 
 /* Fylgilisti við hlið kortsins */
 .map-legend { list-style: none; margin: 0; padding: 0; }
