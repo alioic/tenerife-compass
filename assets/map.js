@@ -57,14 +57,19 @@
       : L.layerGroup();
     map.addLayer(layer);
 
-    // ---- matarflokka-síur (byggðar úr gögnunum) ----------------------
-    if (cuisineWrap) {
+    // ---- undirflokka-síur (byggðar úr gögnunum fyrir valinn flokk) ----
+    function buildChips(cat) {
+      if (!cuisineWrap) return;
       var counts = {};
-      data.forEach(function (p) { if (p.c === 'eat' && p.t) counts[p.t] = (counts[p.t] || 0) + 1; });
-      var kinds = Object.keys(counts).filter(function (k) { return counts[k] >= 3 && k !== 'Other'; })
-                        .sort(function (a, b) { return counts[b] - counts[a]; });
+      data.forEach(function (p) { if (p.c === cat && p.t) counts[p.t] = (counts[p.t] || 0) + 1; });
+      var kinds = Object.keys(counts)
+        .filter(function (k) { return counts[k] >= 3 && k !== 'Restaurant' && k !== 'Other'; })
+        .sort(function (a, b) { return counts[b] - counts[a]; });
+      var allLabel = cat === 'eat' ? 'All food' : cat === 'stay' ? 'All stays'
+                    : cat === 'do' ? 'All sights' : cat === 'drink' ? 'All bars'
+                    : cat === 'beach' ? 'All beaches' : 'All';
       cuisineWrap.innerHTML = '';
-      [['all', 'All food']].concat(kinds.map(function (k) { return [k, k + ' (' + counts[k] + ')']; }))
+      [['all', allLabel]].concat(kinds.map(function (k) { return [k, k + ' (' + counts[k] + ')']; }))
         .forEach(function (pair, i) {
           var b = document.createElement('button');
           b.className = 'chip' + (i === 0 ? ' is-on' : '');
@@ -74,17 +79,17 @@
             cuisineWrap.querySelectorAll('.chip').forEach(function (x) { x.classList.remove('is-on'); });
             b.classList.add('is-on');
             curCuisine = pair[0];
-            if (curCat !== 'eat') setCat('eat');
-            else refresh();
+            refresh();
           });
           cuisineWrap.appendChild(b);
         });
+      cuisineWrap.style.display = kinds.length > 1 ? '' : 'none';
     }
 
     // ---- síun + teikning ---------------------------------------------
     function visible(it) {
       if (curCat !== 'all' && it.p.c !== curCat) return false;
-      if (curCat === 'eat' && curCuisine !== 'all' && it.p.t !== curCuisine) return false;
+      if (curCat !== 'all' && curCuisine !== 'all' && it.p.t !== curCuisine) return false;
       if (curText && it.hay.indexOf(curText) === -1) return false;
       return true;
     }
@@ -130,8 +135,9 @@
         b.style.background = on ? 'var(--ocean)' : '#fff';
         b.style.color = on ? '#fff' : 'var(--ocean-deep)';
       });
-      if (cuisineWrap) cuisineWrap.style.display = (cat === 'eat') ? '' : 'none';
-      if (cat !== 'eat') curCuisine = 'all';
+      curCuisine = 'all';
+      if (cat === 'all') { if (cuisineWrap) cuisineWrap.style.display = 'none'; }
+      else buildChips(cat);
       refresh();
     }
 
