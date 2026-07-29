@@ -395,6 +395,21 @@ table.tc tr:nth-child(even) td { background: var(--sand); }
   .place-list { max-height: 340px; order: 2; }
 }
 
+
+/* Matarflokka-flísar (cuisine chips) */
+.cuisine-filters { display:flex; flex-wrap:wrap; gap:.4em; justify-content:center; margin:-6px 0 18px; }
+.chip { font-family:var(--font-body); font-size:.85rem; font-weight:600; padding:.35em .9em; border-radius:999px;
+        border:1px solid var(--line); background:#fff; color:var(--ink-soft); cursor:pointer; transition:.15s; }
+.chip:hover { border-color:var(--ocean); color:var(--ocean-deep); }
+.chip.is-on { background:var(--ocean-deep); border-color:var(--ocean-deep); color:#fff; }
+.place-item.is-featured { border-color:#e2d6c4; background:#fffdf8; }
+.place-item.is-featured b::after { content:"★"; color:var(--gold); font-size:.8em; margin-left:.35em; }
+.place-more { font-size:.85rem; color:var(--ink-soft); padding:10px 4px; margin:0; }
+/* Leaflet cluster — samræma við pallettuna */
+.marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background:rgba(74,111,165,.25); }
+.marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div {
+  background:#4A6FA5; color:#fff; font-family:var(--font-body); font-weight:700; }
+
 /* --------------------------------------------------------------------------
    19. Hjálparklasar
    -------------------------------------------------------------------------- */

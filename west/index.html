@@ -17,7 +17,9 @@
 <link rel="icon" href="/assets/compass.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="/assets/style.css?v=3">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<link rel="stylesheet" href="/assets/style.css?v=4">
 </head>
 <body>
 <header class="site-header">
@@ -102,6 +104,7 @@
       <button class="btn btn--ghost map-filter" data-cat="beach" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Beaches</button>
       <button class="btn btn--ghost map-filter" data-cat="drink" style="border-color:var(--ocean);color:var(--ocean-deep);background:#fff;">Bars &amp; sunsets</button>
     </div>
+    <div class="cuisine-filters" id="cuisine-filters"></div>
     <div class="map-explorer">
       <div><p class="place-count" id="place-count"></p><div id="place-list" class="place-list"></div></div>
       <div id="southmap"></div>
@@ -470,57 +473,13 @@
   </div>
 </footer>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="/assets/places.js?v=2"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="/assets/places-west.js?v=1"></script>
+<script src="/assets/map.js?v=1"></script>
 <script>
   const t = document.querySelector('.nav-toggle'), l = document.querySelector('.nav-links');
   t && t.addEventListener('click', () => { const o = l.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
-  const PLACES = (window.TC_PLACES || []).filter(p => p.region === 'west');
-  const CATS = {
-    stay:  {color:'#ff6b4a', label:'Hotel'},
-    eat:   {color:'#f0a81e', label:'Restaurant'},
-    do:    {color:'#0d9bb5', label:'Things to do'},
-    beach: {color:'#16b8cc', label:'Beach'},
-    drink: {color:'#b1466c', label:'Bar / sunset spot'}
-  };
-  const map = L.map('southmap', {scrollWheelZoom:false}).setView([28.235, -16.84], 12);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map);
-  const listEl = document.getElementById('place-list');
-  const countEl = document.getElementById('place-count');
-  const items = PLACES.map(p => {
-    const c = CATS[p.cat];
-    const popup = '<strong>'+p.name+'</strong><br><span style="color:#52707a">'+c.label+' · '+p.area+'</span><br>'+p.desc+(p.link ? '<br><a href="'+p.link+'">Read more →</a>' : '');
-    const m = L.circleMarker([p.lat, p.lng], {radius:9, color:'#fff', weight:2, fillColor:c.color, fillOpacity:1}).bindPopup(popup);
-    m.addTo(map);
-    const row = document.createElement('div');
-    row.className = 'place-item';
-    row.innerHTML = '<span class="dot" style="background:'+c.color+'"></span><span><b>'+p.name+'</b><small>'+c.label+' · '+p.area+'</small></span>';
-    row.addEventListener('click', () => { map.setView([p.lat, p.lng], 15, {animate:true}); m.openPopup(); });
-    listEl.appendChild(row);
-    return {p, m, row};
-  });
-  function applyFilter(cat) {
-    let n = 0;
-    items.forEach(({p, m, row}) => {
-      const show = (cat === 'all' || p.cat === cat);
-      row.style.display = show ? '' : 'none';
-      if (show) { m.addTo(map); n++; } else { map.removeLayer(m); }
-    });
-    countEl.textContent = n + ' place' + (n===1?'':'s') + ' shown';
-  }
-  applyFilter('all');
-  document.querySelectorAll('.map-filter').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.map-filter').forEach(b => {
-        b.classList.remove('is-on'); b.classList.add('btn--ghost');
-        b.style.background = '#fff'; b.style.color = 'var(--ocean-deep)';
-      });
-      btn.classList.add('is-on'); btn.classList.remove('btn--ghost');
-      btn.style.background = 'var(--ocean)'; btn.style.color = '#fff';
-      applyFilter(btn.dataset.cat);
-    });
-  });
+  TCMap({ el: 'southmap', region: 'west', center: [28.235, -16.84], zoom: 12, scrollWheel: false });
 </script>
 </body>
 </html>
