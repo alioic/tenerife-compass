@@ -41,11 +41,12 @@
         (p.l ? '<br><a href="' + p.l + '">Read more →</a>' : '') +
         (!p.l && p.w ? '<br><a href="' + p.w + '" rel="nofollow" target="_blank">Website ↗</a>' : '');
       var marker = L.circleMarker([p.y, p.x], {
-        radius: featured ? 8 : 5,
+        radius: featured ? 10 : 7,
         color: '#fff',
-        weight: featured ? 2 : 1,
+        weight: featured ? 3 : 2.5,
+        opacity: 1,
         fillColor: c.color,
-        fillOpacity: featured ? 1 : 0.8
+        fillOpacity: 1
       }).bindPopup(html);
       return { p: p, m: marker, c: c, featured: featured,
                hay: (p.n + ' ' + p.a + ' ' + (p.t || '') + ' ' + c.label).toLowerCase() };
@@ -150,8 +151,19 @@
       });
     }
 
+    // stærri pinnar þegar zoomað er inn (þeir hverfa annars í kortagrunninn)
+    function sizeForZoom() {
+      var z = map.getZoom();
+      var bump = z >= 16 ? 3 : z >= 14 ? 1.5 : 0;
+      items.forEach(function (it) {
+        it.m.setRadius((it.featured ? 10 : 7) + bump);
+      });
+    }
+    map.on('zoomend', sizeForZoom);
+
     if (cuisineWrap) cuisineWrap.style.display = 'none';
     refresh();
+    sizeForZoom();
     return map;
   };
 
