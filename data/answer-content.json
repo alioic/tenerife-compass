@@ -471,5 +471,372 @@
     ],
     "cta": "teide+stargazing",
     "ctaLabel": "See stargazing tours"
+  },
+  "is-tenerife-safe": {
+    "question": "Is Tenerife safe?",
+    "title": "Is Tenerife Safe? An Honest Look at the Risks",
+    "meta": "Tenerife is a very safe destination and violent crime is rare. The real risks are the Atlantic, the mountain roads and the sun — not the streets.",
+    "image": "promenade-camison.jpg",
+    "alt": "The palm-lined promenade at Playa del Camisón",
+    "eyebrow": "Weather and safety",
+    "crumb": "Safety",
+    "short": "Yes. Tenerife is part of Spain and is a very safe place to travel, with violent crime rare and resorts heavily policed. The genuine risks are not criminal: the Atlantic, the mountain roads and the sun account for far more visitor trouble than anything else.",
+    "sections": [
+      {
+        "h2": "The sea is the real risk",
+        "p": [
+          "If one thing on this page matters, it is this. Tenerife's beaches range from sheltered southern bays where children paddle safely to open Atlantic coastline with heavy swell, powerful currents and no lifeguard on duty. People get into difficulty here every year, and it is almost always at the second kind of beach.",
+          "Treat the flag system as an instruction rather than a suggestion. Green means normal conditions, yellow means care, red means do not enter — and red means it whether or not other people are in the water. On the north and west coasts, and at the Anaga beaches in particular, assume there is no lifeguard unless you can see one. If you want reliable swimming, the sheltered southern beaches are genuinely safe."
+        ]
+      },
+      {
+        "h2": "Driving, and the roads that catch people out",
+        "p": [
+          "The motorways are modern and easy. The mountain roads are a different proposition: the TF-436 to Masca, the Anaga roads and the climbs to Teide are narrow, relentlessly winding and often have a drop on one side and a coach coming the other way. They are not dangerous if you are unhurried and sober, but they punish over-confidence.",
+          "Two practical points. Hire-car break-ins at remote trailhead car parks happen often enough to be worth planning around — leave nothing visible, ever. And driving those roads tired after a late night is where the actual risk sits, not in the driving itself."
+        ]
+      },
+      {
+        "h2": "Crime, and the one thing that annoys people",
+        "p": [
+          "Petty theft is the realistic concern: pickpocketing in crowded resort areas, bags lifted from beaches, things taken from cars. Standard precautions cover it. Violent crime against visitors is rare, and walking back to your hotel at night in the southern resorts is not something to worry about.",
+          "The thing that genuinely irritates people is not crime at all: timeshare and holiday-club touts working the busy stretches of Playa de las Américas and Los Cristianos, usually opening with a scratch card or a survey. A firm no and continuing to walk ends it. Do not accept a lift to a presentation, however good the prize sounds."
+        ],
+        "list": [
+          "Emergency number is 112, as everywhere in the EU",
+          "Follow the beach flags without exception",
+          "Leave nothing visible in a parked car",
+          "Walk past the scratch-card touts"
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Is Tenerife safe at night?",
+        "Yes, in normal terms. The resort areas are busy and policed. Ordinary city sense applies, and the busiest nightlife strip in Playa de las Américas gets rowdy late, which is worth knowing when choosing a hotel."
+      ],
+      [
+        "Is it safe to swim in Tenerife?",
+        "On the sheltered southern beaches, yes. On the open north and west coasts, conditions can be genuinely dangerous and lifeguard cover is patchy. Always follow the flags."
+      ],
+      [
+        "What is the emergency number in Tenerife?",
+        "112, the same across the EU. It covers police, ambulance and fire and has English-speaking operators."
+      ],
+      [
+        "Are the timeshare touts a scam?",
+        "The scratch-card approach is a sales tactic, not a robbery. It costs you a long high-pressure presentation rather than your wallet. Decline and keep walking."
+      ]
+    ],
+    "related": [
+      [
+        "/are-there-sharks-in-tenerife.html",
+        "Are there sharks in Tenerife?",
+        "What is actually in the water"
+      ],
+      [
+        "/do-you-need-a-car-in-tenerife.html",
+        "Do you need a car?",
+        "And what the mountain roads are like"
+      ],
+      [
+        "/best-beaches.html",
+        "Best beaches in Tenerife",
+        "Which are calm and which are wild"
+      ]
+    ]
+  },
+  "what-language-do-they-speak-in-tenerife": {
+    "question": "What language do they speak in Tenerife?",
+    "title": "What Language Do They Speak in Tenerife?",
+    "meta": "Spanish, in a distinctive Canarian accent closer to Latin America than to Madrid. English is widely spoken in the resorts and much less so inland.",
+    "image": "la-laguna.jpg",
+    "alt": "A colonial street in La Laguna",
+    "eyebrow": "Costs and practicalities",
+    "crumb": "Language",
+    "short": "Spanish. Canarian Spanish has its own accent and vocabulary and sounds closer to Latin America than to mainland Spain. English is widely spoken across the southern resorts, patchily in the north, and barely at all in the small inland villages.",
+    "sections": [
+      {
+        "h2": "Canarian Spanish is its own thing",
+        "p": [
+          "The official language is Spanish, but if you learned yours in Madrid or from a textbook, the Canarian version will take a moment. Islanders use seseo, pronouncing c and z as s, so cerveza comes out closer to servesa. Final s tends to be aspirated or dropped, which is why las casas can sound like lah casah.",
+          "Grammar differs too. Canarians use ustedes where mainland Spain uses vosotros for you plural, exactly as Latin America does. That is not a coincidence: centuries of traffic between the islands and the Americas ran in both directions, and the language went with it."
+        ]
+      },
+      {
+        "h2": "Words you will actually hear",
+        "p": [
+          "A handful of everyday Canarian words are not the mainland ones, and knowing four or five of them makes ordering considerably easier. A bus is a guagua, not an autobús. Potatoes are papas, not patatas — which is how you get papas arrugadas, the wrinkled salt-boiled potatoes served with almost everything.",
+          "You will also meet millo for maize rather than maíz, and a friendly mi niño or mi niña used to address adults of any age, which is affectionate rather than condescending. Several of these came from Portuguese, another legacy of who was sailing past."
+        ],
+        "list": [
+          "guagua — bus",
+          "papas — potatoes",
+          "millo — maize",
+          "mi niño / mi niña — affectionate address",
+          "ustedes — you plural, as in Latin America"
+        ]
+      },
+      {
+        "h2": "Will English get you by?",
+        "p": [
+          "In Costa Adeje, Playa de las Américas and Los Cristianos, comfortably. Menus are translated, hotel staff are fluent, and many businesses are run by long-settled British, German and Italian residents. You can holiday there for a week without a word of Spanish and nobody will blink.",
+          "Away from that strip it thins out quickly. In Santa Cruz and La Laguna you will find English in the tourist-facing places and less elsewhere. In the villages of Anaga, Teno and the inland north, assume none. A few words of Spanish are not just useful there — they are noticed and appreciated, because visitors so rarely bother.",
+          "One thing that is often confused: the whistled language, silbo, belongs to La Gomera, the island you can see from the south coast. It is not spoken in Tenerife."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Do I need to speak Spanish in Tenerife?",
+        "Not in the southern resorts, where English is spoken everywhere. Away from them it helps a great deal, and in the inland villages it is close to essential."
+      ],
+      [
+        "Is Canarian Spanish hard to understand?",
+        "It is a distinct accent — s sounds are softened or dropped and the rhythm is faster — but it is standard Spanish underneath. Learners who know Latin American Spanish usually find it easier than mainland Spanish."
+      ],
+      [
+        "What is the whistled language of the Canary Islands?",
+        "Silbo Gomero, a whistled form of Spanish used to communicate across the ravines of La Gomera. It is recognised by UNESCO and taught in schools there, but it belongs to La Gomera, not Tenerife."
+      ],
+      [
+        "Is Guanche still spoken?",
+        "No. The language of the island's pre-conquest inhabitants died out, though it survives in place names such as Taganana and Anaga and in a few everyday words."
+      ]
+    ],
+    "related": [
+      [
+        "/is-tenerife-expensive.html",
+        "Is Tenerife expensive?",
+        "Where the money goes"
+      ],
+      [
+        "/south/food-and-drink.html",
+        "Food and drink in the south",
+        "What to order, and what papas arrugadas are"
+      ],
+      [
+        "/place/la-laguna/",
+        "La Laguna",
+        "Where you will hear the least English and eat the best tapas"
+      ]
+    ]
+  },
+  "can-you-swim-in-the-sea-in-tenerife-in-winter": {
+    "question": "Can you swim in the sea in Tenerife in winter?",
+    "title": "Can You Swim in the Sea in Tenerife in Winter?",
+    "meta": "Yes. Sea temperatures sit around 19°C at their winter lowest, which most northern Europeans find swimmable. What matters more is which coast you pick.",
+    "image": "las-vistas-swim.jpg",
+    "alt": "Swimmers in the sea at Playa de las Vistas",
+    "eyebrow": "Weather and safety",
+    "crumb": "Winter swimming",
+    "short": "Yes, and plenty of people do. The sea around Tenerife drops to roughly 19°C at its coldest in late winter and reaches about 23°C in early autumn. Most northern Europeans find 19°C perfectly swimmable; if you are used to Mediterranean summers, it will feel brisk for the first minute.",
+    "sections": [
+      {
+        "h2": "How cold it actually gets",
+        "p": [
+          "The Atlantic here is remarkably stable. The coldest water comes in February, March and April, sitting somewhere around nineteen degrees, and the warmest in September and October at roughly twenty-three. That is a narrower swing than most of Europe manages, and it is why the island sells itself on year-round swimming rather than a summer season.",
+          "Nineteen degrees is colder than a heated pool and warmer than the sea off Britain, Ireland or Scandinavia in any month. Whether that reads as pleasant or bracing depends entirely on what you are used to. Children tend to mind it less than adults."
+        ]
+      },
+      {
+        "h2": "Which coast, and which beach",
+        "p": [
+          "This matters more than the temperature. The sheltered southern beaches — Playa de las Vistas, Playa del Camisón, Playa del Duque, Fañabé — sit behind breakwaters that keep the water flat, and they are swimmable through the winter on most days.",
+          "The north and west are a different story in winter. Atlantic swell builds from roughly October through March, and beaches such as Playa Jardín, El Bollullo and the Anaga coast are frequently rough enough to be closed to swimming. This is the season when the seawater lidos at Lago Martiánez and the rock pools at Garachico and Punta del Hidalgo either come into their own or close entirely, depending on the day."
+        ]
+      },
+      {
+        "h2": "The pool question nobody asks in time",
+        "p": [
+          "If you are travelling between November and March and a pool matters to you, check whether the hotel's pool is heated before you book, not after. Many southern hotels heat theirs through the winter and advertise it; plenty do not, and an unheated pool in January is noticeably colder than the sea.",
+          "The other winter reality is wind rather than water. The trade winds ease in winter compared with summer, which is good news for the beach, but the sun sits lower and drops sooner. Afternoons on the sand are shorter than the temperature suggests."
+        ],
+        "list": [
+          "Around 19°C at the winter low, 23°C at the autumn high",
+          "Sheltered southern beaches swim through winter",
+          "North and west often too rough from October",
+          "Check whether the hotel pool is heated"
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "What is the sea temperature in Tenerife in December?",
+        "Around twenty degrees, easing towards nineteen through February and March. It is one of the warmest sea temperatures available in Europe in winter."
+      ],
+      [
+        "Is Tenerife warm enough to swim in January?",
+        "For most northern European visitors, yes, on the sheltered southern beaches. The water is cooler than in summer but the swing across the year is small."
+      ],
+      [
+        "Which beaches are best for winter swimming in Tenerife?",
+        "The breakwater-sheltered southern beaches: Playa de las Vistas, Playa del Camisón, Playa del Duque and Fañabé. Avoid the exposed north and west coasts, which are at their roughest in winter."
+      ]
+    ],
+    "related": [
+      [
+        "/best-time-to-visit-tenerife.html",
+        "Best time to visit Tenerife",
+        "Month by month"
+      ],
+      [
+        "/best-beaches.html",
+        "Best beaches in Tenerife",
+        "Sheltered and wild, compared"
+      ],
+      [
+        "/place/playa-de-las-vistas/",
+        "Playa de las Vistas",
+        "The calmest big beach in the south"
+      ]
+    ]
+  },
+  "is-tenerife-good-for-families": {
+    "question": "Is Tenerife good for families?",
+    "title": "Is Tenerife Good for Families? What to Know",
+    "meta": "Tenerife is one of Europe's strongest family destinations: calm sheltered beaches, two world-class attractions and reliable warmth in every month.",
+    "image": "playa-vistas.jpg",
+    "alt": "Sunbeds and swimmers at Playa de las Vistas",
+    "eyebrow": "Choosing your trip",
+    "crumb": "Families",
+    "short": "Very. Short flights from most of Europe, no time difference from the UK and Portugal, warmth in every month, sheltered beaches where children can actually swim, and in Siam Park and Loro Parque two attractions good enough to build days around. The main decision is which resort, not whether.",
+    "sections": [
+      {
+        "h2": "What makes it work",
+        "p": [
+          "The practical things first. Flights from northern Europe are four to five hours, there is no jet lag to speak of, and the climate means a February half-term feels like a summer holiday. Spain is comfortable with children in restaurants at hours that would raise eyebrows elsewhere, and highchairs, baby-changing and pharmacies are all easy to find.",
+          "Then the beaches. Playa de las Vistas and Playa del Camisón sit behind breakwaters that keep the water genuinely flat, and both have lifeguards in season. That is a meaningful difference from an open Atlantic beach, and it is why families cluster on this stretch of coast."
+        ]
+      },
+      {
+        "h2": "The two big days out",
+        "p": [
+          "Siam Park above Costa Adeje is the strongest single attraction on the island and comfortably fills a day, with the Lost City area built for younger children and height restrictions on the bigger slides — worth checking before you promise anything. Loro Parque in the north pairs a large animal collection with a botanical garden, and a twin ticket covering both is sold at either park.",
+          "Beyond those, whale-watching trips from Los Cristianos and Puerto Colón have an unusually high success rate because the pilot whales here are resident rather than migratory, and the shorter two-hour trips suit younger children better than the full-day sails."
+        ]
+      },
+      {
+        "h2": "Choosing where to stay",
+        "p": [
+          "Costa Adeje is the safest choice: the best-maintained beaches, the strongest hotels and a flat seafront promenade you can walk with a pushchair. It is also the most expensive part of the island.",
+          "Los Cristianos costs less for the same sunshine and has an old town with a real centre, which some families prefer to a purpose-built resort. Playa de las Américas is cheaper again and has good beaches, but choose the hotel carefully — a block near the Veronicas nightlife strip is cheap for a reason, and the difference between a quiet street and a loud one can be two hundred metres.",
+          "The north is greener and considerably cheaper, at the cost of cooler, cloudier weather and rougher sea. It suits families who want to explore more than sunbathe."
+        ],
+        "list": [
+          "Sheltered beaches with lifeguards in season",
+          "Siam Park and Loro Parque, plus a twin ticket",
+          "Four to five hours from northern Europe",
+          "Costa Adeje for ease, Los Cristianos for value"
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Which part of Tenerife is best for families?",
+        "Costa Adeje for the best beaches and hotels, Los Cristianos for better value with a real town centre. Both have calm, lifeguarded beaches and flat seafront promenades."
+      ],
+      [
+        "Is Siam Park suitable for young children?",
+        "Yes. The Lost City area is built for them and there is a wave pool and a lazy river. Height restrictions apply on the bigger slides, so check them before the day."
+      ],
+      [
+        "Do you need a car in Tenerife with children?",
+        "Not if you are staying in the southern resorts, where the seafront is flat and walkable and buses cover the coast. A car helps if you plan to see Teide, Anaga or the north."
+      ],
+      [
+        "Is the sea warm enough for children?",
+        "It ranges from about 19°C in late winter to 23°C in early autumn. Children generally mind the cooler end less than adults do."
+      ]
+    ],
+    "related": [
+      [
+        "/family-hotels.html",
+        "Best family hotels in Tenerife",
+        "Verified star ratings and what each is like"
+      ],
+      [
+        "/south/family-guide.html",
+        "The south with children",
+        "Beaches, days out and practicalities"
+      ],
+      [
+        "/place/siam-park/",
+        "Siam Park",
+        "Tickets, timing and the queues"
+      ]
+    ],
+    "cta": "tenerife+family",
+    "ctaLabel": "See family days out"
+  },
+  "tenerife-or-lanzarote": {
+    "question": "Tenerife or Lanzarote — which should you choose?",
+    "title": "Tenerife or Lanzarote? An Honest Comparison",
+    "meta": "Lanzarote is starker, lower-rise and windier; Tenerife is bigger, greener in parts and has far more to do. Which suits which kind of trip.",
+    "image": "timanfaya.jpg",
+    "alt": "A volcanic cone in the Timanfaya area of Lanzarote",
+    "eyebrow": "Choosing your trip",
+    "crumb": "Tenerife or Lanzarote",
+    "short": "Choose Tenerife if you want variety — Teide, laurel forest, cities, nightlife and enough to fill two weeks. Choose Lanzarote if you want a stark volcanic landscape, César Manrique's architecture and a quieter, lower-rise island where nothing is more than an hour away.",
+    "sections": [
+      {
+        "h2": "Two very different landscapes",
+        "p": [
+          "Lanzarote looks like nowhere else in Europe. The eruptions of the 1730s buried a third of the island and left the Timanfaya badlands, a field of cinder cones and frozen lava that is still hot enough underground to be demonstrated to visitors. Vines grow in pits dug into black ash. It is austere, and people either love it immediately or find it bleak.",
+          "Tenerife is larger and far more varied. Teide rises to 3,715 metres, the Anaga range holds a subtropical laurel forest, and the north is green in a way Lanzarote never is. You can have a desert morning and a forest afternoon, which is not an option on the smaller island."
+        ]
+      },
+      {
+        "h2": "What there is to do",
+        "p": [
+          "Tenerife wins on volume. Siam Park and Loro Parque are the best attractions in the archipelago, whale watching runs year-round off the south-west coast, and Santa Cruz and La Laguna give you proper cities with markets, tapas and a carnival second only to Rio. If rain or wind spoils a day, there is an alternative.",
+          "Lanzarote's draw is more curated. The island's identity was shaped by one man: the artist César Manrique, whose interventions — the Jameos del Agua caves, the Mirador del Río, the Cactus Garden — are genuinely worth the trip, and whose influence produced the building rules that keep the island low-rise and largely free of high-rise blocks. Playa Papagayo in the south is as good a beach as either island offers."
+        ]
+      },
+      {
+        "h2": "Weather, wind and getting around",
+        "p": [
+          "Both are warm year-round. Lanzarote is drier and noticeably windier, which suits watersports and suits sunbathing rather less — the beaches often have windbreaks for a reason. Tenerife's south is more sheltered; its north is cooler and cloudier than anywhere on Lanzarote.",
+          "Lanzarote is small enough to see properly in a week with a car, and nowhere is much more than an hour away. Tenerife is big enough that a week means choosing, and two weeks is not too many. If you want to lie still near one very good beach, Lanzarote makes it easy. If you want to keep moving, Tenerife gives you more to move towards."
+        ],
+        "list": [
+          "Lanzarote: Timanfaya, Manrique, low-rise, windier",
+          "Tenerife: Teide, forests, cities, nightlife, more variety",
+          "Both warm all year; Lanzarote drier and breezier",
+          "Lanzarote fits a week; Tenerife rewards two"
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Which is better for a first Canary Islands trip?",
+        "Tenerife, for most people — it has more variety and more to fall back on. Lanzarote is the better choice if the volcanic landscape and Manrique's work are what draw you."
+      ],
+      [
+        "Is Lanzarote windier than Tenerife?",
+        "Generally yes. Lanzarote is flatter and more exposed, and beach windbreaks are common. Tenerife's south-west coast is more sheltered."
+      ],
+      [
+        "Which has better beaches?",
+        "Lanzarote's Papagayo beaches are outstanding and largely undeveloped. Tenerife has more beaches overall and more serviced ones, with imported golden sand in the south and black volcanic sand elsewhere."
+      ]
+    ],
+    "related": [
+      [
+        "/tenerife-or-gran-canaria.html",
+        "Tenerife or Gran Canaria?",
+        "The other comparison people make"
+      ],
+      [
+        "/which-part-of-tenerife.html",
+        "Which part of Tenerife suits you?",
+        "Two-minute quiz"
+      ],
+      [
+        "/place/mount-teide/",
+        "Mount Teide",
+        "The thing Lanzarote cannot match"
+      ]
+    ]
   }
 }
