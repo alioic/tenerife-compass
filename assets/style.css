@@ -168,7 +168,9 @@ li { margin-bottom: .35em; }
 .hero__inner { position: relative; z-index: 2; max-width: 780px; margin: 0 auto; padding: 80px 0; }
 .hero h1 { color: var(--white); text-shadow: 0 2px 30px rgba(0,0,0,.3); }
 .hero .lede { font-size: clamp(1.05rem, 2.4vw, 1.35rem); color: #eaf6fa; margin-bottom: 1.8em; text-shadow: 0 1px 12px rgba(0,0,0,.3); }
-.hero .eyebrow { color: var(--gold); letter-spacing:.16em; text-transform:uppercase; font-weight:700; font-size:.8rem; display:block; margin-bottom:1em; }
+.hero .eyebrow { color: var(--gold); letter-spacing:.16em; text-transform:uppercase; font-weight:700; font-size:.8rem; display:block; margin-bottom:1em;
+  /* yfirlagið er létt efst, svo gyllt á björtum himni þarf sinn eigin skugga */
+  text-shadow: 0 1px 3px rgba(8,71,90,.55), 0 0 18px rgba(8,71,90,.45); }
 
 /* --------------------------------------------------------------------------
    6. Hnappar
@@ -460,3 +462,54 @@ table.tc tr:nth-child(even) td { background: var(--sand); }
 .text-center { text-align: center; }
 .mt-0 { margin-top: 0; } .mb-0 { margin-bottom: 0; }
 .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; }
+
+/* --------------------------------------------------------------------------
+   21. Staðarsíður (/place/<slug>/) — listar og merki
+   -------------------------------------------------------------------------- */
+
+/* Talnalisti með gildi hægra megin: gisting/veitingastaðir í nágrenni */
+.doc-list { list-style: none; padding: 0; margin: 0; }
+.doc-list li {
+  display: flex; align-items: center; justify-content: space-between; gap: 14px;
+  padding: 13px 16px; margin-bottom: 8px;
+  background: #fff; border: 1px solid var(--line);
+  border-radius: 12px; box-shadow: 0 1px 2px rgba(20,56,66,.04);
+  transition: border-color .18s ease, transform .18s ease;
+}
+.doc-list li:hover { border-color: var(--aqua); transform: translateX(2px); }
+.doc-list li > span { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.doc-list li b { font-weight: 600; color: var(--ink); }
+.doc-list li small { font-size: .82rem; color: var(--ink-soft); }
+.doc-list li em {
+  flex: none; font-style: normal; font-size: .82rem; font-weight: 600;
+  color: var(--ocean-deep); background: var(--mist);
+  padding: 4px 10px; border-radius: 999px; white-space: nowrap;
+}
+
+/* Merkjaský: hápunktar */
+.doc-tags { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.doc-tags li {
+  background: #fff; border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  padding: 9px 16px; border-radius: 8px;
+  font-size: .93rem; color: var(--ink);
+}
+
+/* Tenglalisti: nálægir staðir */
+.doc-links { list-style: none; padding: 0; margin: 0;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+.doc-links a {
+  display: flex; flex-direction: column; gap: 3px;
+  padding: 15px 18px; height: 100%;
+  background: #fff; border: 1px solid var(--line); border-radius: 12px;
+  text-decoration: none; color: inherit;
+  transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+.doc-links a:hover { border-color: var(--aqua); box-shadow: var(--shadow); transform: translateY(-2px); }
+.doc-links b { font-weight: 600; color: var(--ocean-deep); }
+.doc-links small { font-size: .82rem; color: var(--ink-soft); }
+
+@media (max-width: 640px) {
+  .doc-list li { padding: 11px 13px; }
+  .doc-links { grid-template-columns: 1fr; }
+}

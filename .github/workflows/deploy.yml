@@ -39,3 +39,5 @@ jobs:
             netlify.toml
             README.md
             .gitignore
+            build_places.py
+            data/**

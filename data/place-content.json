@@ -1,0 +1,532 @@
+{
+  "playa-del-duque": {
+    "name": "Playa del Duque",
+    "type": "Beach",
+    "area": "Costa Adeje",
+    "region": "south",
+    "lat": 28.0915,
+    "lng": -16.7445,
+    "image": "playa-del-duque.jpg",
+    "alt": "The striped beach houses on the golden sand of Playa del Duque",
+    "tagline": "The most upmarket stretch of sand in the south, and the one people picture when they picture Costa Adeje.",
+    "intro": "Playa del Duque is where Costa Adeje puts on its best clothes. A Blue Flag crescent of golden sand backed by the Bahía del Duque resort and a run of designer shops, it is calmer and considerably smarter than the beaches further along the coast, and the water is usually gentle enough for a proper swim.",
+    "see": "The beach itself is the attraction: soft imported sand, sun loungers and parasols for rent at roughly ten to fifteen euros, and a set of striped wooden beach houses that have become the postcard image of the resort. The promenade behind it runs north towards La Caleta and south towards Fañabé, so a stroll in either direction is easy. Plaza del Duque, a short walk inland, is the island's most upmarket shopping centre, and La Torre del Mirador sits above the sand for a long lunch with a view.",
+    "getting": "It is a twenty to twenty-five minute drive from Tenerife South Airport along the TF-1, and walkable from most of Costa Adeje along the seafront promenade. TITSA buses serve Costa Adeje from Los Cristianos and Playa de las Américas for a couple of euros, and parking near the beach fills early in peak season.",
+    "tips": "Mornings are noticeably quieter, and the light is better for photographs before the sun climbs. Sunbed rental is not cheap here compared with Los Cristianos, so bring a towel if you are counting euros. The UV is high year-round, even in winter, and the sea breeze hides how fast you are burning.",
+    "highlights": [
+      "Blue Flag golden sand",
+      "Striped beach houses",
+      "Calm water for swimming",
+      "Designer shopping at Plaza del Duque"
+    ],
+    "gyg": "costa+adeje+tenerife",
+    "faq": [
+      [
+        "Is Playa del Duque a good beach for families?",
+        "Yes. The sand is soft, the water is usually calm and there are lifeguards in season, plus plenty of facilities behind the beach. Playa de las Vistas in Los Cristianos is even more sheltered if you have very small children."
+      ],
+      [
+        "Is the sand at Playa del Duque natural?",
+        "Like several southern beaches, the golden sand is imported rather than the island's native volcanic black. It is one reason this stretch looks so different from the beaches of the north and west."
+      ],
+      [
+        "How much are sunbeds at Playa del Duque?",
+        "Expect roughly ten to fifteen euros for a lounger and parasol, which is at the higher end for the island. Prices vary by operator and season."
+      ]
+    ]
+  },
+  "playa-de-las-vistas": {
+    "name": "Playa de las Vistas",
+    "type": "Beach",
+    "area": "Los Cristianos",
+    "region": "south",
+    "lat": 28.0525,
+    "lng": -16.7195,
+    "image": "playa-vistas.jpg",
+    "alt": "Playa de las Vistas beach in Los Cristianos",
+    "tagline": "The safest, calmest big beach in the south, and the one to choose with small children.",
+    "intro": "Playa de las Vistas stretches for over a kilometre between Los Cristianos and Playa de las Américas, and it is the most family-friendly beach on this coast. Breakwaters keep the water flat, the imported golden sand shelves gently, and everything you need is within a few steps of the promenade behind it.",
+    "see": "Swimming is the point here: the sheltered water is calm enough for children and weak swimmers, and there are lifeguards through the season. The beach has good accessibility, including ramps and assisted bathing services. Behind it, the promenade runs into the old town of Los Cristianos in one direction, with the working harbour and its fish restaurants at the far end, and towards Las Américas in the other.",
+    "getting": "Fifteen to twenty minutes from Tenerife South Airport along the TF-1. The beach sits between the two resorts, so it is walkable from either. TITSA buses stop nearby, and the whole seafront from Los Cristianos to Costa Adeje is flat and easy on foot or with a pushchair.",
+    "tips": "The Los Cristianos end is generally quieter than the Las Américas end. It is one of the better-value spots on the coast for eating, since the old town behind it has plenty of local restaurants a street or two back from the sand. Sunday mornings bring a market near the harbour.",
+    "highlights": [
+      "Sheltered, calm water",
+      "Over a kilometre of sand",
+      "Good accessibility",
+      "Old town and harbour alongside"
+    ],
+    "gyg": "los+cristianos+tenerife",
+    "faq": [
+      [
+        "Is Playa de las Vistas safe for swimming?",
+        "It is among the safest big beaches in Tenerife. Breakwaters keep the water calm and there are lifeguards in season. Always follow the flags, as Atlantic conditions can still change."
+      ],
+      [
+        "Is Playa de las Vistas better than Playa del Duque?",
+        "For families and swimming, generally yes: it is calmer and cheaper. Playa del Duque is smarter and quieter, with better facilities at the upmarket end."
+      ]
+    ]
+  },
+  "la-caleta": {
+    "name": "La Caleta",
+    "type": "Village",
+    "area": "Costa Adeje",
+    "region": "south",
+    "lat": 28.1013,
+    "lng": -16.7757,
+    "image": "la-caleta.jpg",
+    "alt": "White houses along the seafront at La Caleta",
+    "tagline": "A former fishing hamlet at the quiet end of Costa Adeje, and the best place on the island to eat fish by the water.",
+    "intro": "La Caleta sits at the northern edge of Costa Adeje, where the resorts run out and the coast turns rocky. It was a fishing village and still trades on it: a short seafront lined with fish restaurants, a small rocky bay, and a pace that drops noticeably the moment you arrive. There is no nightlife to speak of, which is exactly why people come.",
+    "see": "Eating is the main event. The seafront restaurants serve the day's catch with papas arrugadas and mojo, and a table over the water at lunch, looking across to La Gomera, is one of the south's better hours. The village also holds several Michelin-starred kitchens in and around the Royal Hideaway Corales complex, including the two-starred El Rincón de Juan Carlos. Beyond the food, there is a small bay for a dip, a coastal path towards Playa del Duque, and not a great deal else.",
+    "getting": "About twenty-five minutes from Tenerife South Airport, at the end of the Costa Adeje seafront. You can walk along the promenade from Playa del Duque in roughly half an hour, or drive and park in the village, which gets tight at weekends and in the evening.",
+    "tips": "Book a table if you want a seafront spot at dinner, especially at weekends when locals drive down from inland. Lunch is the better value and the better light. Prices here are at the higher end for the island, and the bay is rocky rather than sandy, so bring water shoes if you plan to swim.",
+    "highlights": [
+      "Seafront fish restaurants",
+      "Michelin-starred dining",
+      "Sunset views to La Gomera",
+      "Quiet, low-rise and walkable"
+    ],
+    "gyg": "costa+adeje+tenerife",
+    "faq": [
+      [
+        "Is La Caleta worth visiting?",
+        "For a meal, yes. It has the best concentration of seafront fish restaurants in the south and a far calmer atmosphere than the resorts. It is not a beach destination, as the bay is small and rocky."
+      ],
+      [
+        "Do you need to book restaurants in La Caleta?",
+        "For dinner and at weekends, yes. The seafront tables are the ones people want and they go early."
+      ]
+    ]
+  },
+  "siam-park": {
+    "name": "Siam Park",
+    "type": "Water park",
+    "area": "Costa Adeje",
+    "region": "south",
+    "lat": 28.0715,
+    "lng": -16.7245,
+    "image": "siam.jpg",
+    "alt": "Siam Park water park in Costa Adeje",
+    "tagline": "Repeatedly voted the world's best water park, and the south's single strongest attraction.",
+    "intro": "Siam Park sits on the hillside above Costa Adeje, an elaborately Thai-themed water park that has topped traveller polls for years. It is bigger, cleaner and better landscaped than the genre usually manages, and it comfortably fills a full day.",
+    "see": "The headline ride is the Tower of Power, a near-vertical drop that fires you through a tube running inside a shark aquarium. Beyond it there is the Dragon, the Singha rollercoaster-style slide, a wave pool that produces genuinely large waves, the Mai Thai River lazy river, and the Lost City play area for younger children. Siam Beach gives you white sand and loungers when you have had enough of the queues.",
+    "getting": "A short drive above Costa Adeje, roughly twenty minutes from Tenerife South Airport, with a free shuttle bus looping the main southern resorts. Parking is available on site.",
+    "tips": "Go early: the queues build sharply from late morning and the park is at its best in the first two hours. In peak season the fast-pass upgrade genuinely saves time rather than just money. Height restrictions apply on the bigger rides, so check before promising anything to a small child. Bring a towel and expect to pay for lockers.",
+    "highlights": [
+      "Tower of Power drop slide",
+      "Huge wave pool",
+      "Lost City for younger children",
+      "Free shuttle from the resorts"
+    ],
+    "guide": "/south/siam-park.html",
+    "gyg": "siam+park+tenerife",
+    "faq": [
+      [
+        "How much does Siam Park cost?",
+        "An adult day ticket starts at around forty euros, with children cheaper and a twin ticket with Loro Parque at roughly seventy. Booking online is normally cheaper than at the gate."
+      ],
+      [
+        "Is Siam Park worth it?",
+        "For most visitors, yes. It is the strongest single attraction in the south and the standard is unusually high. Go early and consider the fast pass in peak season."
+      ]
+    ],
+    "title": "Siam Park, Tenerife — Visitor Guide & Tips"
+  },
+  "playa-de-las-teresitas": {
+    "name": "Playa de las Teresitas",
+    "type": "Beach",
+    "area": "San Andrés",
+    "region": "scruz",
+    "lat": 28.507,
+    "lng": -16.185,
+    "image": "las-teresitas.jpg",
+    "alt": "The golden crescent of Playa de las Teresitas",
+    "tagline": "A golden crescent of Saharan sand a short drive from the capital, and arguably the prettiest big beach on the island.",
+    "intro": "Playa de las Teresitas curves for over a kilometre beside the fishing village of San Andrés, north-east of Santa Cruz. The golden sand was shipped in from the Sahara in the early 1970s and a breakwater keeps the water flat, which makes it both beautiful and unusually calm for this coast. What it is not is a resort: locals outnumber tourists most weekends, and that is its charm.",
+    "see": "Swimming and lying still, mostly. Palms line the back of the beach, there are showers and beach bars, and parking behind the sand is free. San Andrés at the near end is a working fishing village with a run of good fish restaurants, and the road onwards leads into the Anaga mountains, so the beach pairs naturally with a drive into the hills.",
+    "getting": "Roughly fifteen minutes north-east of Santa Cruz by car or local bus. From the southern resorts allow around an hour on the TF-1, or take the 110 or 111 express bus to Santa Cruz and continue locally.",
+    "tips": "Sunny weekends fill it with local families, which is part of the experience but means arriving early for a parking space. It is noticeably more sheltered than the wild Anaga beaches further round the coast, so it suits families where Benijo does not. Combine it with lunch in San Andrés and an afternoon in Anaga.",
+    "highlights": [
+      "Imported golden Saharan sand",
+      "Calm water behind a breakwater",
+      "Free parking",
+      "Fish restaurants in San Andrés"
+    ],
+    "gyg": "santa+cruz+tenerife",
+    "faq": [
+      [
+        "Is the sand at Las Teresitas imported?",
+        "Yes. The golden sand was brought from the Sahara in the early 1970s. The island's own beaches on this coast are volcanic black."
+      ],
+      [
+        "Can you swim at Playa de las Teresitas?",
+        "Yes, and it is one of the calmer big beaches on the island thanks to the breakwater that shelters it."
+      ]
+    ]
+  },
+  "playa-de-benijo": {
+    "name": "Playa de Benijo",
+    "type": "Beach",
+    "area": "Anaga",
+    "region": "scruz",
+    "lat": 28.573,
+    "lng": -16.188,
+    "image": "anaga-coast.jpg",
+    "alt": "The wild Anaga coastline at Playa de Benijo",
+    "tagline": "Black sand, jagged rock stacks and serious Atlantic surf at the end of the Anaga road.",
+    "intro": "Playa de Benijo sits at the far end of the Anaga coast road, where the mountains fall straight into the ocean. Black volcanic sand, offshore rock stacks and heavy surf make it the most photographed beach on the island, and one of the least suitable for a casual swim.",
+    "see": "The view is the reason to come, particularly late in the day when the sun drops behind the rocks. A stepped path leads down from the road to the sand. Walkers can continue along the coast towards El Draguillo, and the restaurants above the beach serve fresh fish with one of the better dining views in Tenerife. At low tide the beach opens out considerably.",
+    "getting": "About an hour from Santa Cruz on the TF-12 and TF-134 through Anaga, a spectacular but relentlessly winding drive. There is no easy bus, so a car or an organised tour is realistic. Parking at the end of the road is very limited and fills at weekends.",
+    "tips": "Swim with great caution or not at all: the Atlantic here has strong currents and there are no lifeguards. Go on a weekday if you can, and allow far longer for the drive than the distance suggests. Anyone prone to car sickness should sit in the front. Mist on the ridge is normal even when the coast is sunny.",
+    "highlights": [
+      "Black sand and offshore rock stacks",
+      "The island's best beach photograph",
+      "Fresh fish with a view above the beach",
+      "Coast path towards El Draguillo"
+    ],
+    "gyg": "anaga+tenerife",
+    "faq": [
+      [
+        "Can you swim at Playa de Benijo?",
+        "Only with great caution. The surf is strong, there are currents and no lifeguards. Most visitors come for the view and the walk rather than to swim."
+      ],
+      [
+        "How do you get to Benijo without a car?",
+        "Buses into Anaga are sparse and slow. Most visitors drive or join a guided Anaga tour from the south or from Santa Cruz."
+      ]
+    ]
+  },
+  "masca": {
+    "name": "Masca",
+    "type": "Village",
+    "area": "Teno",
+    "region": "west",
+    "lat": 28.306,
+    "lng": -16.842,
+    "image": "masca.jpg",
+    "alt": "The mountain village of Masca",
+    "tagline": "A hamlet clinging to a ridge deep in the Teno mountains, at the head of Tenerife's most dramatic gorge.",
+    "intro": "Masca is a scatter of houses on a knife-edge ridge, surrounded by ravines that drop towards the sea. It is the island's most photographed village and the starting point of the Barranco de Masca hike, and getting there is half the story: the road in is one of the most demanding scenic drives in Europe.",
+    "see": "The village itself takes an hour: a church, a few terraces, several cafés with staggering views, and paths that lead a short way out onto the ridge for the classic photograph. The serious attraction is the gorge below, a steep one-way descent to a hidden cove, which is now strictly regulated and must be booked in advance. Most visitors simply come for the drive, the view and lunch.",
+    "getting": "The TF-436 from Santiago del Teide is about twenty minutes and roughly five kilometres of hairpins, barely two cars wide in places, with steep drops and coaches coming the other way. Confident drivers only, and go early. Parking in the village is very limited. Hikers doing the gorge must arrive on the TITSA 355 bus, as private cars are not permitted for them.",
+    "tips": "Early morning and late afternoon are both quieter and better lit than the middle of the day, when tour coaches arrive. If the drive sounds like too much, an organised tour or a boat trip from Los Gigantes to Masca bay gives you the scenery without the hairpins.",
+    "highlights": [
+      "Ridge-top village and ravine views",
+      "Gateway to the Barranco de Masca",
+      "One of Europe's great scenic drives",
+      "Cafés with a drop beneath them"
+    ],
+    "guide": "/masca-gorge-hike.html",
+    "gyg": "masca+tenerife",
+    "faq": [
+      [
+        "Is the road to Masca dangerous?",
+        "It is narrow and full of hairpins with steep drops, and it demands confidence and full attention, but it is well surfaced. Go early, drive slowly and expect to meet coaches."
+      ],
+      [
+        "Do you need to book to visit Masca village?",
+        "No, the village is free to visit. Only the gorge hike below it requires a paid permit and arrival by the official bus."
+      ]
+    ],
+    "title": "Masca, Tenerife — Village, Drive & Gorge Guide"
+  },
+  "los-gigantes": {
+    "name": "Los Gigantes",
+    "type": "Cliffs & marina",
+    "area": "Los Gigantes",
+    "region": "west",
+    "lat": 28.245,
+    "lng": -16.842,
+    "image": "los-gigantes.jpg",
+    "alt": "The Los Gigantes sea cliffs",
+    "tagline": "Sheer cliffs up to about 500 metres falling straight into the Atlantic, best seen from the water.",
+    "intro": "The Acantilados de los Gigantes, the Cliffs of the Giants, are the most imposing piece of coastline in Tenerife. The resort town of the same name sits at their foot, built on steep streets that tumble down to a small marina tucked right against the cliff wall.",
+    "see": "The cliffs are the attraction, and they are far more impressive from the sea than from land. Boat trips leave the marina for two to three hours beneath the rock faces, usually with a swim stop at Masca bay, and pilot whales and dolphins are commonly seen on the way. Kayak and snorkel trips run along the same coast. On land, the Mirador de Archipenque above town gives the classic view, and Playa de los Guíos is a small black-sand beach beside the marina.",
+    "getting": "Roughly twenty-five to thirty-five minutes from Costa Adeje via the TF-1 and TF-47, and about forty-five minutes from Tenerife South Airport. Parking in the town is genuinely tight, so use the car parks above and walk down.",
+    "tips": "Morning boat trips usually have calmer water. The whole coast faces west, which makes this one of the best places on the island for sunset, either from the Mirador de Archipenque or from an evening sailing. Treat the Crab Island tidal pool north of the marina with real caution and obey closures, as there have been fatalities there.",
+    "highlights": [
+      "500-metre sea cliffs",
+      "Whale watching from the marina",
+      "Mirador de Archipenque viewpoint",
+      "Some of the island's best sunsets"
+    ],
+    "guide": "/south/los-gigantes-masca.html",
+    "gyg": "los+gigantes+boat+tenerife",
+    "faq": [
+      [
+        "What is the best way to see the Los Gigantes cliffs?",
+        "From the water. Boat trips from the marina run for two to three hours from around thirty euros and often include a swim stop and dolphin sightings."
+      ],
+      [
+        "Is Los Gigantes a good base for a holiday?",
+        "It suits couples, walkers and anyone wanting quiet with dramatic scenery. There is no nightlife strip, and beaches here are small and black-sand."
+      ]
+    ],
+    "title": "Los Gigantes, Tenerife — Cliffs & Boat Trips"
+  },
+  "garachico": {
+    "name": "Garachico",
+    "type": "Town",
+    "area": "Garachico",
+    "region": "north",
+    "lat": 28.374,
+    "lng": -16.765,
+    "image": "garachico-pools.jpg",
+    "alt": "The natural rock pools of El Caletón at Garachico",
+    "tagline": "The north's prettiest small town, with natural rock pools made by the lava that destroyed its harbour.",
+    "intro": "Garachico was the richest port in Tenerife until a volcanic eruption in 1706 poured lava through the town and filled the harbour. What was a catastrophe left behind El Caletón, a set of natural pools in the cooled lava that people now swim in, and a compact old town of cobbled lanes, convents and plazas that many visitors rate their favourite on the island.",
+    "see": "The rock pools are the draw: a series of channels and basins in the black lava, swimmable on calm days and closed when the swell is up. The old town behind them rewards an hour of wandering, and there are two of the island's loveliest historic hotels here. It is a half day at minimum, and genuinely lovely to stay overnight once the day-trippers have gone.",
+    "getting": "About an hour and a half from the southern resorts, or twenty-five minutes west of Puerto de la Cruz along the north coast. TITSA line 363 runs along this coast from Puerto de la Cruz. There are free car parks on the seafront by the pools.",
+    "tips": "The pools are conditions-dependent and are at their best roughly May to October; in heavy swell they are dangerous and closed, and that should be respected. The north is cooler and cloudier than the south, so bring a layer. Combine it with Icod de los Vinos and its dragon tree, fifteen minutes away.",
+    "highlights": [
+      "El Caletón lava rock pools",
+      "Cobbled historic old town",
+      "1706 eruption history",
+      "Two historic boutique hotels"
+    ],
+    "gyg": "garachico+tenerife",
+    "faq": [
+      [
+        "Can you swim in the rock pools at Garachico?",
+        "Yes, on calm days, and they are one of the most enjoyable swims in the north. They are closed and genuinely dangerous when the Atlantic swell is up, so check conditions and obey any closures."
+      ],
+      [
+        "Is Garachico worth visiting?",
+        "It is many visitors' favourite town on the island: compact, historic and beautiful, with the rock pools as a bonus. Half a day minimum, and better as an overnight stop."
+      ]
+    ]
+  },
+  "drago-milenario": {
+    "name": "Drago Milenario",
+    "type": "Landmark",
+    "area": "Icod de los Vinos",
+    "region": "north",
+    "lat": 28.368,
+    "lng": -16.72,
+    "image": "drago-milenario.jpg",
+    "alt": "The Drago Milenario dragon tree at Icod de los Vinos",
+    "tagline": "The vast dragon tree of Icod, a symbol of the Canaries and probably around 800 years old.",
+    "intro": "The Drago Milenario stands at the edge of Icod de los Vinos, an enormous dragon tree whose name claims a thousand years. Botanists put it closer to eight hundred, which is still remarkable for a species that leaves no growth rings to count. It is the emblem of the archipelago and the reason most visitors stop in Icod at all.",
+    "see": "The tree is the sight. Paid entry to the Parque del Drago gets you close-up paths and a small botanical collection of Canarian species. Being honest, the free viewpoint beside the church square gives you a genuinely good view of the tree without the ticket, and many visitors are happy with that. The old town around Plaza de la Pila is pleasant for an hour, and Icod is a wine town, so a malvasía tasting fits naturally.",
+    "getting": "Roughly twenty minutes west of Puerto de la Cruz, or an hour and a half from the southern resorts. TITSA line 363 serves Icod along the north coast. There is paid parking near the park.",
+    "tips": "Decide in advance whether you want the ticket or the free view, as it changes how long you need from an hour to about fifteen minutes. Combine with Garachico, fifteen minutes further west, which most people find the more rewarding stop.",
+    "highlights": [
+      "Around 800 years old",
+      "Symbol of the Canary Islands",
+      "Free viewpoint by the church",
+      "Wine town setting"
+    ],
+    "gyg": "icod+de+los+vinos",
+    "faq": [
+      [
+        "Is the Drago Milenario really a thousand years old?",
+        "Probably not. The name means thousand-year dragon tree, but estimates put it closer to eight hundred years. Dragon trees produce no growth rings, so precise dating is impossible."
+      ],
+      [
+        "Do you have to pay to see the dragon tree?",
+        "No. Paid entry to Parque del Drago gets you closer and adds a small botanical garden, but there is a good free view from beside the church square."
+      ]
+    ],
+    "title": "Drago Milenario, Icod — The Dragon Tree"
+  },
+  "playa-jardin": {
+    "name": "Playa Jardín",
+    "type": "Beach",
+    "area": "Puerto de la Cruz",
+    "region": "north",
+    "lat": 28.413,
+    "lng": -16.557,
+    "image": "lago-martianez.jpg",
+    "alt": "The seafront at Puerto de la Cruz",
+    "tagline": "Black volcanic sand backed by gardens designed by César Manrique, on the north coast.",
+    "intro": "Playa Jardín is the main beach of Puerto de la Cruz: three linked bays of black volcanic sand, landscaped behind with subtropical gardens laid out by the Lanzarote artist César Manrique. It is the north's answer to the resort beaches of the south, and it looks nothing like them.",
+    "see": "The gardens are as much of the attraction as the sand, full of palms and flowering shrubs with paths winding through. The beach faces the open Atlantic, so waves are part of the deal and surfers use it. Along the seafront you can walk to the old harbour and Plaza del Charco, and to the Lago Martiánez lido complex, also a Manrique design, which exists precisely because swimming in this sea is not always an option.",
+    "getting": "In Puerto de la Cruz, walkable from most of the town. From the southern resorts allow an hour and a quarter by car, or take the direct TITSA 343 bus, which runs a few times a day via both airports.",
+    "tips": "Watch the flags. This is a real Atlantic beach with genuine surf, and it behaves very differently from the sheltered southern bays. If the sea is rough, the Lago Martiánez lido nearby costs a few euros and solves the problem. The north is a few degrees cooler than the south with a real chance of morning cloud in any month.",
+    "highlights": [
+      "Black volcanic sand",
+      "Manrique-designed gardens",
+      "Surf and real Atlantic waves",
+      "Lago Martiánez lido nearby"
+    ],
+    "gyg": "puerto+de+la+cruz+tenerife",
+    "faq": [
+      [
+        "Can you swim at Playa Jardín?",
+        "Often yes, but this is an open Atlantic beach with real waves and currents. Follow the flags, and use the Lago Martiánez lido nearby when the sea is rough."
+      ],
+      [
+        "Why is the sand black at Playa Jardín?",
+        "It is the island's natural volcanic sand. The golden beaches of the south are mostly imported."
+      ]
+    ]
+  },
+  "el-medano": {
+    "name": "El Médano",
+    "type": "Town & beach",
+    "area": "El Médano",
+    "region": "east",
+    "lat": 28.045,
+    "lng": -16.536,
+    "image": "kitesurf-medano.jpg",
+    "alt": "Kites over the beach at El Médano with Montaña Roja behind",
+    "tagline": "A low-rise surf town wrapped around a sandy bay, and one of Europe's best-known wind-sports spots.",
+    "intro": "El Médano is what the south of Tenerife looks like without the resorts: a real Canarian town on a wide sandy bay, ten minutes from the airport, where the constant trade winds have built one of Europe's great windsurfing and kitesurfing scenes. Board shops, surf cafés and a wooden boardwalk set the tone.",
+    "see": "The bay fills with sails on most summer days and the kite beach at El Cabezo, just east of town, is where the serious riders go. Schools run lessons year-round for beginners. The boardwalk links the plaza, the cafés and the beaches, and the red cone of Montaña Roja rises at the far end with an easy path to the summit and the best coastal view in the area. La Tejita, a long natural beach with a naturist section, sits just beyond it.",
+    "getting": "About ten minutes from Tenerife South Airport, which makes it the easiest arrival on the island. TITSA line 470 links it with Los Abrigos, Golf del Sur, Las Galletas and Los Cristianos. Town parking is tight on Wednesday and Saturday market mornings.",
+    "tips": "Be honest with yourself about wind. It is most reliable from May to September and peaks in July and August, which is superb for sport and genuinely annoying for lying on a towel. Autumn and early winter bring calmer days. Playa Chica is the sheltered corner when it blows.",
+    "highlights": [
+      "Windsurf and kitesurf capital",
+      "Montaña Roja walk",
+      "Wooden boardwalk and surf cafés",
+      "Ten minutes from the airport"
+    ],
+    "guide": "/east/windsurfing.html",
+    "gyg": "el+medano+kitesurf",
+    "faq": [
+      [
+        "Is El Médano too windy for a beach holiday?",
+        "It can be. The trade winds are strongest from May to September. If you want still days on the sand, choose the south-west resorts or visit in autumn."
+      ],
+      [
+        "Can beginners learn to kitesurf in El Médano?",
+        "Yes. Several schools run lessons year-round, with tasters from around a hundred and twenty euros and longer beginner courses over several days."
+      ]
+    ],
+    "title": "El Médano, Tenerife — Town, Beach & Wind Guide"
+  },
+  "montana-roja": {
+    "name": "Montaña Roja",
+    "type": "Nature reserve",
+    "area": "La Tejita",
+    "region": "east",
+    "lat": 28.032,
+    "lng": -16.544,
+    "image": "kitesurf-medano.jpg",
+    "alt": "The Montaña Roja volcanic cone behind the beach",
+    "tagline": "A 171-metre red volcanic cone between two beaches, with the best coastal panorama in the south-east.",
+    "intro": "Montaña Roja is the red cone that anchors the coast between El Médano and La Tejita. It is protected as a special nature reserve for its dune habitat and birdlife, and a short, steep path climbs to the summit for a view along the whole south-eastern shoreline.",
+    "see": "The climb is the thing: roughly thirty to forty minutes up over loose stones, with the reward of the coast laid out below and the kites of El Médano on one side, the long sweep of La Tejita on the other. Easier paths cross the reserve at the base and link the two beaches, which makes a pleasant circular walk of about two hours if you take in both.",
+    "getting": "Two free dirt car parks off the TF-643 between El Médano and Los Abrigos serve both the trailhead and La Tejita, with a five-minute walk over the dunes. From El Médano you can walk out along the coast instead.",
+    "tips": "There is no shade anywhere on the climb, so go early or late and take water. The stones are loose on the descent, so proper shoes help. Summer weekends fill the car parks. Combine it with a swim at La Tejita, remembering that the eastern end of that beach is a long-established naturist area.",
+    "highlights": [
+      "171-metre volcanic cone",
+      "Best coastal view in the south-east",
+      "Protected dune reserve",
+      "Links El Médano and La Tejita"
+    ],
+    "gyg": "el+medano+tenerife",
+    "faq": [
+      [
+        "How hard is the Montaña Roja climb?",
+        "It is short but steep, roughly thirty to forty minutes up on loose stones. Most reasonably fit walkers manage it, but there is no shade at all."
+      ],
+      [
+        "Is La Tejita a nudist beach?",
+        "Partly. The eastern end nearest Montaña Roja is a long-established naturist area, while the rest of the beach is mixed."
+      ]
+    ],
+    "title": "Montaña Roja, Tenerife — Walk & Viewpoint"
+  },
+  "la-laguna": {
+    "name": "San Cristóbal de La Laguna",
+    "type": "Historic town",
+    "area": "La Laguna",
+    "region": "scruz",
+    "lat": 28.486,
+    "lng": -16.313,
+    "image": "la-laguna.jpg",
+    "alt": "A colonial street in La Laguna's old town",
+    "tagline": "Tenerife's original capital, a UNESCO World Heritage grid whose plan was copied across colonial Latin America.",
+    "intro": "La Laguna was the island's first capital and is now a lively university town, listed by UNESCO since 1999 because its unfortified sixteenth-century grid became the model for Spanish colonial cities in the Americas. The old centre is pastel mansions, carved wooden balconies and pedestrian streets full of students, and it has the best-value tapas on the island.",
+    "see": "Wander first: Calle Obispo Rey Redondo and Calle Herradores are the spine, lined with cafés and tapas bars. Climb the tower of the Iglesia de la Concepción for a couple of euros and the best view over the grid of roofs. Plaza del Adelantado anchors the old town, and the cathedral and the historic mansions fill the streets between. In the evening the tapas bars are the point.",
+    "getting": "Tram line 1 links Santa Cruz with La Laguna in about thirty to forty minutes for well under two euros, which is by far the easiest way. From the southern resorts, take the 110 or 111 express bus to Santa Cruz and change to the tram, or drive in about an hour.",
+    "tips": "At around 550 metres the town is several degrees cooler than the coast, and locals call it the fridge of Tenerife, so bring a layer even in summer. The old town is pedestrianised, so park on the edge. Pair it with Anaga, which begins just above the town.",
+    "highlights": [
+      "UNESCO World Heritage old town",
+      "Concepción tower viewpoint",
+      "The island's best tapas streets",
+      "Easy tram from Santa Cruz"
+    ],
+    "guide": "/santa-cruz/la-laguna.html",
+    "gyg": "la+laguna+tenerife+tour",
+    "faq": [
+      [
+        "Why is La Laguna a UNESCO site?",
+        "Its unfortified grid plan from the late fifteenth and sixteenth centuries became the template for Spanish colonial towns across the Americas, and the historic centre survives largely intact."
+      ],
+      [
+        "How do you get to La Laguna from Santa Cruz?",
+        "Tram line 1 runs between the two in roughly thirty to forty minutes for a couple of euros, and it is much easier than driving and parking."
+      ]
+    ],
+    "title": "La Laguna, Tenerife — UNESCO Old Town Guide"
+  },
+  "cruz-del-carmen": {
+    "name": "Cruz del Carmen",
+    "type": "Viewpoint & trails",
+    "area": "Anaga",
+    "region": "scruz",
+    "lat": 28.531,
+    "lng": -16.279,
+    "image": "anaga-coast.jpg",
+    "alt": "The Anaga mountains and coast",
+    "tagline": "The gateway to the Anaga laurel forest, with a visitor centre, a mirador and the easiest trails into the woods.",
+    "intro": "Cruz del Carmen sits on the Anaga ridge above La Laguna and is where most people start exploring the range. There is a visitor centre, a viewpoint over the valley and, crucially, the trailheads into the laurisilva, an ancient laurel forest that has survived here since before the last ice age.",
+    "see": "The Sendero de los Sentidos, the path of the senses, is a set of short, easy loops from the car park that take between half an hour and just over an hour and give you the forest without a serious hike. Longer routes run from here down towards Punta del Hidalgo or across to Taganana, taking three to five hours. The mirador beside the centre looks back over the La Laguna plain when the cloud allows.",
+    "getting": "About thirty minutes from La Laguna or Santa Cruz on the TF-12, a winding but manageable mountain road. There is a car park at the visitor centre which fills at weekends, so arrive early. Buses into Anaga are sparse, so a car or a guided tour is realistic.",
+    "tips": "Expect mist and drizzle on the ridge even when the coast is in full sun. That cloud is exactly what feeds the forest, so treat it as part of the experience and bring a layer and grippy shoes. Note that some protected routes, such as the Bosque Encantado at El Pijaral, require a free permit booked in advance.",
+    "highlights": [
+      "Ancient laurisilva forest",
+      "Easy Sendero de los Sentidos loops",
+      "Visitor centre and mirador",
+      "Trailhead for longer Anaga hikes"
+    ],
+    "guide": "/santa-cruz/anaga.html",
+    "gyg": "anaga+tenerife",
+    "faq": [
+      [
+        "Do you need a permit to hike in Anaga?",
+        "Not for most trails, including the Sendero de los Sentidos. Some protected routes such as the Bosque Encantado at El Pijaral do require a free permit booked in advance."
+      ],
+      [
+        "Is Anaga always misty?",
+        "Often, on the ridge. Trade-wind cloud sits against these mountains and is what keeps the laurel forest alive, so plan for it rather than against it."
+      ]
+    ],
+    "title": "Cruz del Carmen, Anaga — Trails & Visitor Centre"
+  },
+  "playa-de-la-arena": {
+    "name": "Playa de la Arena",
+    "type": "Beach",
+    "area": "Puerto de Santiago",
+    "region": "west",
+    "lat": 28.23,
+    "lng": -16.84,
+    "image": "playa-arena.jpg",
+    "alt": "The black sand and promenade at Playa de la Arena",
+    "tagline": "A compact beach of jet-black volcanic sand that has flown the Blue Flag for over twenty-five years.",
+    "intro": "Playa de la Arena is the main beach of the western resort strip, a small, tidy bay of genuinely black volcanic sand beneath the shoulder of the Los Gigantes cliffs. It is well serviced, easy to reach and popular, and it is the best swimming beach on this coast when conditions allow.",
+    "see": "The beach is compact, so it can feel busy in high season, but the facilities are good: loungers, showers and lifeguards, with bars and restaurants directly behind. The coastal walkway links it with Puerto de Santiago and on towards Los Gigantes marina, which makes an easy stroll and a good way to reach the boat trips.",
+    "getting": "Roughly twenty-five to thirty-five minutes from Costa Adeje via the TF-1 and TF-47, and about forty-five minutes from Tenerife South Airport.",
+    "tips": "Respect the red flags. The swell on this coast is real and the beach is closed to swimming more often than the sheltered southern bays. Black sand gets genuinely hot underfoot in the middle of the day, so bring something for your feet. The whole coast faces west, so stay for the sunset.",
+    "highlights": [
+      "Jet-black volcanic sand",
+      "Blue Flag for 25+ years",
+      "Walkway to Los Gigantes marina",
+      "West-facing sunsets"
+    ],
+    "gyg": "los+gigantes+tenerife",
+    "faq": [
+      [
+        "Is Playa de la Arena safe for swimming?",
+        "On calm days yes, and it is the best swimming beach on this stretch. The Atlantic swell here is real, though, so always follow the flags."
+      ],
+      [
+        "Why is the sand black at Playa de la Arena?",
+        "It is natural volcanic sand, which is what most of the island's beaches look like away from the imported golden sand of the south."
+      ]
+    ]
+  }
+}
