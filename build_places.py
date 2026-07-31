@@ -375,5 +375,9 @@ def main():
     open(os.path.join(ROOT, 'places', 'index.html'), 'w', encoding='utf-8').write(index_page(content, db))
     print(f'búið til: {len(content)} staðarsíður + /places/')
 
+    # Sitemap-ið er alltaf byggt á eftir, svo það geti ekki dregist aftur úr.
+    import build_sitemap
+    build_sitemap.main()
+
 if __name__ == '__main__':
     main()

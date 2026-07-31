@@ -40,4 +40,5 @@ jobs:
             README.md
             .gitignore
             build_places.py
+            build_sitemap.py
             data/**
