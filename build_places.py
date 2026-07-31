@@ -108,7 +108,7 @@ def footer():
     <div class="footer-grid">
       <div><div class="footer-brand"><img class="compass-mark" src="/assets/compass.svg" alt="" width="26" height="26"> Tenerife Compass</div><p>An independent travel guide to Tenerife, region by region. Honest advice, kept up to date.</p></div>
       <div><h4>Regions</h4><ul><li><a href="/places/">All places</a></li><li><a href="/south/">South Tenerife</a></li><li><a href="/north/">North</a></li><li><a href="/santa-cruz/">Santa Cruz &amp; La Laguna</a></li><li><a href="/east/">El Médano &amp; East</a></li><li><a href="/west/">West &amp; Teno</a></li></ul></div>
-      <div><h4>About</h4><ul><li><a href="/about.html">About us</a></li><li><a href="/about.html#contact">Contact</a></li><li><a href="/privacy.html">Privacy &amp; cookies</a></li><li><a href="/privacy.html#affiliate">Affiliate disclosure</a></li></ul></div>
+      <div><h4>About</h4><ul><li><a href="/questions/">Questions answered</a></li><li><a href="/about.html">About us</a></li><li><a href="/about.html#contact">Contact</a></li><li><a href="/privacy.html">Privacy &amp; cookies</a></li><li><a href="/privacy.html#affiliate">Affiliate disclosure</a></li></ul></div>
     </div>
     <div class="footer-bottom"><span>© 2026 Tenerife Compass. All rights reserved.</span><span>Made for travellers, not brochures.</span></div>
   </div>

@@ -41,4 +41,5 @@ jobs:
             .gitignore
             build_places.py
             build_sitemap.py
+            build_answers.py
             data/**
