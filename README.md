@@ -42,7 +42,18 @@ Booking buttons are placeholders pointing at partner search URLs, marked with `<
 The affiliate disclosure lives at `/privacy.html#affiliate`.
 
 ## Deploy
-GitHub → Netlify: every push to `main` auto-deploys (site: peaceful-queijadas-e6b870.netlify.app). `netlify.toml` publishes the repo root. Custom domain tenerifecompass.com to be connected in Netlify → Domain management.
+GitHub → **SiteGround** via FTPS: every push to `main` runs `.github/workflows/deploy.yml`, same pattern as spilanet.is.
+
+Required repo secrets (Settings → Secrets and variables → Actions):
+- `FTP_SERVER` — SiteGround FTP hostname
+- `FTP_USERNAME` — FTP user
+- `FTP_PASSWORD` — FTP password
+
+`server-dir` is set to `tenerifecompass.com/public_html/` — verify the real path in Site Tools → File Manager if the first run fails.
+
+`.htaccess` handles cache headers (no-cache for HTML so edits show immediately despite SuperCacher), forces https and non-www, gives tidy URLs without `.html`, and sets the 404 page.
+
+A Netlify site also exists (peaceful-queijadas-e6b870.netlify.app) and still auto-deploys; useful as a preview URL. `netlify.toml` is excluded from the SiteGround upload.
 
 ## Local preview
 ```bash

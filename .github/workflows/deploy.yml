@@ -1,0 +1,41 @@
+name: Deploy to SiteGround
+
+# Sendir breytingar sjálfkrafa á tenerifecompass.com (SiteGround) þegar ýtt er á main.
+# Sama mynstur og spilanet.is notar.
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:        # leyfir handvirka keyrslu úr GitHub UI
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sækja kóðann
+        uses: actions/checkout@v4
+
+      - name: Hlaða upp á SiteGround (FTPS)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server:   ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          # ATH: FTP-aðgangurinn lendir oft í www/. Raunverulega vefmappan er þessi.
+          # Ef fyrsta keyrsla skilar "path not found", athugaðu rétta slóð í Site Tools → File Manager.
+          server-dir: tenerifecompass.com/public_html/
+          # Skrár sem eiga EKKI að fara á vefinn:
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            .github/**
+            **/.DS_Store
+            **/research/**
+            research/**
+            **/.claude/**
+            .claude/**
+            netlify.toml
+            README.md
+            .gitignore

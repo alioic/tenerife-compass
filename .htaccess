@@ -15,9 +15,19 @@
   </FilesMatch>
 </IfModule>
 
-# Snyrtileg vefföng: /guides/where-to-stay virkar án .html
 <IfModule mod_rewrite.c>
   RewriteEngine On
+
+  # Ein rétt útgáfa af hverri slóð: https og án www.
+  # (canonical-taggarnir okkar segja https://tenerifecompass.com/ — þetta lætur
+  #  vefþjóninn segja það sama, svo Google dreifi ekki trausti á 4 útgáfur.)
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^(.*)$ https://tenerifecompass.com/$1 [R=301,L]
+
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+  # Snyrtileg vefföng: /where-to-stay virkar án .html
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME}\.html -f
   RewriteRule ^(.*)$ $1.html [L]
