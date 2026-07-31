@@ -875,5 +875,269 @@
         "For the view along the Los Gigantes cliffs, yes. It is an hour at the point plus a spectacular ride in, and it is one of the emptiest places on an otherwise busy island."
       ]
     ]
+  },
+  "playa-de-fanabe": {
+    "name": "Playa de Fañabé",
+    "type": "Beach",
+    "area": "Costa Adeje",
+    "region": "south",
+    "lat": 28.0845,
+    "lng": -16.7405,
+    "image": "playa-fanabe.jpg",
+    "alt": "Playa de Fañabé seen from the promenade above",
+    "tagline": "The big, busy family beach at the heart of Costa Adeje, with everything laid on behind it.",
+    "intro": "Playa de Fañabé is the long golden beach in the middle of Costa Adeje, and the one most package holidays end up walking down to. It is Blue Flag, well serviced and backed by a solid wall of hotels, which tells you both what is good about it and what is not: everything you need is thirty seconds away, and you will not have it to yourself.",
+    "see": "Swimming, sunbathing and watersports, mostly. The sand is imported and golden, the water is usually calm enough for children, and there are lifeguards in season. Parasailing, jet skis and banana boats operate off the beach through the summer. The promenade behind runs north to Playa del Duque and south towards Playa de las Américas, and Puerto Colón marina, five minutes away, is where the whale-watching and catamaran trips leave from.",
+    "getting": "About twenty to twenty-five minutes from Tenerife South Airport on the TF-1, and a flat walk from most of Costa Adeje. TITSA buses serve the resort from Los Cristianos and Playa de las Américas. Street parking near the beach is scarce in high season; the hotel car parks are the realistic option.",
+    "tips": "The middle of the beach is the busiest part, and it thins out noticeably at either end. Sunbeds cost a little less here than at Playa del Duque next door. Prices at the seafront restaurants reflect their position, so walk one street back if you are eating more than once. Afternoon breeze picks up along this whole coast, which is welcome on the sand and less so if you are trying to read.",
+    "highlights": [
+      "Blue Flag golden sand",
+      "Watersports off the beach",
+      "Promenade to Duque and Las Américas",
+      "Puerto Colón marina nearby"
+    ],
+    "gyg": "costa+adeje+tenerife",
+    "faq": [
+      [
+        "Is Playa de Fañabé good for families?",
+        "Yes. The water is usually calm, there are lifeguards in season, and the facilities behind the beach are excellent. It is busier than Playa del Duque and cheaper for sunbeds."
+      ],
+      [
+        "Is the sand at Fañabé natural?",
+        "No. Like most of the golden beaches in the south, the sand was brought in. The island's natural sand is the black volcanic kind you see in the north and west."
+      ]
+    ]
+  },
+  "playa-del-camison": {
+    "name": "Playa del Camisón",
+    "type": "Beach",
+    "area": "Playa de las Américas",
+    "region": "south",
+    "lat": 28.0565,
+    "lng": -16.7245,
+    "image": "beach-camison.jpg",
+    "alt": "Thatched parasols on Playa del Camisón",
+    "tagline": "The nicest beach in Playa de las Américas: small, sheltered and a clear step above its neighbours.",
+    "intro": "Playa del Camisón is a compact crescent of golden sand at the quieter end of Playa de las Américas, tucked behind breakwaters that keep the water flat. It is smaller than Playa de Troya up the coast and considerably more pleasant, which is why regulars to this resort tend to walk past two other beaches to get to it.",
+    "see": "It is a beach for swimming and sitting rather than doing. The sheltered water suits children and weaker swimmers, there are showers, sunbeds and lifeguards in season, and the palm-lined promenade runs directly behind. From here you can walk south into Los Cristianos in about twenty minutes or north through Las Américas towards Costa Adeje.",
+    "getting": "Fifteen to twenty minutes from Tenerife South Airport on the TF-1, at the southern end of Playa de las Américas near the Mare Nostrum complex. It is walkable from anywhere in the resort and from Los Cristianos along the seafront.",
+    "tips": "Because it is small it fills early, so mornings are better in high season. It is a good choice if you are staying in Las Américas with children but want to avoid the busier central beaches. The promenade here is one of the better evening walks on this coast, and it is flat the whole way.",
+    "highlights": [
+      "Sheltered, calm water",
+      "The quietest Las Américas beach",
+      "Palm-lined promenade behind",
+      "Twenty-minute walk to Los Cristianos"
+    ],
+    "gyg": "playa+de+las+americas",
+    "faq": [
+      [
+        "Which is the best beach in Playa de las Américas?",
+        "Playa del Camisón is generally reckoned the nicest: it is smaller, more sheltered and quieter than Playa de Troya. It is at the Los Cristianos end of the resort."
+      ],
+      [
+        "Is Playa del Camisón good for children?",
+        "Yes. Breakwaters keep the water calm, the sand shelves gently and there are lifeguards in season."
+      ]
+    ]
+  },
+  "los-abrigos": {
+    "name": "Los Abrigos",
+    "type": "Fishing village",
+    "area": "Los Abrigos",
+    "region": "east",
+    "prep": "in",
+    "lat": 28.0292,
+    "lng": -16.5908,
+    "image": "los-abrigos.jpg",
+    "alt": "A palm-lined street in Los Abrigos",
+    "tagline": "A working fishing village ten minutes from the airport, and the south's best-value place to eat fish.",
+    "intro": "Los Abrigos is a small, low-rise village on the south-east coast that has done very well out of one thing: fish. A row of restaurants along the seafront serves what the boats bring in, and Canarians drive down from across the island to eat there. It is not a beach destination and makes no attempt to be one.",
+    "see": "Eating is the reason to come. The seafront restaurants are unpretentious and the fish is priced by weight, which is normal here and worth knowing before you order. Beyond that there is a small harbour, a set of natural rock pools along the coast to the east, and a walkable stretch of shoreline. Most visits last an evening.",
+    "getting": "About ten minutes from Tenerife South Airport, which makes it a genuinely good first or last meal of a trip. Roughly twenty minutes from Los Cristianos on the TF-1, and TITSA line 470 links it with El Médano, Golf del Sur and Los Cristianos. Parking on the seafront is tight at dinner.",
+    "tips": "Book at weekends, when locals fill the tables. Fish is sold by weight, so ask the price per kilo and roughly what your fish weighs before agreeing — nobody minds the question. There is no sandy beach here; La Tejita and El Médano are ten minutes away if you want one. The village is exposed to the same trade winds as that coast.",
+    "highlights": [
+      "Fresh fish priced by weight",
+      "Ten minutes from the airport",
+      "Natural rock pools nearby",
+      "Where Canarians go to eat"
+    ],
+    "gyg": "tenerife+south",
+    "faq": [
+      [
+        "Why is Los Abrigos known for fish?",
+        "It is a working fishing village, and its seafront restaurants sell the local catch simply cooked and priced by weight. It has a strong reputation among Canarians, not just visitors."
+      ],
+      [
+        "Is Los Abrigos worth visiting?",
+        "For a meal, yes, especially on your first or last night given it is ten minutes from the airport. There is no beach, so it is an evening rather than a day."
+      ]
+    ]
+  },
+  "piramides-de-guimar": {
+    "name": "Pirámides de Güímar",
+    "type": "Archaeological park",
+    "area": "Güímar",
+    "region": "east",
+    "lat": 28.3219,
+    "lng": -16.4126,
+    "image": "piramides-guimar.jpg",
+    "alt": "A stepped pyramid at the Pirámides de Güímar park",
+    "title": "Pirámides de Güímar — Visitor Guide & The Debate",
+    "tagline": "Six stepped platforms of lava stone, a Norwegian explorer, and an argument that is still going.",
+    "intro": "On the edge of Güímar stand six rectangular stepped structures built from lava stone. Thor Heyerdahl, the Norwegian who sailed the Kon-Tiki, moved to Tenerife in the 1990s, became convinced they were ancient, and set up the ethnographic park that protects them today. Mainstream archaeology is far less convinced, and that unresolved argument is much of what makes the visit interesting.",
+    "see": "The pyramids themselves, plus a well-made museum covering Heyerdahl's expeditions, a replica of the Ra II reed boat, and gardens planted with species from the places his voyages touched. The park sets out the competing explanations fairly: Heyerdahl's transatlantic theory on one hand, and the widely held view that the structures are nineteenth-century terracing built from stones cleared off farmland on the other. Allow around two hours.",
+    "getting": "Roughly thirty minutes south of Santa Cruz on the TF-1, or about forty-five minutes from the southern resorts. There is parking at the park. Buses run to Güímar from Santa Cruz, with a short walk or taxi at the far end.",
+    "tips": "Go for the ideas as much as the stones — visitors expecting Egypt are usually disappointed, while visitors who enjoy an unresolved argument tend to leave happy. Much of the site is outdoors with limited shade. It combines neatly with Candelaria, twenty minutes north up the coast.",
+    "highlights": [
+      "Six stepped lava-stone platforms",
+      "Thor Heyerdahl's museum and Ra II replica",
+      "A genuinely disputed origin",
+      "Ethnographic gardens"
+    ],
+    "gyg": "guimar+tenerife",
+    "faq": [
+      [
+        "Are the Güímar pyramids really ancient?",
+        "That is disputed. Thor Heyerdahl argued they were, and built a case around transatlantic contact. The prevailing archaeological view is that they are nineteenth-century agricultural terracing made from field stones. The park presents both."
+      ],
+      [
+        "Is it worth visiting the Pirámides de Güímar?",
+        "If you enjoy the argument and the Heyerdahl story, yes — the museum is good and it takes about two hours. Visitors expecting monumental ancient architecture usually find it underwhelming."
+      ]
+    ]
+  },
+  "taganana": {
+    "name": "Taganana",
+    "type": "Village",
+    "area": "Anaga",
+    "region": "scruz",
+    "prep": "in",
+    "lat": 28.559,
+    "lng": -16.221,
+    "image": "taganana.jpg",
+    "alt": "The village of Taganana in a valley of the Anaga mountains above the Atlantic",
+    "tagline": "One of the oldest settlements on the island, spilled down an Anaga valley towards the sea.",
+    "intro": "Taganana sits in a steep green valley on the north side of the Anaga massif, white houses scattered among terraces of vines. It was settled very soon after the Spanish conquest and stayed effectively cut off for centuries — the road over the ridge is recent history. It remains one of the most striking approaches on the island.",
+    "see": "The village itself is a short wander: the church of Nuestra Señora de las Nieves, narrow lanes and terraced vineyards that still produce wine. What most people really come for is the coast just below — Roque de las Bodegas with its fish restaurants, then Almáciga, then Benijo at the end of the road. Walking trails climb from the village back up into the laurel forest.",
+    "getting": "About forty-five minutes from Santa Cruz over the Anaga ridge on the TF-12 and TF-134, a beautiful and continuously winding drive through the laurel forest. Buses into Anaga are infrequent, so most visitors drive or take a guided tour. Parking in the village is very limited.",
+    "tips": "Expect cloud on the ridge on the way over even when the coast below is clear — that is how Anaga works. Combine the village with lunch at Roque de las Bodegas and the drive on to Benijo, which is the natural half-day. Anyone prone to car sickness should take the front seat and allow far longer than the distance suggests.",
+    "highlights": [
+      "One of Tenerife's oldest villages",
+      "Terraced vineyards still in production",
+      "Fish restaurants at Roque de las Bodegas",
+      "Trailhead into the laurel forest"
+    ],
+    "guide": "/santa-cruz/anaga.html",
+    "gyg": "anaga+tenerife",
+    "faq": [
+      [
+        "How do you get to Taganana?",
+        "By car over the Anaga ridge from Santa Cruz or La Laguna, around forty-five minutes on very winding mountain roads. Public transport into Anaga is sparse, so most visitors drive or join a tour."
+      ],
+      [
+        "Is there a beach at Taganana?",
+        "Not in the village itself, but the coast road below leads to Roque de las Bodegas, Almáciga and Benijo. These are wild Atlantic beaches with strong currents, better for looking than swimming."
+      ]
+    ]
+  },
+  "punta-del-hidalgo": {
+    "name": "Punta del Hidalgo",
+    "type": "Village",
+    "area": "La Laguna",
+    "region": "scruz",
+    "prep": "in",
+    "lat": 28.5692,
+    "lng": -16.3217,
+    "image": "punta-del-hidalgo.jpg",
+    "alt": "Punta del Hidalgo and the Atlantic seen from the hills above",
+    "tagline": "Natural seawater pools at the end of the north coast road, where Anaga meets the Atlantic.",
+    "intro": "Punta del Hidalgo is where the road along the north coast from La Laguna runs out, at the foot of the Anaga mountains. It is a village of locals rather than visitors, and its draw is a set of natural and part-built seawater pools along a rocky shore, plus some of the best walking on this side of the island starting from the edge of town.",
+    "see": "The rock pools are the main event and are free to use, sheltered enough to swim in on calm days. A strikingly modern concrete lighthouse stands at the point. The coastal path west to Bajamar is an easy walk of about an hour, and steeper trails climb from here up into Anaga towards Chinamada and its cave houses. There are unfussy local restaurants along the front.",
+    "getting": "Around twenty-five minutes from La Laguna on the TF-13, or forty minutes from Santa Cruz. TITSA buses run from La Laguna. From the southern resorts, allow an hour and a quarter, or take the express coach to Santa Cruz and continue by tram and bus.",
+    "tips": "The pools depend entirely on the sea state. In swell they are dangerous and should be left alone; on a calm day they are excellent. This coast is cooler and cloudier than the south, so bring a layer. Sunday is when the village is at its most Canarian and its busiest.",
+    "highlights": [
+      "Free natural seawater pools",
+      "Modern lighthouse at the point",
+      "Coastal walk to Bajamar",
+      "Trailhead up into Anaga"
+    ],
+    "guide": "/santa-cruz/anaga.html",
+    "gyg": "anaga+tenerife",
+    "faq": [
+      [
+        "Can you swim at Punta del Hidalgo?",
+        "In the seawater pools, yes, on calm days — they are free and popular with locals. When the Atlantic swell is up they become dangerous and should be avoided."
+      ],
+      [
+        "Is Punta del Hidalgo worth visiting?",
+        "If you want the north coast without tourism, yes. It is a real village with free sea pools and excellent walking, and it pairs well with Bajamar or a hike into Anaga."
+      ]
+    ]
+  },
+  "la-orotava": {
+    "name": "La Orotava",
+    "type": "Historic town",
+    "area": "La Orotava",
+    "region": "north",
+    "prep": "in",
+    "lat": 28.39,
+    "lng": -16.524,
+    "image": "la-orotava.jpg",
+    "alt": "The carved wooden balconies of the Casa de los Balcones in La Orotava",
+    "title": "La Orotava, Tenerife — Historic Town Guide",
+    "tagline": "Steep cobbled streets and carved Canarian balconies, on the hillside above Puerto de la Cruz.",
+    "intro": "La Orotava sits above Puerto de la Cruz on the slope running down from Teide, and it is the best-preserved historic town in the north. Wealth from sugar and wine built it, and the money shows: carved wooden balconies, painted mansions and a hillside grid of cobbled streets steep enough to make you notice.",
+    "see": "The Casa de los Balcones is the landmark, a seventeenth-century house whose galleried Canarian pine balconies appear on half the postcards of the island. The Iglesia de la Concepción has one of the finest baroque façades in the Canaries, and the Victoria Gardens step up the hillside behind. At Corpus Christi the town lays enormous carpets of coloured volcanic sand across the square in front of the town hall, which is worth planning a trip around.",
+    "getting": "Ten minutes uphill from Puerto de la Cruz, or about forty minutes from Santa Cruz. From the southern resorts allow an hour and a quarter. The TF-21 continues up from here towards Teide, so it works well as a stop on the way. Park at the edge and walk in; the old streets are narrow and steep.",
+    "tips": "Wear shoes you can walk uphill in — the gradient is real. Many shops still close for a long lunch. Combine it with Puerto de la Cruz below or with a drive up to Teide above, since it sits on the road between the two.",
+    "highlights": [
+      "Casa de los Balcones",
+      "Baroque Iglesia de la Concepción",
+      "Corpus Christi sand carpets",
+      "On the road up to Teide"
+    ],
+    "gyg": "la+orotava+tenerife",
+    "faq": [
+      [
+        "Is La Orotava worth visiting?",
+        "Yes, particularly if you like historic architecture. It is the best-preserved old town in the north and takes a couple of hours, easily combined with Puerto de la Cruz or a trip up to Teide."
+      ],
+      [
+        "When are the sand carpets in La Orotava?",
+        "They are laid for Corpus Christi, which falls in late spring or early summer depending on the year. Check the local dates before planning around it."
+      ]
+    ]
+  },
+  "playa-el-bollullo": {
+    "name": "Playa El Bollullo",
+    "type": "Beach",
+    "area": "La Orotava",
+    "region": "north",
+    "lat": 28.418,
+    "lng": -16.5195,
+    "image": "el-bollullo.jpg",
+    "alt": "The black sand and turquoise water of Playa El Bollullo",
+    "tagline": "A black-sand cove below the banana terraces east of Puerto de la Cruz, and the north's prettiest beach.",
+    "intro": "El Bollullo is a small cove of jet-black volcanic sand backed by cliffs and banana plantations, a few kilometres east of Puerto de la Cruz. The contrast of black sand against turquoise water makes it the most photographed beach in the north, and the short walk down keeps the crowds smaller than the numbers would suggest.",
+    "see": "The beach, the cliffs and the water. There is a beach bar at the top of the path and little else, which is the appeal. Neighbouring coves — El Rincón and Los Patos — are reachable on foot along the shore at low tide, though this requires care and local advice about conditions. Surfers use this stretch when the swell is right.",
+    "getting": "Park at the end of the track from La Quinta, east of Puerto de la Cruz, and walk down a stepped path of five to ten minutes. The car park is small and fills at weekends. There is no direct bus, so a car or a taxi from Puerto de la Cruz is realistic.",
+    "tips": "This is an open Atlantic beach with real waves, currents and no lifeguard cover — swim with caution and get out if it is heavy. Black sand becomes genuinely hot underfoot in the middle of the day, so bring something for your feet. There is no shade, and the path back up is steeper than it looked on the way down.",
+    "highlights": [
+      "Black sand against turquoise water",
+      "Cliffs and banana terraces",
+      "Beach bar at the top of the path",
+      "No development at all"
+    ],
+    "gyg": "puerto+de+la+cruz+tenerife",
+    "faq": [
+      [
+        "Can you swim at El Bollullo?",
+        "With caution. It is an open Atlantic beach with waves and currents and no lifeguards. Many visitors come for the setting and paddle rather than swim properly."
+      ],
+      [
+        "How do you get down to El Bollullo?",
+        "A stepped path of five to ten minutes from the small car park at the end of the track from La Quinta. There is no road access to the sand itself."
+      ]
+    ]
   }
 }
