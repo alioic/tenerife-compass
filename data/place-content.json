@@ -528,5 +528,352 @@
         "It is natural volcanic sand, which is what most of the island's beaches look like away from the imported golden sand of the south."
       ]
     ]
+  },
+  "mount-teide": {
+    "name": "Mount Teide",
+    "type": "Volcano",
+    "area": "Teide National Park",
+    "region": "south",
+    "regionLabel": "Teide National Park",
+    "prep": "on",
+    "lat": 28.2724,
+    "lng": -16.6425,
+    "image": "teide-landscape.jpg",
+    "alt": "The peak of Mount Teide above the crater floor",
+    "title": "Mount Teide, Tenerife — Cable Car, Summit & Tips",
+    "tagline": "Spain's highest peak at 3,715 metres, and the reason the island looks the way it does.",
+    "intro": "Teide rises 3,715 metres out of the Atlantic, which makes it the highest point in Spain and, measured from the ocean floor, one of the tallest volcanic structures on Earth. The national park around it has been a UNESCO World Heritage Site since 2007 and is among the most visited national parks anywhere. Even if you never leave the coast, the mountain is on your horizon most days.",
+    "see": "Most visitors take the cable car from the base station up to around 3,555 metres, an eight-minute ride that leaves a short walk to two viewpoints. Going higher, onto the Telesforo Bravo path to the actual crater rim, needs a free permit booked in advance through the national parks website, and the daily quota goes early. Lower down, the crater floor is arguably the better experience: the Roques de García rock formations, the Llano de Ucanca plain and a landscape so lunar that film crews use it. After dark the park is one of the world's better stargazing sites, with organised night tours from the resorts.",
+    "getting": "About an hour and a half by car from the southern resorts on the TF-21 via Vilaflor, or from the north via La Orotava. Two TITSA buses serve the park daily: the 342 from Costa Adeje and the 348 from Puerto de la Cruz, both leaving in the morning and returning mid-afternoon. Many visitors book a guided tour instead, which removes the mountain driving and usually includes the cable car.",
+    "tips": "It is genuinely cold up there. The summit can sit below freezing while the coast is in shorts weather, and the wind makes it worse, so bring layers whatever the forecast says at sea level. The cable car closes in high wind, which happens often enough to be worth checking before you drive up. Altitude affects some people at 3,555 metres; take it slowly, and anyone with heart or breathing problems should think carefully. Book the summit permit and the cable car well ahead in peak season.",
+    "highlights": [
+      "3,715 m — Spain's highest point",
+      "Cable car to 3,555 m",
+      "Roques de García and the crater floor",
+      "World-class stargazing"
+    ],
+    "guide": "/south/mount-teide.html",
+    "gyg": "teide+tenerife",
+    "faq": [
+      [
+        "Do you need a permit to climb Mount Teide?",
+        "You need a free permit only for the Telesforo Bravo path above the cable car station to the actual summit. It is booked in advance through the national parks reservation website and the daily quota fills early. Everything below that, including the cable car and the crater floor, is open to all."
+      ],
+      [
+        "How cold is it at the top of Teide?",
+        "Much colder than the coast — often near or below freezing at the top station, and windier. Take proper layers even on a hot day at sea level."
+      ],
+      [
+        "Can you get to Teide by bus?",
+        "Yes. TITSA line 342 runs from Costa Adeje and 348 from Puerto de la Cruz, once each per day, up in the morning and back in the afternoon. It works, but it gives you a fixed and fairly short window in the park."
+      ]
+    ]
+  },
+  "loro-parque": {
+    "name": "Loro Parque",
+    "type": "Animal park",
+    "area": "Puerto de la Cruz",
+    "region": "north",
+    "lat": 28.4108,
+    "lng": -16.5638,
+    "image": "loro-parrot.jpg",
+    "alt": "A parrot at Loro Parque",
+    "prep": "at",
+    "title": "Loro Parque, Tenerife — Visitor Guide & Tickets",
+    "tagline": "The north's biggest attraction: a zoo and botanical park that began as a parrot collection in 1972.",
+    "intro": "Loro Parque opened in Puerto de la Cruz in 1972 with a few dozen parrots and has grown into the north's flagship attraction, part zoo and part botanical garden, set in dense subtropical planting. The parrot collection remains one of the largest in the world and is what the name still refers to.",
+    "see": "Beyond the parrots there are penguins in a refrigerated hall, gorillas, big cats, an aquarium with a shark tunnel, and animal presentations through the day. The planting is a genuine attraction in itself. Allow the best part of a day. Worth knowing before you book: like other parks that keep marine mammals, Loro Parque draws criticism from animal welfare campaigners, and its cetacean collection has changed in recent years — check the park's own site for what is currently on show rather than relying on older guides.",
+    "getting": "In Puerto de la Cruz, with a free vintage-style train shuttling from the town centre. From the southern resorts allow an hour and a quarter by car, or take the direct TITSA 343 bus. Twin tickets combining Loro Parque with Siam Park in the south are sold at both parks and by tour operators, and work out cheaper than two separate day tickets.",
+    "tips": "Go early, both for the animals and for the queues. The north is cooler and cloudier than the south, so a jacket is sensible even in summer, and the penguin house is deliberately cold. If you are staying in the south, the twin ticket only pays off if you will genuinely use both parks, since they are an hour and a half apart.",
+    "highlights": [
+      "One of the world's largest parrot collections",
+      "Refrigerated penguin house",
+      "Aquarium and shark tunnel",
+      "Twin ticket with Siam Park"
+    ],
+    "guide": "/north/loro-parque.html",
+    "gyg": "loro+parque",
+    "faq": [
+      [
+        "Is Loro Parque worth visiting?",
+        "For most visitors to the north, yes — it is the biggest attraction on that coast and the botanical setting is genuinely good. Visitors uncomfortable with marine mammals in captivity should check the park's current animal collection before booking."
+      ],
+      [
+        "Is the twin ticket with Siam Park worth it?",
+        "Only if you will use both. The two parks are an hour and a half apart on opposite coasts, so it means two separate day trips, but the combined price is well below two single tickets."
+      ]
+    ]
+  },
+  "puerto-de-la-cruz": {
+    "name": "Puerto de la Cruz",
+    "type": "Town",
+    "area": "Puerto de la Cruz",
+    "region": "north",
+    "prep": "in",
+    "lat": 28.4153,
+    "lng": -16.548,
+    "image": "lago-martianez.jpg",
+    "alt": "The Lago Martiánez lido at Puerto de la Cruz",
+    "title": "Puerto de la Cruz, Tenerife — Town Guide",
+    "tagline": "Tenerife's original resort town, and still the one that feels most like a real Canarian place.",
+    "intro": "Puerto de la Cruz was welcoming visitors long before the southern resorts existed, and it wears that history well. It is a proper town rather than a strip: a working plaza, an old harbour, steep streets of Canarian houses, and a seafront built around the fact that the Atlantic here is often too rough to swim in.",
+    "see": "Lago Martiánez, the seawater lido complex designed by César Manrique, is the town's clever answer to that rough sea and a fine place to spend an afternoon. Playa Jardín, also landscaped by Manrique, is the main black-sand beach. Plaza del Charco is the social centre, ringed by cafés under old laurel trees, and the lanes around the old harbour repay an aimless wander. Loro Parque is a short shuttle ride away, and the botanical garden on the edge of town is one of the oldest in Spain.",
+    "getting": "An hour and a quarter from the southern resorts by car on the TF-1 and TF-5, or on the direct TITSA 343 bus, which calls at both airports. From Santa Cruz it is around forty minutes. The town centre is walkable and parking is easier in the underground car parks than on the street.",
+    "tips": "This is the north, and the north has weather. Mornings can be cloudy when the south is clear, and it is a few degrees cooler year-round — pack a layer even in August. That trade-off buys you greenery, better food and lower prices than Costa Adeje. Carnival here in February is a serious event and accommodation books out well ahead.",
+    "highlights": [
+      "Manrique's Lago Martiánez lido",
+      "Plaza del Charco and the old town",
+      "Playa Jardín black-sand beach",
+      "Loro Parque on the doorstep"
+    ],
+    "gyg": "puerto+de+la+cruz+tenerife",
+    "faq": [
+      [
+        "Is Puerto de la Cruz better than the south?",
+        "Different rather than better. It has more character, better food and lower prices, but cooler and cloudier weather and rougher sea. Sun-certainty favours the south; atmosphere favours the north."
+      ],
+      [
+        "Can you swim in Puerto de la Cruz?",
+        "Sometimes. Playa Jardín is an open Atlantic beach where the flags matter. The Lago Martiánez lido exists precisely for the days when the sea is rough."
+      ]
+    ]
+  },
+  "los-cristianos": {
+    "name": "Los Cristianos",
+    "type": "Town",
+    "area": "Los Cristianos",
+    "region": "south",
+    "prep": "in",
+    "lat": 28.0503,
+    "lng": -16.7156,
+    "image": "los-cristianos.jpg",
+    "alt": "The bay and town of Los Cristianos",
+    "title": "Los Cristianos, Tenerife — Resort & Town Guide",
+    "tagline": "A former fishing village that grew into a resort without losing its town centre, and the island's ferry port for La Gomera.",
+    "intro": "Los Cristianos sits at the southern end of the resort strip and is the most lived-in of them. There is still an old town behind the harbour, a Sunday market, and streets where the businesses serve residents rather than visitors. It is flatter and more walkable than its neighbours, which is one reason it is popular with older travellers and with visitors who have mobility needs.",
+    "see": "Two beaches: Playa de los Cristianos by the harbour, and the far bigger Playa de las Vistas along the promenade. The working port is the departure point for ferries to La Gomera, La Palma and El Hierro, which makes a day trip to La Gomera genuinely easy. Whale-watching boats leave from the same harbour. The promenade runs unbroken to Playa de las Américas and on to Costa Adeje, so evenings tend to involve a long flat walk and dinner somewhere along it.",
+    "getting": "Fifteen to twenty minutes from Tenerife South Airport on the TF-1. It is the main southern hub for TITSA buses, including the 111 and 110 express services to Santa Cruz, so it is the easiest southern base if you are not hiring a car.",
+    "tips": "For eating, walk a street or two back from the seafront where the prices drop and the cooking improves. The Sunday morning market near the harbour is worth timing your week around. If you want nightlife, this is the quiet end — Playa de las Américas is a twenty-minute walk north.",
+    "highlights": [
+      "Ferries to La Gomera and La Palma",
+      "Flat, walkable and accessible",
+      "Playa de las Vistas alongside",
+      "Sunday market by the harbour"
+    ],
+    "gyg": "los+cristianos+tenerife",
+    "faq": [
+      [
+        "Is Los Cristianos good for older visitors?",
+        "It is one of the best choices on the island. The seafront is flat and continuous, the beaches have assisted bathing services, and the town has a real centre rather than only bars and tourist shops."
+      ],
+      [
+        "Can you get to La Gomera from Los Cristianos?",
+        "Yes. Ferries run from the harbour several times a day and the crossing takes under an hour, which makes a day trip realistic."
+      ]
+    ]
+  },
+  "costa-adeje": {
+    "name": "Costa Adeje",
+    "type": "Resort area",
+    "area": "Costa Adeje",
+    "region": "south",
+    "prep": "in",
+    "lat": 28.0908,
+    "lng": -16.738,
+    "image": "beach-sunbeds.jpg",
+    "alt": "Thatched parasols and sunbeds on a Costa Adeje beach",
+    "title": "Costa Adeje, Tenerife — Resort Area Guide",
+    "tagline": "The upmarket end of the southern coast: the best hotels, the smartest beaches and the highest prices.",
+    "intro": "Costa Adeje is the purpose-built resort that runs north from Playa de las Américas to the old village of La Caleta. It holds most of the island's five-star hotels, a string of well-kept Blue Flag beaches and a promenade that ties it all together. It is comfortable rather than characterful, and it makes no apology for that.",
+    "see": "The beaches step up in polish as you go north: Torviscas, then Fañabé, then Playa del Duque at the smart end. Siam Park sits above the resort and is the strongest single attraction in the south. Whale-watching boats leave from Puerto Colón marina. La Caleta at the northern edge has the best fish restaurants on this coast, and Plaza del Duque is the island's most upmarket shopping centre.",
+    "getting": "Twenty to twenty-five minutes from Tenerife South Airport on the TF-1. Taxis and pre-booked transfers are straightforward; the TITSA 111 also runs from the airport. Within the resort almost everything is walkable along the seafront.",
+    "tips": "Prices here are the island's highest, and the gap is real — the same dinner costs noticeably less in Los Cristianos twenty minutes south. The trade-off is quieter, better-maintained beaches and stronger hotels. For nightlife you will be heading to Las Américas; Costa Adeje goes quiet early, which for most visitors is the point.",
+    "highlights": [
+      "Most of the island's five-star hotels",
+      "Blue Flag beaches in a row",
+      "Siam Park above the resort",
+      "Seafront promenade to La Caleta"
+    ],
+    "guide": "/south/costa-adeje-vs-las-americas.html",
+    "gyg": "costa+adeje+tenerife",
+    "faq": [
+      [
+        "Is Costa Adeje better than Playa de las Américas?",
+        "For families, couples and anyone wanting quiet, yes — the beaches and hotels are better kept. Las Américas is cheaper and far livelier at night. They are a twenty-minute walk apart, so you can use both."
+      ],
+      [
+        "Is Costa Adeje expensive?",
+        "It is the most expensive part of the island for hotels and restaurants. Eating a street back from the seafront, or driving to Los Cristianos, cuts the bill significantly."
+      ]
+    ]
+  },
+  "playa-de-las-americas": {
+    "name": "Playa de las Américas",
+    "type": "Resort area",
+    "area": "Playa de las Américas",
+    "region": "south",
+    "prep": "in",
+    "lat": 28.0602,
+    "lng": -16.729,
+    "image": "promenade-camison.jpg",
+    "alt": "Palms along the promenade at Playa de las Américas",
+    "title": "Playa de las Américas — Resort & Nightlife Guide",
+    "tagline": "The island's nightlife capital, cheaper than its neighbours and unapologetic about what it is.",
+    "intro": "Playa de las Américas is the busiest and loudest of the southern resorts, built in the 1970s and 80s with no pretence of being a Canarian town. What it offers is a run of decent beaches, a huge choice of cheap places to eat and drink, and the island's only real concentration of nightlife.",
+    "see": "Playa de Troya and Playa del Camisón are the main beaches, the latter smaller, more sheltered and generally the nicer of the two. The promenade connects everything and runs both north into Costa Adeje and south into Los Cristianos. The nightlife clusters around the Veronicas strip, which is exactly as advertised and easily avoided if it is not your thing — a few hundred metres away the resort is unremarkably quiet.",
+    "getting": "Around fifteen to twenty minutes from Tenerife South Airport on the TF-1, with the same taxi, transfer and TITSA options as the other southern resorts. Everything within the resort is walkable.",
+    "tips": "Choose your street carefully. Hotels within earshot of the Veronicas strip are cheap for a reason, and the difference between a noisy block and a quiet one can be two hundred metres. Playa del Camisón is the beach to pick with children. If you want value without the volume, look at Los Cristianos instead.",
+    "highlights": [
+      "The island's nightlife strip",
+      "Playa del Camisón and Playa de Troya",
+      "Cheapest eating on this coast",
+      "Walkable to two other resorts"
+    ],
+    "guide": "/south/costa-adeje-vs-las-americas.html",
+    "gyg": "playa+de+las+americas",
+    "faq": [
+      [
+        "Is Playa de las Américas suitable for families?",
+        "Parts of it are. The beaches are good and Playa del Camisón in particular suits children. Choose a hotel well away from the Veronicas nightlife strip and check reviews for noise."
+      ],
+      [
+        "Is Playa de las Américas cheaper than Costa Adeje?",
+        "Yes, noticeably, for both hotels and eating out. The beaches and hotel standards are a step below, and it is much livelier at night."
+      ]
+    ]
+  },
+  "santa-cruz": {
+    "name": "Santa Cruz de Tenerife",
+    "type": "City",
+    "area": "Santa Cruz",
+    "region": "scruz",
+    "prep": "in",
+    "lat": 28.4636,
+    "lng": -16.2518,
+    "image": "santa-cruz.jpg",
+    "alt": "The Auditorio de Tenerife on the Santa Cruz waterfront",
+    "title": "Santa Cruz de Tenerife — City Guide",
+    "tagline": "The island's capital: a working Spanish city with a Calatrava landmark, a famous market and the world's second-largest carnival.",
+    "intro": "Santa Cruz is where the island actually works. It is a port city rather than a resort, with department stores, office workers and a waterfront that has been rebuilt around Santiago Calatrava's Auditorio. Visitors who only see the south often skip it, which is a mistake if you want any sense of what Tenerife is like when it is not selling itself.",
+    "see": "The Auditorio is the landmark, its great white wave visible from the motorway. Plaza de España is built around a shallow artificial lake designed by Herzog & de Meuron. The Mercado de Nuestra Señora de África is the best market on the island for produce, cheese and fish. Add the TEA arts centre, the palm-filled Parque García Sanabria and Calle del Castillo for shopping. In February the city hosts a carnival that is generally reckoned second only to Rio.",
+    "getting": "About an hour from the southern resorts on the TF-1, and much easier by the TITSA 110 or 111 express coaches, which run frequently and drop you at the intercambiador in the centre. From there tram line 1 continues to La Laguna. Driving in is fine; parking is easiest in the underground car parks near the Auditorio.",
+    "tips": "Most shops still close for a long lunch and stay shut on Sunday, so plan around that. The market is a morning place. Combine the city with La Laguna, thirty minutes away by tram, and you have a full and genuinely interesting day. If you are here in February, book accommodation months ahead.",
+    "highlights": [
+      "Calatrava's Auditorio de Tenerife",
+      "Mercado de Nuestra Señora de África",
+      "Carnival in February",
+      "Tram straight to La Laguna"
+    ],
+    "gyg": "santa+cruz+de+tenerife",
+    "faq": [
+      [
+        "Is Santa Cruz worth a day trip?",
+        "Yes, particularly combined with La Laguna up the tram line. It is a real city rather than a resort, with the island's best market and shopping and a genuinely striking waterfront."
+      ],
+      [
+        "How do you get to Santa Cruz from the south?",
+        "The TITSA 110 and 111 express coaches run frequently from Los Cristianos and Costa Adeje and take around an hour, which is easier than driving and parking."
+      ]
+    ]
+  },
+  "la-tejita": {
+    "name": "Playa de la Tejita",
+    "type": "Beach",
+    "area": "La Tejita",
+    "region": "east",
+    "lat": 28.029,
+    "lng": -16.552,
+    "image": "la-tejita.jpg",
+    "alt": "Playa de la Tejita with Montaña Roja behind",
+    "title": "Playa de la Tejita, Tenerife — Beach Guide",
+    "tagline": "One of the longest natural beaches on the island, undeveloped, with Montaña Roja at one end.",
+    "intro": "La Tejita runs for roughly a kilometre of natural golden sand between Montaña Roja and El Médano, and it is one of the few big beaches in the south with almost nothing built on it. That emptiness is the appeal, and it comes with the trade-offs you would expect: little shade, few facilities and an exposed Atlantic shoreline.",
+    "see": "The beach and the volcano behind it are the whole attraction. The path up Montaña Roja starts at the eastern end and gives the best coastal view in this corner of the island. There is a beach bar at the western end in season. The eastern end, nearest the volcano, is a long-established naturist area; the rest is mixed and nobody makes a fuss either way.",
+    "getting": "Two free dirt car parks off the TF-643 between El Médano and Los Abrigos put you five minutes from the sand across the dunes. It is around ten minutes from Tenerife South Airport, or a walk of about half an hour along the coast from El Médano.",
+    "tips": "There is no natural shade, so bring an umbrella if you plan to stay. The same trade winds that make El Médano a windsurfing centre blow here, strongest between May and September — superb if you like a wild beach, wearing if you want to read a book. Swim with care: this is open Atlantic with no lifeguard cover along most of its length.",
+    "highlights": [
+      "Around a kilometre of natural sand",
+      "Montaña Roja at the eastern end",
+      "Free parking, almost no development",
+      "Naturist section at the volcano end"
+    ],
+    "gyg": "el+medano+tenerife",
+    "faq": [
+      [
+        "Is La Tejita a nudist beach?",
+        "Partly. The eastern end nearest Montaña Roja is a long-established naturist area. The rest of the beach is mixed and textile."
+      ],
+      [
+        "Is La Tejita windy?",
+        "Often, yes. It sits on the same stretch of coast as El Médano, where the trade winds are strongest from May to September. Autumn and early winter are calmer."
+      ]
+    ]
+  },
+  "candelaria": {
+    "name": "Candelaria",
+    "type": "Town",
+    "area": "Candelaria",
+    "region": "east",
+    "prep": "in",
+    "lat": 28.354,
+    "lng": -16.3705,
+    "image": "candelaria.jpg",
+    "alt": "The Basílica de Nuestra Señora de la Candelaria",
+    "title": "Candelaria, Tenerife — Basilica & Town Guide",
+    "tagline": "The spiritual capital of the Canary Islands, with nine bronze Guanche kings facing the sea.",
+    "intro": "Candelaria, on the east coast south of Santa Cruz, is where Canarians come rather than where tour buses stop. Its basilica holds the image of the Virgin of Candelaria, patron saint of the whole archipelago, and the square in front of it is guarded by nine bronze statues of Guanche kings looking out at the Atlantic.",
+    "see": "The Basílica de Nuestra Señora de la Candelaria dominates the seafront square, and the statues of the nine menceyes — the chiefs who ruled the island before the Spanish conquest — are the photograph everyone takes. Beyond that it is a pleasant coastal town with black-sand beaches, a promenade and unpretentious fish restaurants. The big pilgrimage falls in mid-August and draws people on foot from across the island.",
+    "getting": "Around twenty minutes south of Santa Cruz on the TF-1, or roughly forty-five minutes from the southern resorts. TITSA buses run along this coast from Santa Cruz. There is parking near the seafront, which fills on Sundays and during festivals.",
+    "tips": "Sunday is when the town is at its most alive and its most crowded. The beaches here are black volcanic sand and the sea is more exposed than the sheltered southern bays, so treat swimming with the usual Atlantic caution. It pairs well with the Güímar pyramids, twenty minutes further south.",
+    "highlights": [
+      "Patron saint of the Canary Islands",
+      "Nine bronze Guanche kings",
+      "August pilgrimage",
+      "Black-sand beaches and fish restaurants"
+    ],
+    "gyg": "candelaria+tenerife",
+    "faq": [
+      [
+        "Who are the statues at Candelaria?",
+        "They are the nine menceyes, the Guanche chiefs who ruled the districts of Tenerife before the Spanish conquest. The bronzes stand along the seafront in front of the basilica."
+      ],
+      [
+        "Is Candelaria worth visiting?",
+        "If you want a side of the island that is not built for tourism, yes. It is the religious heart of the Canaries and a genuine Canarian town, best combined with the Güímar pyramids nearby."
+      ]
+    ]
+  },
+  "punta-de-teno": {
+    "name": "Punta de Teno",
+    "type": "Viewpoint",
+    "area": "Buenavista del Norte",
+    "region": "west",
+    "lat": 28.341,
+    "lng": -16.92,
+    "image": "punta-de-teno.jpg",
+    "alt": "The red and white lighthouse at Punta de Teno",
+    "title": "Punta de Teno, Tenerife — Lighthouse & Access",
+    "tagline": "The island's western tip: a lighthouse, an empty headland and the finest view of the Los Gigantes cliffs.",
+    "intro": "Punta de Teno is the westernmost point of Tenerife, a low volcanic headland with a red-and-white lighthouse at the end of it. There is nothing there but rock, sea and the view — south along the full wall of the Los Gigantes cliffs and out to La Gomera and La Palma on a clear day. Getting there is deliberately restricted, which is why it stays as good as it is.",
+    "see": "The lighthouse and the headland around it, and the view. There is a small rocky cove for a swim on calm days, and the drive or ride in along the Teno cliffs is spectacular in its own right. Most visitors stay an hour. Sunset here is exceptional and is the reason the last shuttle back matters.",
+    "getting": "Private cars are barred from the access road during the main part of the day, so nearly everyone arrives on the TITSA shuttle bus from Buenavista del Norte, a short and cheap ride. Check current times and any restrictions before you set off: the road runs beneath unstable cliffs and has closed for long spells after rockfalls, and the rules change accordingly.",
+    "tips": "Take water and a hat — there is no shade and no café at the point. The wind here is stronger than the temperature suggests. Confirm the shuttle timetable and the road's status on the day rather than relying on an older guide, since this is the single most changeable access arrangement on the island.",
+    "highlights": [
+      "Westernmost point of Tenerife",
+      "Best view of the Los Gigantes cliffs",
+      "Reached by shuttle bus, not car",
+      "La Gomera and La Palma on the horizon"
+    ],
+    "gyg": "teno+tenerife",
+    "faq": [
+      [
+        "Can you drive to Punta de Teno?",
+        "Generally not during the day. Private vehicles are restricted and visitors use the TITSA shuttle from Buenavista del Norte. Always check the current rules, as the access road closes after rockfalls."
+      ],
+      [
+        "Is Punta de Teno worth the trip?",
+        "For the view along the Los Gigantes cliffs, yes. It is an hour at the point plus a spectacular ride in, and it is one of the emptiest places on an otherwise busy island."
+      ]
+    ]
   }
 }

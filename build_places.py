@@ -122,6 +122,15 @@ def footer():
 
 def place_page(slug, P, db, all_content):
     reg = P['region']
+    # Teide og fleiri liggja í miðju eyjunnar — svæðismerkið má víkja frá
+    # svæðinu sem síðan tengist. Sama fyrir forsetninguna: "in Santa Cruz",
+    # en "at Playa del Duque".
+    reg_label = P.get('regionLabel') or REGION_NAME[reg]
+    # Eigið merki er lýsing, ekki svæðishlekkur — þá er brauðmolinn ótengdur
+    # svo hann lofi ekki síðu sem hann fer ekki á.
+    crumb_region = (esc(reg_label) if P.get('regionLabel')
+                    else f'<a href="{REGION_HREF[reg]}">{esc(REGION_NAME[reg])}</a>')
+    prep = P.get('prep', 'at')
     lat, lng = P['lat'], P['lng']
     # Titill þarf að rúmast í leitarniðurstöðu — nafn + tegund, ekki heil kynning.
     title = P.get('title') or f"{P['name']}, Tenerife — {P.get('type','Place')} Guide"
@@ -212,20 +221,20 @@ def place_page(slug, P, db, all_content):
 <section class="hero" style="min-height:44vh;">
   <img class="hero__bg" src="/assets/img/{img}" alt="{esc(P.get('alt', P['name']))}" loading="eager" fetchpriority="high">
   <div class="container hero__inner" style="padding:46px 0;">
-    <span class="eyebrow">{esc(P.get('type',''))} · {esc(REGION_NAME[reg])}</span>
+    <span class="eyebrow">{esc(P.get('type',''))} · {esc(reg_label)}</span>
     <h1>{esc(P['name'])}</h1>
     <p class="lede">{esc(P.get('tagline',''))}</p>
   </div>
 </section>
 
-<div class="container"><nav class="breadcrumb"><a href="/">Home</a><span>›</span> <a href="/places/">Places</a><span>›</span> <a href="{REGION_HREF[reg]}">{esc(REGION_NAME[reg])}</a><span>›</span> {esc(P['name'])}</nav></div>
+<div class="container"><nav class="breadcrumb"><a href="/">Home</a><span>›</span> <a href="/places/">Places</a><span>›</span> {crumb_region}<span>›</span> {esc(P['name'])}</nav></div>
 
 <section class="section section--white" style="padding-top:34px;">
   <div class="container">
     <div class="prose">
       <p style="font-size:1.15rem;color:var(--ink-soft);">{esc(P['intro'])}</p>
       {extra_link}
-      <h2>What to see and do at {esc(P['name'])}</h2>
+      <h2>What to see and do {prep} {esc(P['name'])}</h2>
       <p>{esc(P['see'])}</p>
       <h2>How to get to {esc(P['name'])}</h2>
       <p>{esc(P['getting'])}</p>
