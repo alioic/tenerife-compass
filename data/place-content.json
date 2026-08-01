@@ -1139,5 +1139,109 @@
         "A stepped path of five to ten minutes from the small car park at the end of the track from La Quinta. There is no road access to the sand itself."
       ]
     ]
+  },
+  "vilaflor": {
+    "name": "Vilaflor",
+    "type": "Mountain village",
+    "area": "Vilaflor de Chasna",
+    "region": "south",
+    "prep": "in",
+    "lat": 28.1588,
+    "lng": -16.6473,
+    "image": "vilaflor.jpg",
+    "alt": "The village of Vilaflor among Canary pines",
+    "title": "Vilaflor, Tenerife — Village Guide & Walks",
+    "tagline": "The island's highest village, in the pine belt on the road up to Teide.",
+    "intro": "Vilaflor de Chasna sits at roughly 1,400 metres on the southern slope, in the Canary pine forest between the resorts and the national park. It is the highest village in Tenerife and the last real settlement before the road climbs into the crater. Cool air, pine scent and terraced hillsides make it feel a long way from the coast it looks down on.",
+    "see": "The village is small and takes an hour: a whitewashed church, steep lanes, terraces and viewpoints back down to the sea. What people really come for is what surrounds it. The Paisaje Lunar, the lunar landscape, is a set of pale eroded pumice pinnacles reached on a demanding walk of several hours, and it is one of the strangest sights on the island. Closer in, the Pino Gordo is among the largest Canary pines anywhere. Vilaflor is also the birthplace of Pedro de San José Betancur, born here in 1626 and canonised in 2002 as the first Canarian saint.",
+    "getting": "About forty minutes up the TF-21 from Los Cristianos, on the main southern route to Teide, so it works naturally as a stop on the way up or down. TITSA line 482 links it with Los Cristianos. Parking in the village is limited to a few small areas.",
+    "tips": "Bring a layer. At this altitude it is several degrees cooler than the coast and evenings are genuinely cold, which is exactly why islanders come up here in August. The Paisaje Lunar walk is long, exposed and poorly shaded — take water, start early and do not attempt it casually. You will see Vilaflor described as the highest village in Spain; that claim is often repeated but contested, since villages in mainland Andalucía sit higher.",
+    "highlights": [
+      "Tenerife's highest village, around 1,400 m",
+      "Paisaje Lunar rock formations",
+      "Canary pine forest and the Pino Gordo",
+      "On the southern road to Teide"
+    ],
+    "gyg": "teide+tenerife",
+    "faq": [
+      [
+        "Is Vilaflor the highest village in Spain?",
+        "It is the highest in Tenerife, at around 1,400 metres. The frequently repeated claim that it is the highest in Spain is contested, as some mainland villages sit higher."
+      ],
+      [
+        "Is the Paisaje Lunar walk hard?",
+        "Yes. It is several hours, exposed, and climbs a good deal. Take plenty of water, start early and treat it as a proper hike rather than a stroll."
+      ],
+      [
+        "Is Vilaflor worth stopping at on the way to Teide?",
+        "Yes. It breaks the climb, it is the last village before the park, and the pine forest around it is a different island from the coast."
+      ]
+    ]
+  },
+  "playa-san-juan": {
+    "name": "Playa San Juan",
+    "type": "Town",
+    "area": "Guía de Isora",
+    "region": "west",
+    "prep": "in",
+    "lat": 28.1818,
+    "lng": -16.8168,
+    "image": "playa-san-juan.jpg",
+    "alt": "The harbour and town of Playa San Juan with La Gomera beyond",
+    "tagline": "A working coastal town on the west coast, quiet, Canarian and largely undiscovered by the resorts.",
+    "intro": "Playa San Juan sits on the west coast in the municipality of Guía de Isora, a former fishing and tomato-export port that has grown into a low-key town rather than a resort. There is a harbour, a dark-sand beach, a seafront promenade and very little that exists purely for visitors, which is exactly why people who find it tend to come back.",
+    "see": "The beach and the harbour are the centre of it. The sand is dark and the water is usually calmer than the coast further north, and there is a promenade with unfussy restaurants where the prices are noticeably below Costa Adeje. La Gomera sits on the horizon and the sunsets from here are among the best on the island. There are no attractions as such; the point is a slow day.",
+    "getting": "Roughly thirty minutes north of Costa Adeje on the TF-47, and about forty-five minutes from Tenerife South Airport. TITSA buses run along this coast between Los Cristianos and Los Gigantes. Parking is straightforward outside peak weekends.",
+    "tips": "Come for the quiet rather than for things to do. It suits couples, walkers and anyone who wants a Canarian town with a beach attached rather than a resort. The west coast faces the sunset, so evening is the time to be on the front. There are some very smart hotels on the hillside above this stretch, which means the town has better restaurants than its size suggests.",
+    "highlights": [
+      "Quiet working town, not a resort",
+      "Dark-sand beach and small harbour",
+      "La Gomera on the horizon",
+      "Sunsets and low prices"
+    ],
+    "gyg": "guia+de+isora+tenerife",
+    "faq": [
+      [
+        "Is Playa San Juan a good place to stay?",
+        "For quiet, yes. It suits couples and older visitors who want a real town, good food and a beach, without nightlife or crowds. Anyone wanting resort facilities should look at Costa Adeje."
+      ],
+      [
+        "Can you swim at Playa San Juan?",
+        "Usually. The bay is more sheltered than much of the west coast, though this is still the open Atlantic — follow the flags."
+      ]
+    ]
+  },
+  "alcala": {
+    "name": "Alcalá",
+    "type": "Village",
+    "area": "Guía de Isora",
+    "region": "west",
+    "prep": "in",
+    "lat": 28.2009,
+    "lng": -16.8215,
+    "image": "alcala.jpg",
+    "alt": "The natural sea pool at Alcalá",
+    "tagline": "A small west-coast village built around a plaza and a natural sea pool.",
+    "intro": "Alcalá is a few minutes north of Playa San Juan and smaller again: a plaza, a handful of streets, a little harbour and a natural seawater pool cut into the volcanic rock. Almost nothing here was built for tourism, and the village keeps the unhurried rhythm of somewhere that never expected visitors.",
+    "see": "The natural pool is the reason to stop. Sheltered from the swell by the rock, it is swimmable on calm days and is where local families spend a Sunday. The plaza above it is the social centre, ringed by cafés, and there is a small beach and a coastal path linking the village with Playa San Juan. The Wednesday market is worth timing a visit around.",
+    "getting": "About thirty-five minutes north of Costa Adeje on the TF-47, five minutes beyond Playa San Juan. TITSA buses on the west coast route stop here. Parking near the plaza is easy except on market day.",
+    "tips": "The pool depends entirely on the sea state — excellent on a calm day, dangerous and best left alone when the swell is up, as anywhere on this coast. Alcalá has no resort infrastructure, so it is a half-day or an evening rather than a base for most visitors, though it makes a very peaceful one for anyone who wants nothing to happen.",
+    "highlights": [
+      "Natural seawater pool",
+      "Village plaza and cafés",
+      "Wednesday market",
+      "Coastal path to Playa San Juan"
+    ],
+    "gyg": "guia+de+isora+tenerife",
+    "faq": [
+      [
+        "Can you swim in the natural pool at Alcalá?",
+        "On calm days, yes, and it is popular with local families. When the Atlantic swell is up it becomes dangerous and should be avoided."
+      ],
+      [
+        "Is Alcalá worth visiting?",
+        "If you want a Canarian village with no tourism built into it, yes. It is a half-day at most, and pairs naturally with Playa San Juan five minutes down the coast."
+      ]
+    ]
   }
 }
