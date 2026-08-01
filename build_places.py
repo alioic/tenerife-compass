@@ -39,6 +39,14 @@ def booking_url(query):
         return b['cj_prefix'] + urllib.parse.quote(base, safe='')
     return base
 
+def gyg_url(key, cmp):
+    """GetYourGuide-hlekkur á staðsetningarsíðu. Þeir hættu að virða /s/?q= —
+    sú slóð skilar almennum niðurstöðum (Aþenu), ekki Tenerife."""
+    a = _aff()
+    slug = a['getyourguide_locations'].get(key, 'tenerife-l350')
+    return (f"https://www.getyourguide.com/{slug}/"
+            f"?partner_id={a['getyourguide_partner']}&amp;cmp={cmp}")
+
 def esc(s):
     return html.escape(str(s or ''), quote=True)
 
@@ -286,7 +294,7 @@ def place_page(slug, P, db, all_content):
     <!-- GetYourGuide affiliate links live (partner_id={PARTNER}) -->
     <p class="text-center" style="margin-top:26px;">
       <a class="btn btn--primary" href="{booking_url(booking_q)}" rel="nofollow sponsored" target="_blank">Find a hotel nearby</a>
-      <a class="btn btn--ocean" href="https://www.getyourguide.com/s/?q={gyg_q}&amp;partner_id={PARTNER}&amp;cmp=place-{slug}" rel="nofollow sponsored" target="_blank" style="margin-left:.5em;">See tours &amp; tickets</a>
+      <a class="btn btn--ocean" href="{gyg_url(gyg_q, "place-" + slug)}" rel="nofollow sponsored" target="_blank" style="margin-left:.5em;">See tours &amp; tickets</a>
     </p>
     <p class="disclosure" style="margin-top:16px;">Distances are straight-line and approximate. Some links are affiliate links; if you book through them we may earn a small commission at no extra cost to you.</p>
   </div>

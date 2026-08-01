@@ -20,6 +20,17 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 PARTNER = 'ONAATAD'
 BASE = 'https://tenerifecompass.com'
 
+def _aff():
+    return json.load(open(os.path.join(ROOT, 'data', 'affiliates.json'), encoding='utf-8'))
+
+def gyg_url(key, cmp):
+    """GetYourGuide-hlekkur á staðsetningarsíðu. Þeir hættu að virða /s/?q= —
+    sú slóð skilar almennum niðurstöðum (Aþenu), ekki Tenerife."""
+    a = _aff()
+    slug = a['getyourguide_locations'].get(key, 'tenerife-l350')
+    return (f"https://www.getyourguide.com/{slug}/"
+            f"?partner_id={a['getyourguide_partner']}&amp;cmp={cmp}")
+
 def esc(s):
     return html.escape(str(s or ''), quote=True)
 
@@ -112,8 +123,7 @@ def answer_page(slug, A, all_answers):
     cta = ''
     if A.get('cta'):
         cta = (f'<p class="text-center" style="margin:2.4em 0 3em;">'
-               f'<a class="btn btn--ocean" href="https://www.getyourguide.com/s/?q={A["cta"]}'
-               f'&amp;partner_id={PARTNER}&amp;cmp=q-{slug}" rel="nofollow sponsored" target="_blank">'
+               f'<a class="btn btn--ocean" href="{gyg_url(A["cta"], "q-" + slug)}" rel="nofollow sponsored" target="_blank">'
                f'{esc(A.get("ctaLabel", "See tours & tickets"))}</a></p>')
 
     return f'''<!DOCTYPE html>
