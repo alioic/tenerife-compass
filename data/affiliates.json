@@ -1,0 +1,9 @@
+{
+  "getyourguide_partner": "ONAATAD",
+  "booking": {
+    "mode": "none",
+    "aid": "",
+    "cj_prefix": "",
+    "note": "mode: none | param | cj.  param = Booking's own ?aid=<aid> (direct partners, spadmin.booking.com).  cj = CJ deep link, cj_prefix wraps the URL-encoded destination."
+  }
+}

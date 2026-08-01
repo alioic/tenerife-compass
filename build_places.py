@@ -24,6 +24,21 @@ REGION_HREF = {'south':'/south/','north':'/north/','scruz':'/santa-cruz/',
 CAT_LABEL = {'stay':'Hotel','eat':'Restaurant','do':'Things to do',
              'beach':'Beach','drink':'Bar'}
 
+# Samstarfsstillingar á einum stað — set_booking_affiliate.py uppfærir þær.
+def _aff():
+    return json.load(open(os.path.join(ROOT, 'data', 'affiliates.json'), encoding='utf-8'))
+
+def booking_url(query):
+    """Booking-leitarslóð með samstarfsmerkingu, ef kveikt hefur verið á henni."""
+    import urllib.parse
+    b = _aff()['booking']
+    base = f'https://www.booking.com/searchresults.html?ss={query}'
+    if b['mode'] == 'param' and b['aid']:
+        return base + '&amp;aid=' + b['aid']
+    if b['mode'] == 'cj' and b['cj_prefix']:
+        return b['cj_prefix'] + urllib.parse.quote(base, safe='')
+    return base
+
 def esc(s):
     return html.escape(str(s or ''), quote=True)
 
@@ -270,7 +285,7 @@ def place_page(slug, P, db, all_content):
     </div>
     <!-- GetYourGuide affiliate links live (partner_id={PARTNER}) -->
     <p class="text-center" style="margin-top:26px;">
-      <a class="btn btn--primary" href="https://www.booking.com/searchresults.html?ss={booking_q}" rel="nofollow sponsored" target="_blank">Find a hotel nearby</a>
+      <a class="btn btn--primary" href="{booking_url(booking_q)}" rel="nofollow sponsored" target="_blank">Find a hotel nearby</a>
       <a class="btn btn--ocean" href="https://www.getyourguide.com/s/?q={gyg_q}&amp;partner_id={PARTNER}&amp;cmp=place-{slug}" rel="nofollow sponsored" target="_blank" style="margin-left:.5em;">See tours &amp; tickets</a>
     </p>
     <p class="disclosure" style="margin-top:16px;">Distances are straight-line and approximate. Some links are affiliate links; if you book through them we may earn a small commission at no extra cost to you.</p>
