@@ -838,5 +838,336 @@
         "The thing Lanzarote cannot match"
       ]
     ]
+  },
+  "can-you-get-to-teide-by-bus": {
+    "question": "Can you get to Mount Teide by bus?",
+    "title": "Can You Get to Mount Teide by Bus?",
+    "meta": "Yes. Two TITSA buses reach Teide National Park daily, one from Costa Adeje and one from Puerto de la Cruz. What they give you, and what they do not.",
+    "image": "teide-cablecar.jpg",
+    "alt": "The Teide cable car with snow on the crater floor",
+    "eyebrow": "Getting around",
+    "crumb": "Teide by bus",
+    "short": "Yes. TITSA line 342 runs up from Costa Adeje and line 348 from Puerto de la Cruz, each once a day — up in the morning, back in the afternoon. It works, and it is cheap, but it fixes your day to a single window of roughly four hours in the park.",
+    "sections": [
+      {
+        "h2": "The two services, and what they actually give you",
+        "p": [
+          "Line 342 climbs from Costa Adeje, picking up along the southern resorts, and line 348 comes up from Puerto de la Cruz on the north side. Both run once each way per day: up in the morning, back in the early to mid afternoon. Between them they cover the main stops on the crater floor, including the cable car base station and the Roques de García.",
+          "That single daily return is the whole catch. You get roughly four hours in the park, and you cannot extend it — miss the bus down and there is no later one. It is enough for the cable car and a short walk, or for the Roques de García loop and lunch, but not comfortably for both."
+        ]
+      },
+      {
+        "h2": "What the bus does not include",
+        "p": [
+          "The bus takes you to the park, not up the mountain. The cable car is a separate ticket and should be booked online in advance, particularly in peak season, because walk-up availability is unreliable and you cannot afford to queue when your ride home leaves at a fixed time.",
+          "Going above the cable car's top station to the actual crater rim needs a free permit, booked separately through the national parks reservation site, and the daily quota goes early. If that is your plan, the bus is a tight way to do it — a hire car or a tour gives you the slack you will want.",
+          "Check the current timetable before you commit. TITSA adjusts these services seasonally, and an out-of-date departure time is the single most common way this trip goes wrong."
+        ],
+        "list": [
+          "One return service per day on each line",
+          "Roughly four hours in the park",
+          "Cable car ticket booked separately",
+          "Summit permit is free but must be pre-booked"
+        ]
+      },
+      {
+        "h2": "When a tour or a car makes more sense",
+        "p": [
+          "If you want the sunset above the clouds, or the stargazing, the bus cannot help you — it is long gone. Organised tours from the southern resorts cover exactly that gap, and the sunset-and-stars trips are the reason most people book one.",
+          "A hire car gives you the most freedom and costs the least per head if there are three or four of you, at the price of driving mountain roads. The TF-21 from Vilaflor and the TF-38 are well surfaced but continuously winding, and it is a long climb. Whatever you arrive in, dress for below freezing: the crater floor sits above two thousand metres and behaves nothing like the coast."
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "How much does the bus to Teide cost?",
+        "A few euros each way on TITSA, which makes it by far the cheapest way up. Check current fares, and consider a ten-trip card if you will use the buses elsewhere."
+      ],
+      [
+        "How long do you get at Teide with the bus?",
+        "Roughly four hours, fixed by the single daily return. Enough for the cable car or the Roques de García, but tight for both."
+      ],
+      [
+        "Can you do Teide sunset or stargazing by bus?",
+        "No. The buses return in the afternoon. Evening trips need a hire car or an organised tour."
+      ],
+      [
+        "Do the buses go to the top of Teide?",
+        "No. They stop on the crater floor, including at the cable car base station. The cable car takes you higher, and the final path to the summit needs a separate free permit."
+      ]
+    ],
+    "related": [
+      [
+        "/place/mount-teide/",
+        "Mount Teide",
+        "Cable car, permits and the crater floor"
+      ],
+      [
+        "/stargazing-in-tenerife.html",
+        "Stargazing in Tenerife",
+        "Why you may want the evening trip instead"
+      ],
+      [
+        "/do-you-need-a-car-in-tenerife.html",
+        "Do you need a car?",
+        "The honest answer for most visitors"
+      ]
+    ],
+    "cta": "teide+tenerife",
+    "ctaLabel": "See Teide tours"
+  },
+  "do-you-tip-in-tenerife": {
+    "question": "Do you tip in Tenerife?",
+    "title": "Do You Tip in Tenerife? What's Normal",
+    "meta": "Tipping is not obligatory in Tenerife and service is included in the price. Rounding up or leaving 5–10% for good service is generous, not expected.",
+    "image": "seafood-rice.jpg",
+    "alt": "A seafood rice dish with langoustine",
+    "eyebrow": "Costs and practicalities",
+    "crumb": "Tipping",
+    "short": "Not obligatory, and nobody will chase you. Spanish menu prices include tax and service, so a tip is a genuine extra rather than a top-up of someone's wage. Rounding up the bill, or leaving five to ten per cent after a good meal, is generous by local standards.",
+    "sections": [
+      {
+        "h2": "What locals actually do",
+        "p": [
+          "Considerably less than visitors assume. In an everyday bar or café, Canarians typically leave the small change from the bill and nothing more. After a proper restaurant meal they might round up to the nearest note, or leave a few euros on a larger table if the service was good.",
+          "The reason is structural rather than mean-spirited. Spanish hospitality staff are paid a wage rather than a tipped minimum, and the price on the menu is the price you pay, tax and service included. Nobody's income depends on your arithmetic, which takes the anxiety out of the whole thing.",
+          "It is worth unlearning American habits here in particular. A twenty per cent tip is not generous in Tenerife so much as conspicuous, and staff in the resort areas have simply learned that some visitors do it. Nobody is offended, but nobody is expecting it either."
+        ]
+      },
+      {
+        "h2": "A rough guide by situation",
+        "p": [
+          "Restaurants: round up, or five to ten per cent for service you actually noticed. Ten is at the generous end. Bars and cafés: leave the coins. Taxis: round up to the next euro or two — meters are used and the fare is the fare.",
+          "Hotels: entirely optional. A euro or two for a porter, or a few left for housekeeping at the end of a stay, is a kind gesture rather than an expectation. Boat crews and walking guides: a few euros each if you enjoyed the trip, and they will not be surprised either way."
+        ],
+        "rows": [
+          [
+            "Restaurant meal",
+            "round up, or 5–10%",
+            "10% is generous, not standard"
+          ],
+          [
+            "Bar or café",
+            "the loose change",
+            "Leaving nothing is normal too"
+          ],
+          [
+            "Taxi",
+            "round up to the next euro",
+            "Meters are used; the fare is the fare"
+          ],
+          [
+            "Hotel housekeeping",
+            "a few euros at the end",
+            "Optional; not expected"
+          ],
+          [
+            "Boat trip or guided walk",
+            "a few euros each",
+            "If you enjoyed it"
+          ]
+        ]
+      },
+      {
+        "h2": "Two things worth watching",
+        "p": [
+          "Check the bill before adding anything. A minority of restaurants in the busiest tourist streets add a service charge, and if servicio is already on there, adding ten per cent on top is simply paying twice. It is not a scam, just something to read.",
+          "The other is newer: card machines in tourist areas that present a screen of pre-set tip percentages before you pay. That prompt is an imported habit, not a Canarian one, and there is no awkwardness in choosing the no-tip option or handing over cash instead. Tipping here is a thank-you, not a tax."
+        ],
+        "list": [
+          "Service and tax are already in the price",
+          "Read the bill for servicio before adding more",
+          "Card-machine tip prompts are an import, not a custom",
+          "Cash is easier for the person actually serving you"
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "Is it rude not to tip in Tenerife?",
+        "No. Leaving nothing in a bar is completely normal, and in a restaurant nobody will comment. Tipping is appreciated rather than expected."
+      ],
+      [
+        "How much do you tip a taxi driver in Tenerife?",
+        "Rounding up to the next euro or two is plenty. Taxis are metered and there is no expectation beyond that."
+      ],
+      [
+        "Do you tip in all-inclusive hotels in Tenerife?",
+        "Not required. Some guests leave a few euros for bar or restaurant staff they see repeatedly, or for housekeeping at the end of the stay. It is a gesture, not an obligation."
+      ],
+      [
+        "Should I tip in cash or on the card?",
+        "Cash, if you can. It reaches the person who served you more reliably than a figure added to a card payment."
+      ]
+    ],
+    "related": [
+      [
+        "/is-tenerife-expensive.html",
+        "Is Tenerife expensive?",
+        "Where the money actually goes"
+      ],
+      [
+        "/south/food-and-drink.html",
+        "Food and drink in the south",
+        "What to order and where"
+      ],
+      [
+        "/what-language-do-they-speak-in-tenerife.html",
+        "What language do they speak?",
+        "Enough Spanish to order well"
+      ]
+    ]
+  },
+  "day-trip-to-la-gomera-from-tenerife": {
+    "question": "Can you do a day trip to La Gomera from Tenerife?",
+    "title": "Day Trip to La Gomera from Tenerife: How It Works",
+    "meta": "Yes — ferries from Los Cristianos reach San Sebastián de la Gomera in under an hour. What you can realistically see in a day, and the hire-car trap.",
+    "image": "la-gomera.jpg",
+    "alt": "San Sebastián de la Gomera above the Atlantic, with Tenerife on the horizon",
+    "eyebrow": "Choosing your trip",
+    "crumb": "La Gomera day trip",
+    "short": "Yes. Fast ferries from Los Cristianos reach San Sebastián de la Gomera in under an hour, several times a day, which makes a day trip entirely practical. It is a long day and you will only scratch the island — but the ferry is the easy part, and getting around once you land is what needs planning.",
+    "sections": [
+      {
+        "h2": "Getting there is the simple bit",
+        "p": [
+          "Ferries leave from the harbour at Los Cristianos, which is also where the whale-watching boats go from. The fast catamaran crossing to San Sebastián takes under an hour, and there are several departures a day in each direction, so an early boat out and a late one back is a realistic plan.",
+          "More than one operator runs the route, at different speeds and prices. Book ahead in peak season and at weekends, and give yourself a margin at the Tenerife end — the harbour car park fills and the check-in cut-off is real."
+        ]
+      },
+      {
+        "h2": "The hire-car trap",
+        "p": [
+          "This catches people out every year, so it is worth stating plainly: most Tenerife hire-car agreements do not permit taking the vehicle to another island. Turning up at the ferry with a rental car and no permission can void your insurance entirely. Read your contract, and if you want a car on La Gomera, either clear it with the company in advance or book one to collect in San Sebastián.",
+          "The alternative is an organised excursion sold from the southern resorts, which bundles the ferry with a coach tour and removes the problem. For a first visit that is the low-friction option. Public buses on La Gomera exist but are infrequent and will not get you around the island in a day."
+        ]
+      },
+      {
+        "h2": "What you can realistically see",
+        "p": [
+          "San Sebastián itself is a pleasant hour or two: a small harbour town where Columbus took on water before crossing the Atlantic in 1492, a fact the town has not forgotten. Beyond it, the island climbs fast and the roads are slow and continuously winding — distances that look short on a map take much longer than you expect.",
+          "The single thing most worth the drive is Garajonay National Park, a UNESCO-listed laurel forest that survives from a time when this vegetation covered much of southern Europe. It is misty, ancient and completely unlike anywhere in Tenerife's south. Valle Gran Rey on the west coast is the other classic, though it is a long way for a day trip. You may also come across a demonstration of silbo, the whistled form of Spanish used to talk across the island's ravines and recognised by UNESCO.",
+          "Honest verdict: one day gives you a taste and a long ferry day. La Gomera rewards an overnight far more than it rewards a dash."
+        ],
+        "list": [
+          "Under an hour by fast ferry from Los Cristianos",
+          "Garajonay laurel forest is the highlight",
+          "Check your hire-car contract before boarding",
+          "An overnight beats a day trip if you can"
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "How long is the ferry from Tenerife to La Gomera?",
+        "Under an hour on the fast catamaran from Los Cristianos to San Sebastián. Slower services take longer and usually cost less."
+      ],
+      [
+        "Can you take a hire car from Tenerife to La Gomera?",
+        "Usually not. Most Tenerife rental agreements forbid inter-island travel and doing it anyway can void your insurance. Check your contract, or hire a car on La Gomera instead."
+      ],
+      [
+        "Is a day trip to La Gomera worth it?",
+        "Yes if you accept it is a taste rather than a tour. Garajonay National Park is the reason to go. If you can spare a night, the island is far better over two days."
+      ],
+      [
+        "What is silbo?",
+        "Silbo Gomero, a whistled form of Spanish developed to carry across La Gomera's deep ravines. It is recognised by UNESCO and taught in the island's schools."
+      ]
+    ],
+    "related": [
+      [
+        "/place/los-cristianos/",
+        "Los Cristianos",
+        "Where the ferries leave from"
+      ],
+      [
+        "/tenerife-or-gran-canaria.html",
+        "Tenerife or Gran Canaria?",
+        "If you are still choosing an island"
+      ],
+      [
+        "/do-you-need-a-car-in-tenerife.html",
+        "Do you need a car?",
+        "And what the rental contracts say"
+      ]
+    ],
+    "cta": "la+gomera+from+tenerife",
+    "ctaLabel": "See La Gomera day trips"
+  },
+  "tenerife-south-or-north-airport": {
+    "question": "Should you fly into Tenerife South or Tenerife North?",
+    "title": "Tenerife South or North Airport? Which to Choose",
+    "meta": "Tenerife South (TFS) serves the southern resorts; Tenerife North (TFN) suits Puerto de la Cruz, La Laguna and Santa Cruz. Pick by where you are staying.",
+    "image": "los-gigantes-town.jpg",
+    "alt": "The west coast of Tenerife from the air",
+    "eyebrow": "Getting around",
+    "crumb": "Which airport",
+    "short": "Pick by where you are staying, not by fare alone. Tenerife South (TFS) is about twenty minutes from Los Cristianos and Costa Adeje and takes most international flights. Tenerife North (TFN) suits Puerto de la Cruz, Santa Cruz and the north, but is over an hour from the southern resorts.",
+    "sections": [
+      {
+        "h2": "Tenerife South (TFS, Reina Sofía)",
+        "p": [
+          "This is the one most visitors use. It sits on the south-east coast near El Médano and handles the great majority of international and charter traffic, which is why the cheap package flights land here.",
+          "From arrivals it is roughly fifteen to twenty minutes to Los Cristianos and Playa de las Américas, and twenty to twenty-five to Costa Adeje. Taxis, pre-booked transfers, hire cars and TITSA buses all serve it, and if you are staying anywhere on the southern strip this is simply the right airport."
+        ]
+      },
+      {
+        "h2": "Tenerife North (TFN, Los Rodeos)",
+        "p": [
+          "The northern airport sits just above La Laguna, about fifteen minutes from there and from Santa Cruz, and thirty to forty from Puerto de la Cruz. It handles most inter-island flights and a lot of mainland Spanish traffic, plus a smaller number of international routes.",
+          "One practical quirk: it sits at around 630 metres, high enough that low cloud rolls across it when the coast below is clear. Flights operate through it routinely, but if you land in mist having left sunshine in the south, that is why.",
+          "The trap is distance. TFN to Costa Adeje is well over an hour by road, and a transfer priced on that distance can wipe out whatever you saved on the fare."
+        ]
+      },
+      {
+        "h2": "How to choose in one line",
+        "p": [
+          "Staying anywhere from Los Cristianos to Los Gigantes, fly into South. Staying in Puerto de la Cruz, La Orotava, La Laguna or Santa Cruz, fly into North if the schedule allows. Touring the whole island with a hire car, either works — pick on price and timing.",
+          "Two footnotes. If you are island-hopping, inter-island flights mostly use the north, so a trip combining Tenerife with La Palma or El Hierro may want TFN at one end. And if you are arriving late at night, the shorter transfer is worth more than it looks on paper — an extra hour in a minibus after a delayed flight is nobody's idea of a holiday."
+        ],
+        "list": [
+          "Southern resorts → Tenerife South (TFS)",
+          "Puerto de la Cruz, La Laguna, Santa Cruz → North (TFN)",
+          "TFN is 1h+ from the southern resorts",
+          "Inter-island flights mostly use TFN"
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "How far is Tenerife South Airport from Costa Adeje?",
+        "Roughly twenty to twenty-five minutes by road on the TF-1, and about fifteen to twenty to Los Cristianos."
+      ],
+      [
+        "Can you get from Tenerife North to the southern resorts?",
+        "Yes, but allow well over an hour by road. Bus, taxi, transfer and hire car are all available; the cost of the longer transfer often cancels out a cheaper flight."
+      ],
+      [
+        "Which airport is better for Puerto de la Cruz?",
+        "Tenerife North, at thirty to forty minutes, against roughly an hour and a quarter from the south."
+      ],
+      [
+        "Why is Tenerife North often cloudy?",
+        "It sits at around 630 metres on the north side, where trade-wind cloud banks up against the hills. The coast below can be clear while the airport is in mist."
+      ]
+    ],
+    "related": [
+      [
+        "/tenerife-south-airport-transfers.html",
+        "Getting from Tenerife South Airport",
+        "Taxi, bus, transfer and hire car compared"
+      ],
+      [
+        "/where-to-stay.html",
+        "Where to stay in Tenerife",
+        "Decide this first — the airport follows"
+      ],
+      [
+        "/do-you-need-a-car-in-tenerife.html",
+        "Do you need a car?",
+        "Which changes the answer above"
+      ]
+    ]
   }
 }
