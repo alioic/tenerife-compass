@@ -1534,5 +1534,98 @@
         "What the island does have"
       ]
     ]
+  },
+  "tenerife-carnival": {
+    "question": "When is Tenerife Carnival, and what happens?",
+    "title": "Tenerife Carnival: When It Is and What Happens",
+    "meta": "Santa Cruz hosts the biggest carnival in Europe, generally reckoned second only to Rio. When it falls, the events that matter, and how to actually do it.",
+    "image": "carnival.jpg",
+    "alt": "A dancer in turquoise feathers at the Tenerife carnival",
+    "eyebrow": "Things to do",
+    "crumb": "Carnival",
+    "short": "Carnival peaks in the days before Ash Wednesday, so it lands in February or early March depending on the year. Santa Cruz de Tenerife hosts the big one — generally reckoned second only to Rio — with Puerto de la Cruz and the southern towns running theirs in the days that follow.",
+    "sections": [
+      {
+        "h2": "Why the dates move every year",
+        "p": [
+          "Carnival is tied to the church calendar rather than to a fixed date. It builds towards Shrove Tuesday and ends on Ash Wednesday, which itself moves with Easter, so the peak falls anywhere from early February to early March.",
+          "The official programme starts well before that. Santa Cruz runs weeks of indoor galas and competitions in a marquee, and the street carnival — the part most visitors mean — occupies roughly the final week and a half. Each year is built around a theme chosen by the city, which the costumes and floats follow. The city publishes the full programme a few weeks ahead; check it rather than relying on last year's dates, because even the day-of-week pattern shifts."
+        ]
+      },
+      {
+        "h2": "The events actually worth planning around",
+        "p": [
+          "The Gala de Elección de la Reina, the crowning of the carnival queen, is the one people fly in for. The costumes are the point: enormous constructions of feathers, mirrors and light that weigh well over a hundred kilos and are mounted on hidden wheels so the wearer can move at all. It is televised across Spain and tickets go fast.",
+          "The Cabalgata Anunciadora is the opening parade that launches the street carnival, and the Coso Apoteosis on Shrove Tuesday afternoon is the biggest procession of the lot. Between them, the streets belong to the murgas — satirical singing groups whose lyrics skewer local politicians — and the comparsas, dance troupes working Latin American rhythms in feathers and sequins.",
+          "Then, on Ash Wednesday, the Entierro de la Sardina. A giant papier-mâché sardine is carried through the streets in a mock funeral, followed by crowds of theatrically weeping mourners and widows in drag, before it is burned. It is absurd, entirely sincere about being absurd, and the most Canarian thing in the whole festival."
+        ],
+        "list": [
+          "Gala de Elección de la Reina — the queen's costumes",
+          "Cabalgata Anunciadora — the opening parade",
+          "Coso Apoteosis — the big Shrove Tuesday procession",
+          "Entierro de la Sardina — the burning of the sardine"
+        ]
+      },
+      {
+        "h2": "Santa Cruz is not the only one",
+        "p": [
+          "Puerto de la Cruz runs the island's second-largest carnival, and it deliberately falls after Santa Cruz so that people can do both. Its signature event is the Mascarita Ponte Tacón, a high-heel race run by men in drag through the streets, which is exactly as chaotic as it sounds.",
+          "Los Cristianos, Los Realejos, Icod and a string of other towns stagger their own carnivals through the following weeks. If you are staying in the south and cannot face the drive to the capital, the southern carnivals are smaller but genuinely local — and considerably easier to get home from."
+        ]
+      },
+      {
+        "h2": "How to actually do it",
+        "p": [
+          "Book accommodation months ahead. Santa Cruz and La Laguna fill completely, and prices in the north rise sharply for the period. Many visitors stay in La Laguna or in the south and travel in, which works because the tram between Santa Cruz and La Laguna normally runs extended hours through the carnival nights — check the timetable, since the arrangement is set each year.",
+          "Wear a costume. It is not compulsory and nobody will stop you without one, but the street carnival is a participation event rather than a spectacle, and standing in jeans among a hundred thousand people in fancy dress feels stranger than joining in. Shops across the island sell costumes for weeks beforehand.",
+          "Two practical notes. It goes all night — the street carnival genuinely runs until dawn, and the crowds peak long after midnight. And Santa Cruz in February is warm by European standards but not by beach standards, so take a layer for four in the morning."
+        ],
+        "list": [
+          "Book accommodation months in advance",
+          "Costumes are the norm, not the exception",
+          "It runs until dawn — plan the journey home",
+          "Take a layer; February nights are cool"
+        ]
+      }
+    ],
+    "faq": [
+      [
+        "When is Tenerife Carnival?",
+        "It peaks in the days before Ash Wednesday, which moves with Easter, so February or early March depending on the year. The official programme, including the indoor galas, starts several weeks earlier."
+      ],
+      [
+        "Is Tenerife Carnival really the second biggest after Rio?",
+        "It is generally described that way, and Santa Cruz is twinned with Rio de Janeiro. It is recognised as a Fiesta of International Tourist Interest, and the city holds a Guinness World Record for an outdoor concert audience set in 1987, when Celia Cruz drew a crowd put at around a quarter of a million."
+      ],
+      [
+        "Is Tenerife Carnival free?",
+        "The street carnival is free and open to everyone. The indoor galas, including the queen's election, are ticketed and sell out."
+      ],
+      [
+        "Do you need a costume for Tenerife Carnival?",
+        "Not officially, but almost everyone wears one and you will feel conspicuous without. Costumes are sold across the island in the weeks beforehand."
+      ],
+      [
+        "Where should you stay for Tenerife Carnival?",
+        "Santa Cruz or La Laguna if you can book far enough ahead. Otherwise stay in the south and travel in — the tram between Santa Cruz and La Laguna normally runs extended hours during carnival nights."
+      ]
+    ],
+    "related": [
+      [
+        "/place/santa-cruz/",
+        "Santa Cruz de Tenerife",
+        "Where the big carnival happens"
+      ],
+      [
+        "/place/puerto-de-la-cruz/",
+        "Puerto de la Cruz",
+        "The island's second carnival"
+      ],
+      [
+        "/best-time-to-visit-tenerife.html",
+        "Best time to visit Tenerife",
+        "What February is like otherwise"
+      ]
+    ]
   }
 }
